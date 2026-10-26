@@ -1,0 +1,2627 @@
+# AI会员充值站
+> 独立第三方 AI 会员导购信息站（https://ai-huiyuan.vercel.app）。整理 ChatGPT Plus / Go / Pro、Codex 额度、Claude Pro / Max、Gemini Pro、SuperGrok 的参考价、交付方式与售后说明。本站不收款，购买跳转第三方发卡平台店铺完成付款与自动发货。本站不是 OpenAI、Anthropic、Google 或 xAI 的授权渠道，不承诺账号不会被限制。
+
+## 当前在售与参考价（人民币，核对日期 2026-10-26）
+- ChatGPT Plus · CDK（30 天）：¥148 — 日常写作、学习、办公；付款后发 CDK，按说明核销到自己的号
+- ChatGPT Plus 月卡 卡密自助充值｜质保30天｜自动发货（30 天（质保 30 天））：¥133.9 — 提交自己账号的 session 自助充值，无需密码；自动发货
+- ChatGPT Plus 月卡 · 专线充值卡 CDK 自助开通（质保30天）（1 个月（质保 30 天））：¥135.9 — 自动发放专线充值卡密，按页面说明自助提交 Session 开通，无需提供账号密码
+- ChatGPT Plus 月卡 · 站内卡付 CDK 自助充值（质保30天）（1 个月（质保 30 天））：¥137.9 — 自动发卡密，在充值站内填写账号 Session 自助完成卡付充值，无需提供账号密码
+- ChatGPT Go（1 个月）：¥49 — 入门档体验；交付方式以上架后商品页为准
+- Codex · 250 额度 CDK（非 API）（额度包）：¥95 — 需要 Codex 额度时选；具体额度规则见商品页
+- ChatGPT Pro 5x · 月卡 CDK（1 个月（质保 30 天））：¥699 — 高频使用、长任务，Plus 额度经常不够；CDK 按说明核销到自己的号
+- ChatGPT Pro 5x 月卡 · 专线通道A CDK 自助充值（质保30天）（1 个月（质保 30 天））：¥731.9 — 专线通道 A 卡密，24小时自动发货，按说明填写 Session 自助兑换，无需密码
+- ChatGPT Pro 5x 月卡 · 专线通道B CDK 自助充值（质保30天）（1 个月（质保 30 天））：¥749.9 — 专线通道 B 卡密，24小时自动发货，按说明填写 Session 自助兑换，无需密码
+- ChatGPT Pro 5x 月卡 · 专线通道C CDK 自助充值（质保30天）（1 个月（质保 30 天））：¥773.9 — 专线通道 C 卡密，24小时自动发货，按说明填写 Session 自助兑换，无需密码
+- ChatGPT Pro 5x (Standard) 月卡 · 站内卡付 CDK 自助充值（质保30天）（1 个月（质保 30 天））：¥779.9 — Pro Standard (5x) 站内卡付 CDK，自动发卡密，填 Session 自助充值，无需密码
+- ChatGPT Pro 5x 月卡 · 独立账单 CDK 自助充值（质保订阅）（1 个月（质保订阅））：¥797.9 — 一卡一独立账单 CDK，自动发卡密自助核销，支持后续同通道补差升级，无需密码
+- ChatGPT Pro 10x 月卡 · CDK 自助充值｜支持 Plus/5x 升级（质保30天）（1 个月（质保 30 天））：¥1235.9 — Pro 10x 档位 CDK 自助充值，支持无订阅账号直充或已有 Plus / Pro 5x 账号升级，无需密码
+- ChatGPT Pro 20x · 月卡 CDK（1 个月（质保订阅））：¥1249 — 重度专业用户，需要最高额度；CDK 按说明核销到自己的号
+- ChatGPT Pro 20x (More) 月卡 · 站内卡付 CDK 自助充值（质保30天）（1 个月（质保 30 天））：¥1259.9 — Pro More (20x) 站内卡付 CDK，自动发卡密，填 Session 自助充值，无需密码
+- ChatGPT Pro 5x 月卡 · 自动卡充｜可覆盖续费（1 个月（质保 30 天））：¥816.9 — 购买后发一次性兑换卡密，按提示填 Session 自动充值，无需密码，可覆盖已有订阅
+- ChatGPT Pro 20x 临期续费专用 CDK（限3天内到期）（1 个月（质保订阅））：¥1249 — 仅用于已有同档位 Pro 20x 订阅且到期前 1-3 天内的账号自动换绑卡续订（24小时自助）
+- ChatGPT Pro 20x 月卡 · 卡密+激活网址自助充值（1 个月（质保 30 天））：¥1619.9 — 付款后自动发放卡密和激活网址，24小时自助兑换到自己账号，无需提供密码
+- Codex · 500 额度 CDK（非 API）（额度包）：¥179 — 编程用量较大；额度含义与有效期见商品页，不是 API 额度
+- Codex · 1000 额度 CDK（非 API）（额度包）：¥339 — 编程重度使用；额度含义与有效期见商品页，不是 API 额度
+- ChatGPT Pro 25x · 代充（质保 30 天）：¥3499 — 最高额度需求；仅限未订阅过的账号，按商品页提交必要信息
+- ChatGPT Pro 25x (Max) 月卡 · 站内卡付 CDK 自助充值（质保30天）（1 个月（质保 30 天））：¥3719.9 — Pro Max (25x) 站内卡付 CDK，24小时自动发卡密自助充值，无需提供账号密码
+- ChatGPT Pro 25x 月卡 · CDK 自助充值｜支持 Pro 5x 抵扣升级（1 个月（质保 30 天））：¥3839.9 — Pro 25x 最高额度 CDK 自助充值，支持无订阅直充或已有同通道 Pro 5x 账号抵扣升级，无需密码
+- ChatGPT Plus · 学生认证绑卡服务（保绑卡成功）：¥99 — 仅适用于已通过学生认证的账号；未通过认证的账号请勿下单
+- ChatGPT Plus 成品账号 · 月度会员 · 即买即用（Plus 30 天（成品账号，订阅质保 30 天））：¥106.9 — 没有自己的账号、想马上用上 Plus 时选；发货内容为账号 + 密码 + 2FA，订阅掉了 30 天内可售后
+- ChatGPT Pro 5x · 成品号（成品账号）：¥799 — 没有自己的账号、需要 Pro 5x 额度时选；交付规则以商品页为准
+- ChatGPT Pro 20x · 成品号（成品账号）：¥1299 — 没有自己的账号、需要 Pro 20x 额度时选；交付规则以商品页为准
+- Claude Pro 月卡 · 卡密自助充值（质保订阅）（1 个月（质保订阅））：暂时缺货 · 补货中 — 暂时缺货，补货后恢复购买；补货前可先选下方 Claude Pro 月卡 CDK ¥168
+- Claude Pro · 月卡 CDK（1 个月（质保订阅））：¥168 — 长文阅读、写作、编程入门；CDK 卡密充值到自己账号
+- Claude Max 5x · 月卡 CDK（1 个月（质保订阅））：¥799 — 每天长时间使用、经常撞到 Pro 限额
+- Claude Max 20×（1 个月）：首批暂不上架 — 重度编程与代理类工作流
+- Gemini Pro · 18 个月 CDK（不质保）（只保兑换链接短时可用（不保订阅时长））：暂时缺货 · 补货中 — 暂时缺货，补货后恢复购买；补货前可先看 ChatGPT Go 等其他入门款
+- Gemini Pro · 18 个月 CDK（含 5TB 存储）（18 个月（质保订阅））：暂时缺货 · 补货中 — 暂时缺货，补货后恢复购买；想长期用 Gemini 并需要大容量云存储时留意补货
+- Grok Plus 月卡 · 自助兑换（质保30天）（1 个月（质保 30 天））：¥84.9 — 本站最便宜的 Grok 会员；卡密充值订阅，开在自己账号上，订阅掉了 30 天内按剩余天数退款
+- Grok Premium 月卡 · 卡密自助充值（质保30天）（1 个月（质保 30 天））：¥156.9 — 高性价比 Grok Premium；自动发卡密自助兑换充值，无需密码，掉订阅按剩余天数比例退款
+- SuperGrok 卡密（自助兑换，无需密码）（质保 30 天）：¥429 — 卡密自己兑换到账号，不用交密码；订阅掉了 30 天内可售后，封号不保
+- Grok Ultra 卡密（自助兑换）（质保 30 天）：¥829 — 需要更高档 Grok 时选；卡密自己兑换，封号不保
+- Grok Ultra 200刀档 月卡 · 卡密自助充值（质保30天）（1 个月（质保 30 天））：¥899.9 — Grok Ultra 200 刀档月卡，自动发放卡密，按说明自助兑换充值，无需账号密码
+- SuperGrok 3 个月 · 成品号（3 个月（成品账号））：暂时缺货 · 补货中 — 暂时缺货，补货后恢复购买；补货前可先看 Grok Premium 月卡 ¥204.9 或 SuperGrok 卡密 ¥429
+- Grok Premium 月卡 · 自助开通（SSO）（1 个月（质保 30 天））：¥204.9 — 想用 Grok 正价档、自己账号开通时选；提交 SSO 即可，不用交密码
+- Grok Super 月卡 · 卡密自助充值（质保30天）（1 个月（质保 30 天））：¥468.9 — 自动发放卡密，按页面说明自助兑换充值，无需账号密码；含 Premium 全部权益与更高额度
+- Grok Super 15x 月卡 · 自助开通（SSO）（1 个月）：¥528.9 — 需要比普通 SuperGrok 更高额度倍数时选；SSO 自助开通，不用交密码
+- Grok Ultra 50x 月卡 · 自助开通（SSO·质保30天）（1 个月（质保 30 天））：¥936.9 — 额度为 Plus 的 50 倍；提供账号浏览器 SSO 即可自助开通，无需提供账号密码
+- 微软 Outlook/Hotmail 邮箱 · 令牌版 · 即买即用（成品邮箱账号（令牌长效））：¥15.9 — 需要独立微软 Outlook/Hotmail 邮箱注册 AI 账号或收信时选；付款后自动发货
+- Muse 10亿 Token 成品账号 · 即买即用（10 亿 Token 成品账号）：¥18.9 — 低成本体验 Muse 高额度 Token 成品号；自动发货，即买即用
+- Muse 50亿 Token 成品账号 · 即买即用（50 亿 Token 成品账号）：¥28.9 — 中高频调用 Muse Token 需求；比 10 亿档单价更划算，即买即用
+- Muse 300亿 Token 成品账号 · 即买即用（300 亿 Token 成品账号）：暂时缺货 · 补货中 — 暂时缺货，补货后恢复购买；补货前可先选 Muse 50亿 Token 成品号 ¥28.9
+- Google Gmail 老账号 · 成品号 · 即买即用（谷歌老邮箱成品号）：¥27.9 — 需要谷歌 Gmail 老账号注册主流 AI 服务或使用 Google 登录时选；自动发货，即买即用
+- X (Twitter) 成品账号 · 带2FA · 即买即用（社交成品号（带 2FA））：¥21.9 — 需要现成 X (Twitter) 账号登录 Grok 或日常使用时选；含 2FA，自动发货，即买即用
+- Facebook 成品账号 · 即买即用（社交成品号（带 2FA））：¥33.9 — 需要现成 Facebook 账号登录主流应用或日常使用时选；自动发货，即买即用
+- Outlook/Hotmail 邮箱 · 令牌长效（支持 OAuth2 · 10件起购）（成品邮箱（10 件起购批发档））：¥15.9 — 全新微软邮箱，支持 OAuth2（IMAP/GRAPH），单价 ¥15.9，10 件起购批发档，自动发货
+
+## 品类页
+- [ChatGPT](https://ai-huiyuan.vercel.app/chatgpt/)
+- [Claude](https://ai-huiyuan.vercel.app/claude/)
+- [Gemini](https://ai-huiyuan.vercel.app/gemini/)
+- [Grok](https://ai-huiyuan.vercel.app/grok/)
+- [Muse / 账号](https://ai-huiyuan.vercel.app/muse/)
+
+## 指南
+- [Claude 显示 Free 怎么过 KYC 认证？免护照免手机号升级 Claude Pro 方法（2026 实测）](https://ai-huiyuan.vercel.app/guides/claude-free-kyc-verify-bypass/)：Claude 账号显示 Free 却找不到 KYC 认证入口怎么办？详解为什么免费号没有单独实名按钮、网页绑卡为什么会触发 Persona 护照人脸拦截，以及通过 CDK 卡密免密码免护照升级 Claude Pro（¥168）与 Max 5x（¥799）的实测流程。
+- [ChatGPT Pro 5x / 10x / 20x / 25x 额度区别与价格对比：哪档最划算？（2026 现货一览）](https://ai-huiyuan.vercel.app/guides/chatgpt-pro-5x-10x-20x-25x-pricing/)：ChatGPT Pro 5x（¥699起）、10x（¥1235.9）、20x（¥1249起）、25x（¥3499起）有什么区别？全面梳理各倍数档位的额度定位、全自动 CDK 通道价格、老客续费与补差升级选型指南。
+- [Grok Ultra (200刀档) 与 SuperGrok 有什么区别？DeepSearch 与 Heavy 满血算力评测（2026）](https://ai-huiyuan.vercel.app/guides/grok-ultra-vs-supergrok/)：Grok Ultra 200美元档（50x额度，¥829起）与 SuperGrok 100美元档（15x额度，¥429起）、Grok Premium（¥156.9起）全面对比：算力池差距、Heavy 推理与视频生成能力，以及免密码卡密兑换指南。
+- [2026 AI 编程最佳组合：Claude Code (Max) vs ChatGPT Codex (Pro) 怎么选？](https://ai-huiyuan.vercel.app/guides/cursor-claude-code-codex-combo/)：程序员写代码选 Claude Code（Claude Pro ¥168 / Max 5x ¥799）还是 OpenAI Codex（ChatGPT Pro 5x ¥699 / Pro 20x ¥1249 / Codex 额度包 ¥95起）？深度对比代码重构、全仓库理解与算力性价比。
+- [Claude Pro 年付还是月付划算？$200/年 vs $20/月 怎么选（附按月 CDK ¥168）](https://ai-huiyuan.vercel.app/guides/claude-pro-annual-vs-monthly/)：Claude Pro 年付每年 200 美元（折合每月 17 美元）、月付每月 20 美元：年付能省多少、取消和退款规则、什么人适合年付，以及不想绑卡时 Claude Pro 月卡 CDK ¥168 按月开通的选法。
+- [Grok 免费版和付费版有什么区别？免费额度够不够用、Plus / Premium / Super 怎么选（¥84.9 起）](https://ai-huiyuan.vercel.app/guides/grok-free-vs-paid/)：Grok 免费版与 Plus、Premium、Super、Ultra 付费档的区别：免费版能做什么、视频生成和 Grok Bot 要哪一档、每周共享额度怎么算，以及本站 Grok Plus 月卡 ¥84.9、Premium 卡密 ¥156.9 的选法。
+- [ChatGPT / Claude 会员拼车靠谱吗？共享号常见的 5 个坑与独享替代方案](https://ai-huiyuan.vercel.app/guides/ai-membership-carpool-risks/)：拼车、共享号为什么容易被封、被超卖、车主失联？下单前怎么自查，以及想独享会员时卡密充值（ChatGPT Plus ¥133.9、Claude Pro ¥168、Claude Max 5x ¥799）怎么选。
+- [写代码选 Claude Max 5x 还是 ChatGPT Pro 5x？Claude Code 与 Codex 重度用户对比（¥799 vs ¥699）](https://ai-huiyuan.vercel.app/guides/claude-max-5x-vs-chatgpt-pro-5x-coding/)：Claude Max 5x（Claude Code）与 ChatGPT Pro 5x（Codex）面向重度编程用户的区别：额度怎么计算、工作方式差异、适合谁，以及本站 CDK 价格 ¥799 与 ¥699 的选法。
+- [ChatGPT 免费版和 Plus 有什么区别？2026 值不值得开 Plus（附 ¥49 / ¥133.9 开通选择）](https://ai-huiyuan.vercel.app/guides/chatgpt-free-vs-plus/)：ChatGPT 免费版、Go 与 Plus 的功能和额度区别：哪些人用免费版就够、什么情况值得开 Plus，以及本站 ChatGPT Go ¥49、Plus 卡密 ¥133.9、Plus CDK ¥148 怎么选。
+- [Muse Token 成品账号怎么选？10亿/50亿/300亿 Token（¥18.9 起）与 Gmail / Outlook / X / Facebook 成品号指南](https://ai-huiyuan.vercel.app/guides/muse-token-account-guide/)：Muse Token 成品账号（10 亿 ¥18.9、50 亿 ¥28.9、300 亿 ¥58.9）与微软 Outlook 令牌邮箱（¥15.9）、Google Gmail 老账号（¥27.9）、X (Twitter) 带2FA 成品号（¥21.9）、Facebook 成品号（¥33.9）价格对比与选购指南。
+- [没有账号或不想自己注册？ChatGPT Plus 成品号 ¥106.9 与卡密充值 ¥133.9 怎么选](https://ai-huiyuan.vercel.app/guides/chatgpt-plus-finished-account-vs-cdk/)：ChatGPT Plus 成品账号（¥106.9，含账号+密码+2FA）与自有账号卡密充值（¥133.9 session 自助 / ¥148 CDK）对比：交付方式、历史记录、质保与封号风险说明。
+- [2026 Grok 会员全档位对比：Grok Plus ¥84.9、Premium ¥156.9 起、SuperGrok ¥429 起、Ultra 50x ¥936.9 差在哪](https://ai-huiyuan.vercel.app/guides/grok-plus-vs-grok-premium-vs-supergrok/)：Grok 会员在售全规格对比：Grok Plus 月卡 ¥84.9、Grok Premium（卡密 ¥156.9 / SSO ¥204.9）、SuperGrok 卡密 ¥429 / Super 月卡 ¥468.9 / Super 15x ¥528.9、Grok Ultra 卡密 ¥829 / Ultra 50x ¥936.9 的价格与开通方式。
+- [Claude Code 额度不够用、频繁限流怎么办？Claude Pro ¥168 与 Max 5x ¥799 CDK 实测选购指南](https://ai-huiyuan.vercel.app/guides/claude-code-rate-limit-max-5x-20x/)：用 Claude 写代码或跑 Claude Code 经常撞 5 小时限额怎么办：Claude Pro 月卡 CDK ¥168 与 Claude Max 5x 月卡 CDK ¥799 的用量差距、中转 Key 的坑，以及升级兑换条件。
+- [2026 国内怎么买 ChatGPT Plus 最稳？卡密充值 ¥133.9、CDK ¥148、成品号 ¥106.9 与学生绑卡对比](https://ai-huiyuan.vercel.app/guides/chatgpt-plus-alipay-recharge-2026/)：国内没有外币卡怎么开通 ChatGPT Plus：全面对比月卡卡密 ¥133.9、CDK 兑换码 ¥148、即买即用成品号 ¥106.9、学生认证绑卡 ¥99 四种方案的价格、条件与避坑步骤。
+- [OpenAI Codex 额度包是什么？250 / 500 / 1000 额度 CDK（¥95 起）免密码补充用量避坑说明](https://ai-huiyuan.vercel.app/guides/codex-250-credits-add-on-guide/)：OpenAI Codex 额度包（250 额度 ¥95、500 额度 ¥179、1000 额度 ¥339）是什么：和 API 余额的区别、为什么免费号不能用、和 Pro 5x/20x 怎么算账。
+- [SuperGrok 和 ChatGPT Plus 哪个值？价格、开通方式与怎么选](https://ai-huiyuan.vercel.app/guides/supergrok-vs-chatgpt-plus/)：SuperGrok 和 ChatGPT Plus 怎么选：本站 ChatGPT Plus 月卡卡密 ¥133.9 / 30 天、Grok Plus ¥84.9、SuperGrok 卡密 ¥429、Grok Premium 月卡 ¥204.9 的价格、开通方式和适合人群对比。
+- [Claude Pro 订阅失败怎么办？付款被拒、扣款不生效的原因与处理](https://ai-huiyuan.vercel.app/guides/claude-pro-subscribe-failed/)：Claude Pro 订阅失败怎么办：银行卡被拒、扣款后没变成 Pro、App 内购买失败等常见情况的原因和处理顺序，以及不想自己绑卡时 Claude Pro 月卡 CDK ¥168 的开通条件。
+- [Claude Pro 额度用完了怎么办？等重置、加购用量还是升级 Max](https://ai-huiyuan.vercel.app/guides/claude-pro-limit-reached/)：Claude Pro 提示额度用完怎么办：等 5 小时/每周重置、在自己账号里开用量加购、升级 Max 5x 三条路的成本和适用人群，以及 Max 5x ¥799 的开通条件。
+- [Claude Max 5x 怎么开通？CDK 兑换条件、步骤与常见失败原因](https://ai-huiyuan.vercel.app/guides/claude-max-5x-how-to-redeem/)：Claude Max 5x 怎么开通：¥799 月卡 CDK 的兑换条件（账号不能有生效中的付费订阅）、从 Pro 升级的正确顺序、兑换步骤和失败排查。
+- [Grok 会员怎么开？Plus、Premium、SuperGrok、Super 15x、Ultra 价格与选择](https://ai-huiyuan.vercel.app/guides/grok-membership-how-to/)：Grok 会员怎么开通：本站 Grok Plus ¥84.9、Grok Premium ¥204.9、SuperGrok 卡密 ¥429、Grok Super 15x ¥528.9、Grok Ultra ¥829 的区别、开通方式和怎么选。
+- [ChatGPT Plus 和 Team（Business）有什么区别？个人该选哪个](https://ai-huiyuan.vercel.app/guides/chatgpt-plus-vs-team/)：ChatGPT Plus 和 Team/Business 工作区的区别：面向人群、计费、数据归属，以及为什么 Team 账号不能用 Plus 卡密/CDK，个人怎么选。
+- [ChatGPT Pro 5x 和 20x 怎么选？月卡 CDK 和成品号价格对比](https://ai-huiyuan.vercel.app/guides/chatgpt-pro-5x-vs-20x/)：ChatGPT Pro 5x 和 Pro 20x 区别与价格：本站 Pro 5x 月卡 CDK ¥699、Pro 20x 月卡 CDK ¥1249、成品号 ¥799 / ¥1299、Pro 25x 代充 ¥3499，怎么按用量选。
+- [ChatGPT Plus 怎么开最便宜（2026）？三种方式价格与条件对比](https://ai-huiyuan.vercel.app/guides/chatgpt-plus-cheapest-2026/)：ChatGPT Plus 最便宜怎么开：厂商订阅、Plus 月卡卡密 ¥133.9、CDK ¥148 三种方式的价格、条件和风险对比，以及下单步骤。
+- [Gemini 会员 19.9 怎么开？兑换步骤、账号条件与风险](https://ai-huiyuan.vercel.app/guides/gemini-19-9-how-to/)：Gemini 会员不质保版怎么开：兑换步骤、账号条件与风险；Gemini 目前暂时缺货、补货中。
+- [ChatGPT Plus 怎么开通？国内用户订阅方法与步骤（2026）](https://ai-huiyuan.vercel.app/guides/chatgpt-plus-how-to-subscribe/)：ChatGPT Plus 怎么开通：厂商订阅的条件、国内付款常见卡点，以及用 CDK 卡密充到自己账号的完整步骤和注意事项。
+- [ChatGPT Plus 多少钱一个月？厂商价、代购价与各档位对比](https://ai-huiyuan.vercel.app/guides/chatgpt-plus-price-per-month/)：ChatGPT Plus 一个月多少钱：厂商标价、本站 CDK 参考价，以及 Go、Plus、Pro 各档位价格和适合人群对比。
+- [GPT Pro 值不值得买？Pro 5x / 20x / 25x 怎么选](https://ai-huiyuan.vercel.app/guides/gpt-pro-worth-it/)：ChatGPT Pro 值不值：谁真的需要 Pro、5x 和 20x 怎么选、CDK 与代充和成品号的区别，以及购买前必须知道的风险。
+- [Claude Pro 怎么订阅？国内开通方法、条件与注意事项](https://ai-huiyuan.vercel.app/guides/claude-pro-how-to-subscribe/)：Claude Pro 订阅方法：开通前的账号条件、CDK 卡密充值步骤、Max 5x 怎么选，以及验证、封号等风险说明。
+- [Gemini Pro 18 个月是真的吗？低价兑换链接原理、风险与选法](https://ai-huiyuan.vercel.app/guides/gemini-pro-18-months/)：Gemini Pro 18 个月低价链接是怎么回事：为什么便宜、能用多久，以及不质保版与质保版的差别（目前暂时缺货、补货中）。
+- [SuperGrok 怎么买？卡密自助兑换步骤与注意事项](https://ai-huiyuan.vercel.app/guides/supergrok-how-to-buy/)：SuperGrok 怎么买：卡密自助兑换不用交密码的步骤、Grok Ultra 怎么选、质保范围和风险说明。
+- [Codex 额度怎么买？250 / 500 / 1000 额度包怎么选](https://ai-huiyuan.vercel.app/guides/codex-quota-how-to-choose/)：Codex 额度包怎么选：额度包和 API 额度的区别、免费账号能不能用、250/500/1000 各适合谁，以及购买风险。
+- [AI 会员代充靠谱吗？怎么避坑：10 条下单前检查清单](https://ai-huiyuan.vercel.app/guides/daichong-is-it-safe/)：AI 会员代充靠不靠谱、常见的坑有哪些、怎么判断一个店铺，以及下单前必须检查的 10 件事。
+- [CDK 卡密、代充和成品号有什么区别？AI 会员三种开通方式怎么选](https://ai-huiyuan.vercel.app/guides/cdk-vs-daichong-vs-account/)：AI 会员 CDK 卡密、代充、成品号三种方式的区别：要不要密码、记录在不在、风险高低、适合谁。
+- [最便宜的 AI 会员怎么买？2026 年低价入门方案对比](https://ai-huiyuan.vercel.app/guides/cheapest-ai-membership/)：预算有限想用 AI 会员：ChatGPT Go ¥49、Codex 250 ¥95 等低价入门方案各适合谁；Gemini 暂时缺货、补货中。
+- [ChatGPT Plus 学生认证后怎么绑卡开通？条件与步骤](https://ai-huiyuan.vercel.app/guides/chatgpt-plus-student/)：ChatGPT Plus 学生认证绑卡服务：谁能用、需要什么条件、怎么下单，以及只保绑卡成功的售后范围。
+- [ChatGPT Plus 和 Claude Pro 选哪个？价格、用途与开通对比（2026）](https://ai-huiyuan.vercel.app/guides/chatgpt-plus-vs-claude-pro/)：ChatGPT Plus 与 Claude Pro 怎么选：同约 20 美元档的定位差异、图片语音与长文写作、额度机制差异，以及本站开通路径与参考价。
+- [AI 会员突然掉了怎么办？掉订阅自查步骤与售后边界](https://ai-huiyuan.vercel.app/guides/membership-dropped-what-to-do/)：AI 会员突然掉订阅怎么处理：先核对登录账号与订阅页状态，保存截图和订单号，再按商品页质保规则联系店铺；并说明哪些情况通常不保。
+- [提交 Session / Cookie 安全吗？AI 会员卡密自助充值说明](https://ai-huiyuan.vercel.app/guides/session-json-is-it-safe/)：Session / Cookie 自助充值安不安全：session 不是密码、有效期内代表登录态、只在商品页指引处提交、充完可重登失效；并与 CDK 方式对比。
+- [Gemini 和 ChatGPT Plus 哪个好？低预算怎么选（2026）](https://ai-huiyuan.vercel.app/guides/gemini-vs-chatgpt-plus/)：Gemini 会员和 ChatGPT Plus 怎么选：用途差异、本站价格（Plus 月卡卡密 ¥133.9；Gemini 暂时缺货、补货中）、账号条件与风险。
+- [ChatGPT Plus 到期了怎么续费？续费时间、方式和省钱办法](https://ai-huiyuan.vercel.app/guides/chatgpt-plus-renew/)：ChatGPT Plus 到期怎么续：卡密和 CDK 不会自动续费，要等当前订阅结束后再充；本站续费 ¥133.9 / 30 天，附续费前自查清单和常见问题。
+- [Claude 充值后要验证怎么办？验证类型、处理步骤与常见提示](https://ai-huiyuan.vercel.app/guides/claude-verify-what-to-do/)：Claude 付费前后出现手机或身份验证提示时怎么判断、怎么处理、什么不要做，以及和第三方代充售后的关系。
+- [Codex 250 额度能用多久？影响因素与估算方法](https://ai-huiyuan.vercel.app/guides/codex-250-how-long/)：说明为什么 Codex 250 额度能用多久没有固定答案、哪些因素决定消耗速度，以及如何用自己的数据估算。
+- [ChatGPT Go 和 Plus 选哪个？按用途和预算判断](https://ai-huiyuan.vercel.app/guides/chatgpt-go-vs-plus/)：对比 ChatGPT Go 与 Plus 的定位、价格和适用人群，给出简单的选择步骤，具体权益以 OpenAI 当前页面为准。
+- [卡密兑换失败报错大全：常见提示、原因与处理](https://ai-huiyuan.vercel.app/guides/cdk-redeem-errors/)：整理 CDK/卡密兑换时的常见失败情况、可能原因和处理顺序，帮你在联系售后前先自查。
+- [代充靠不靠谱？怎么判断、风险有哪些（坦白版）](https://ai-huiyuan.vercel.app/guides/is-reseller-reliable/)：中立说明 AI 会员代充/代购的真实风险、判断一家店是否可靠的方法，以及本站能做到和做不到的事。
+- [ChatGPT Plus 还是 Pro？按使用强度选档位（2026 版）](https://ai-huiyuan.vercel.app/guides/chatgpt-plus-vs-pro/)：从每天用多久、做什么任务、预算多少三个角度，判断 ChatGPT Plus、Pro $100 档和 $200 档分别适合谁，避免多花钱。
+- [Claude Pro、Max 5× 和 Max 20× 怎么选：一份按场景划分的指南](https://ai-huiyuan.vercel.app/guides/claude-pro-vs-max/)：解释 Claude 三个付费档位的定位差异，给出写作、阅读长文档、编程和代理类任务的选择建议。
+- [在第三方店铺买 AI 会员之前，先问这 10 个问题](https://ai-huiyuan.vercel.app/guides/ai-membership-reseller-checklist/)：一份购买 ChatGPT、Claude、Gemini、Grok 代购会员前的自查清单，覆盖交付方式、售后、隐私和付款安全。
+- [AI 会员到期、续费与退款：代购售后常见问题解答](https://ai-huiyuan.vercel.app/guides/ai-membership-renewal-refund-faq/)：整理代购 AI 会员在到期、续费、中途失效、退款和投诉环节的常见疑问，说明各方责任和处理顺序。
+- [GPT Plus 怎么充值？CDK 购买与核销流程说明](https://ai-huiyuan.vercel.app/guides/chatgpt-plus-how-to-recharge/)：用通俗步骤说明通过第三方店铺购买 ChatGPT Plus CDK 的完整流程：选商品、付款、取卡密、核销、常见失败原因与售后。
+- [Codex 额度怎么理解？买额度包前先看这几点](https://ai-huiyuan.vercel.app/guides/codex-quota-explained/)：说明 Codex 额度包与 ChatGPT 订阅的关系、额度如何消耗、怎么判断买多少，以及购买前要在商品页确认的信息。
+
+## 工具
+- [套餐选择器](https://ai-huiyuan.vercel.app/xuanze/)：按用途推荐 ChatGPT Plus / Go / Pro、Claude Pro / Max、Codex、Gemini、SuperGrok
+
+## 购买须知
+- 完整页面：https://ai-huiyuan.vercel.app/xuzhi/
+- 可能被限制：通过第三方开通会员，存在被平台风控、限制功能或封禁账号的可能，任何卖家都无法保证。请按自己能承受的风险购买，重要资料不要只放在一个账号里。
+- 交付后不退：卡密、额度等属于虚拟商品，发货或兑换后一般不支持退款；下单前请确认规格、时长和账号条件。
+- 时长从激活算：有效期从兑换或开通成功时开始计算，不是从付款时开始。
+- 不要给主账号密码：卡密类商品只需在自己账号内兑换，不需要密码；确需提交信息的代充，请用不存放重要资料的账号，完成后立即修改密码。
+- 保留凭证：请保存订单号、付款记录和兑换成功截图，售后时需要提供。
+- 售后以商品页为准：质保范围和处理方式以店铺对应商品页写明的规则为准，可在订单查询页联系卖家。
+- 只在店铺收银台付款：只通过店铺页面的收银台付款，不要向任何私聊发来的账号或二维码转账。
+- CDK 类（Plus、Pro、Codex、Claude Pro、Claude Max）核销到你自己的账号，不需要账号密码；ChatGPT Pro 25x、Plus 学生认证绑卡为代充，按商品页提交信息；Plus / Pro 5x / 20x 成品号为第三方注册的新账号，风控/封号风险高于自有账号充值，封号不质保，收到后请立即登录并修改密码。
+- 失败处理与退换以各商品页售后规则为准；订单查询 https://catfk.com/order
+
+## 其他
+- [关于本站](https://ai-huiyuan.vercel.app/about/)
+- 购买店铺：https://catfk.com/shop/IW58ZQO9
+- 订单查询：https://catfk.com/order
+- 完整内容：https://ai-huiyuan.vercel.app/llms-full.txt
+
+
+# ChatGPT Plus 充值与会员代购
+在售 Plus CDK（¥133.9 起，含专线充值卡 ¥135.9、站内卡付 ¥137.9、标准 CDK ¥148）、Go 月卡（¥49）、Pro 5x 月卡 CDK（¥699 起，含专线通道 A/B/C ¥731.9–¥773.9、站内卡付 ¥779.9、独立账单版 ¥797.9、可覆盖续费卡充 ¥816.9）、Pro 10x 支持 Plus/5x 升级 CDK（¥1235.9）、Pro 20x 月卡 CDK（¥1249 起，含临期续费专用 CDK ¥1249、站内卡付 ¥1259.9、卡密+激活网址 ¥1619.9）、Pro 25x（代充 ¥3499 / 站内卡付 CDK ¥3719.9 / 支持 Pro 5x 抵扣升级 CDK ¥3839.9）、Plus 学生认证绑卡服务（¥99）、Plus / Pro 5x / 20x 成品号，以及 Codex 250 / 500 / 1000 额度 CDK（非 API）。价格与交付条件在本页说明，点击购买将前往第三方店铺完成付款与发货。本站不收款。
+
+- 先看使用频率：一天只问十几次、偶尔写点东西，Plus 基本够用；每天连续几个小时高强度对话、跑长任务，才需要考虑 Pro。
+- 再看交付方式：下单前看清楚商品页写的是"给你一个新账号"还是"在你自己的账号上开通"，两者售后范围不一样。
+- 最后看售后条款：重点看出问题后是补时长、换号还是退款，以及多长时间内可以申请。
+
+## 常见问题
+Q：Plus 和 Pro 最大的区别是什么？
+A：主要是使用额度和可用功能的多少。Pro 面向重度用户，价格是 Plus 的数倍。具体权益以 OpenAI 厂商页面当前说明为准，本站不复述可能已经变化的细节。
+
+Q：买到的是厂商渠道吗？
+A：本站不是 OpenAI，也不是 OpenAI 授权的经销商。商品由第三方店铺提供，开通方式和来源请以店铺商品页说明为准，下单前可以先问客服。
+
+Q：付款后多久能用？
+A：自动发卡类商品一般付款后立即在订单页显示内容；需要人工开通的商品，时间以店铺说明为准。
+
+Q：会不会被封号？
+A：没有人能保证。OpenAI 的使用条款对账号转让、共享有限制，第三方代购存在被风控的可能。请只按自己能接受的风险购买，不要把重要资料只存放在一个账号里。
+
+Q：可以退款吗？
+A：退款由第三方店铺按其售后规则处理，本站不经手款项，无法直接退款。下单前请先看清楚店铺的售后说明。
+
+# Claude Pro 会员代购
+在售 Claude Pro 月卡 CDK（¥168；¥165.9 卡密自助款暂时缺货 · 补货中）与 Claude Max 5x 月卡 CDK（¥799）；Max 20x 暂未上架。均为卡密充值到自己账号，无需提供密码。功能与额度以 Anthropic 当前方案为准；本站提供比价与入口，购买跳转第三方店铺。
+
+- Pro 适合起步：读长文档、写作、偶尔写代码，大多数人从 Pro 开始就够了。
+- Max 看"撞线"频率：如果每天都会碰到用量上限、需要等待恢复，再考虑升级到 Max 5×。
+- 20× 面向重度工作流：长时间写代码、跑代理类任务的用户才需要 20×，普通对话很难用满。
+
+## 常见问题
+Q：Max 5× 和 20× 的倍数指什么？
+A：通常指相对 Pro 的用量倍数。具体额度和规则以 Anthropic 厂商说明为准，可能随时调整。
+
+Q：本站和 Anthropic 有关系吗？
+A：没有。本站是独立的第三方导购信息站，不代表 Anthropic，也不是其授权渠道。
+
+Q：买了 Pro 之后能升级吗？
+A：是否能补差价升级取决于店铺的商品形式，请在下单前咨询店铺客服。
+
+Q：用量没用完能退吗？
+A：一般不支持按剩余天数退款，具体以店铺售后条款为准。
+
+Q：遇到问题找谁？
+A：先找下单店铺的客服；店铺不处理的，可以通过发卡平台的投诉入口申请介入。本站可以协助说明流程，但无法替店铺做售后决定。
+
+# Gemini Pro 会员代购：18 个月 CDK（含 5TB 存储）
+Gemini Pro 18 个月 CDK 暂时缺货、补货中：不质保版和质保版目前都已下架，补货后恢复购买。中国 IP 和中国谷歌账号无法使用。权益以 Google 当前方案为准；购买跳转第三方店铺完成付款与发货，本站不收款。
+
+- 看清周期：这是 18 个月的长周期商品，确定会长期使用再买。
+- 存储是重点：商品含 5TB 存储；具体权益组合以 Google 厂商页面为准。
+- 看清兑换方式：CDK 按商品页说明兑换，下单前先读一遍兑换步骤与售后规则。
+
+## 常见问题
+Q：Gemini Pro 18 个月多少钱？
+A：目前暂时缺货、补货中，不质保版和质保版都已下架，暂无可购价格。补货后以店铺页面实时价格为准。
+
+Q：质保版和不质保版有什么区别？
+A：不质保版只保兑换链接短时可用、不保订阅时长；质保版质保订阅。两款目前都暂时缺货、补货中。两款都不支持中国 IP 和中国谷歌账号。
+
+Q：需要提供账号密码吗？
+A：CDK 类商品按商品页说明兑换，一般不需要密码。任何索要主账号密码的做法都请谨慎。
+
+Q：Gemini 会员和 Google One 有什么关系？
+A：Google 会把 AI 权益和存储空间等打包在不同套餐里，名称和内容会调整，以 Google 厂商页面为准。
+
+Q：中途失效怎么办？
+A：保留订单号与截图联系店铺，处理方式以商品页售后规则为准。
+
+Q：本站是 Google 的合作方吗？
+A：不是。本站是独立第三方信息站，与 Google 没有任何合作或授权关系。
+
+# SuperGrok 会员代购：卡密自助兑换
+在售 Grok Plus 月卡（¥84.9，本站最便宜的 Grok）、Grok Premium 月卡（卡密自助 ¥156.9 / SSO 自助 ¥204.9）、SuperGrok 卡密（¥429 / Grok Super 月卡卡密 ¥468.9 / Super 15x SSO ¥528.9）以及 Grok Ultra（卡密 ¥829 / 200刀档月卡卡密 ¥899.9 / Ultra 50x SSO ¥936.9）。会员权益以 xAI 当前说明为准；购买跳转第三方店铺完成，本站不收款。
+
+- 自助兑换：卡密由你自己兑换到账号，不需要提供账号密码。
+- 看清兑换方式：下单前先读商品页的兑换步骤。
+- 注意质保范围：质保 30 天，订阅掉了可售后；封号不在售后范围，具体以商品页规则为准。
+
+## 常见问题
+Q：SuperGrok 卡密多少钱？
+A：本站参考价：Grok Plus 月卡 ¥84.9（最便宜），Grok Premium 卡密款 ¥156.9 / SSO款 ¥204.9，SuperGrok 卡密 ¥429，Grok Super 月卡卡密 ¥468.9，Grok Super 15x 月卡 ¥528.9，Grok Ultra 卡密 ¥829 / 200刀档卡密 ¥899.9 / Ultra 50x SSO ¥936.9，以店铺页面实时价格为准。
+
+Q：需要提供账号密码吗？
+A：不需要。卡密自己兑换，任何索要主账号密码的做法都请谨慎。
+
+Q：Grok Plus 月卡能叠加到正在生效的会员上吗？
+A：不能。会员生效中的账号要等到期后再兑换；订阅掉了 30 天内按剩余天数退款，封号不在售后范围。
+
+Q：SuperGrok 包含哪些功能？
+A：会员权益由 xAI 决定，可能随时调整，请以厂商说明为准。
+
+Q：本站和 xAI 有关系吗？
+A：没有。本站不是 xAI，也不是其授权渠道。
+
+Q：付款后在哪里查看订单？
+A：到 https://catfk.com/order 用下单时填写的联系方式或订单号查询。
+
+Q：可以开发票吗？
+A：本站不收款，无法开票。请咨询下单店铺。
+
+# Muse Token 成品账号与独立邮箱/社交成品号代购
+在售 Muse 10 亿 Token 成品号（¥18.9）、50 亿 Token 成品号（¥28.9）、300 亿 Token 成品号（¥58.9），以及微软 Outlook/Hotmail 令牌版邮箱（单买款 ¥15.9 / 支持 OAuth2 10件起购批发款 ¥15.9）、Google Gmail 老账号（¥27.9）、X (Twitter) 带 2FA 成品号（¥21.9）和 Facebook 成品账号（¥33.9）。全部自动发货、即买即用；购买跳转第三方店铺完成，本站不收款。
+
+- 按 Token 用量选 Muse 档位：轻度测试先买 10 亿 Token（¥18.9）；日常主力选 50 亿 Token（¥28.9）；重度跑量选 300 亿 Token（¥58.9），单价最低。
+- 独立邮箱与社交成品号配齐：注册各类主流 AI 工具可选微软 Outlook/Hotmail 令牌版邮箱（¥15.9）或 Google Gmail 老账号（¥27.9）；需要现成常用社交账号可选 X (Twitter) 带 2FA 成品号（¥21.9）或 Facebook 成品账号（¥33.9）。
+- 看清成品号售后边界：成品账号发货后请第一时间登录核验（Muse 账号可按商品页说明使用公开收件箱接收验证码）；质保范围与使用规则以店铺对应商品页说明为准。
+
+## 常见问题
+Q：Muse Token 成品账号多少钱？
+A：本站参考价：10 亿 Token ¥18.9，50 亿 Token ¥28.9，300 亿 Token ¥58.9，以店铺页面实时价格为准。
+
+Q：独立邮箱和 X / Facebook 成品号多少钱？
+A：本站参考价：微软 Outlook/Hotmail 令牌版邮箱 ¥15.9，Google Gmail 老账号 ¥27.9，X (Twitter) 带 2FA 成品号 ¥21.9，Facebook 成品账号 ¥33.9。
+
+Q：付款后怎么拿到账号？
+A：自动发货商品付款成功后立即在订单页显示账号信息，也可到 https://catfk.com/order 查询。
+
+Q：微软 Outlook 邮箱和 Gmail 老账号怎么选？
+A：仅需干净独立邮箱收发验证码选 Outlook 令牌版（¥15.9）最实惠；需要直接用谷歌账号一键登录（Google OAuth）或看重老号稳定性选 Google Gmail 老账号（¥27.9）。
+
+Q：成品账号能退换吗？
+A：虚拟成品账号一经发出不支持无理由退换；请拿到后立即登录核验，售后规则以店铺商品页说明为准。
+
+# Claude 显示 Free 怎么过 KYC 认证？免护照免手机号升级 Claude Pro 方法（2026 实测）
+URL: https://ai-huiyuan.vercel.app/guides/claude-free-kyc-verify-bypass/
+- 很多用户看到 Claude 左下角显示 Free Plan，到处找「实名认证 / KYC」按钮却找不到——其实 Claude 后台根本没有常驻的主动 KYC 入口。
+- 网页端所谓的 KYC（Persona 身份核验，要求上传护照原件并完成动态人脸自拍），通常只在网页端绑卡结账被支付风控拦截、或账号触发异常审核时才会弹窗。
+- 如果你手里没有护照、不想做人脸核验，或者网页绑卡反复被拒，千万不要在网页收银台连续换卡硬试，否则极易把正常的 Free 账号直接试封。
+- 实测稳妥方案：保持 Free 账号正常可登录状态，直接使用本站 Claude Pro 月卡 CDK（¥168）或 Claude Max 5x 月卡 CDK（¥799），按说明将订阅充入自己的 Free 账号，全程无需交出账号密码、无需在网页端绑卡触发护照校验。
+
+
+## 对比
+| 升级方式 | 是否需要护照/人脸 KYC | 是否需要外币卡 | 是否要给账号密码 | 参考价格与适用场景 |
+| --- | --- | --- | --- | --- |
+| 网页端自己绑卡订阅 | 高概率触发 Persona 护照+自拍核验 | 需要（多数普通卡易被拒） | 不需要 | 20 美元/月（不含税），适合已有合规卡且不怕触发验证的用户 |
+| Claude Pro 月卡 CDK（本站） | 免网页绑卡结算，不触发收银台绑卡拦截 | 不需要（店铺收银台直接付款） | 不需要（自助核销到自己号） | ¥168 / 1 个月（质保订阅），适合日常写作、长文分析与编程 |
+| Claude Max 5x 月卡 CDK（本站） | 免网页绑卡结算，自助卡密核销 | 不需要 | 不需要 | ¥799 / 1 个月（质保订阅），适合 Claude Code 高频编程用户 |
+| 苹果客户端内购通道 | 走应用商店账单，不走网页 Persona 收银台 | 需绑定对应商店付款方式或礼品卡 | 不需要 | 操作步骤繁琐，适合已有对应商店余额的老手 |
+## 步骤
+1. 第一步：先停手，不要在 Claude 网页端 Billing 页面反复尝试已被拒的虚拟卡或普通银行卡，避免把正常的 Free 账号触发风控锁定。
+2. 第二步：登录自己的 Claude 账号，确认左下角显示为 Free（当前无正在生效的付费订阅），且收发消息正常、没有弹出封禁提示。
+3. 第三步：前往本站合作店铺选择「Claude Pro 月卡 CDK（¥168）」或更高额度的「Claude Max 5x 月卡 CDK（¥799）」，付款后系统 24 小时自动发放卡密与兑换指引。
+4. 第四步：按照商品页说明，用自己账号的标识或兑换码在自助核销页面完成激活（全程不需要提供邮箱密码，1～3 分钟即可完成）。
+5. 第五步：刷新 Claude 页面，左下角由 Free 变为 Pro（或 Max）即代表升级成功；请截图保存订单号与订阅页面作为售后凭证。
+一、为什么你的 Claude 显示 Free，却找不到 KYC 认证按钮？
+不少刚注册好 Claude 的读者会问：「我看到别人说升级 Pro 要过 KYC，为什么我登录进去左下角只写着 Free，设置（Settings）里翻遍了也没有实名认证入口？」
+答案很简单：Claude 从来没有给普通免费用户设置「主动申请 KYC」的按钮。你看到的「Persona 身份认证（Verify your identity）」弹窗，本质上是平台在以下两个时刻触发的风控拦截机制：
+
+网页端结账拦截：当你点击 Upgrade to Pro，在网页收银台输入银行卡号、账单地址并点击付款时，支付风控系统如果认为你的网络环境、账号权重与银行卡发卡行不匹配，就会拒绝扣款或弹出 Persona 验证框，要求上传护照（Passport）或指定身份证件并配合摄像头完成左看、右看的人脸自拍。
+高频异常操作拦截：短时间内连续换用多张虚拟卡尝试扣款、频繁切换登录环境，也会直接触发安全审查甚至直接封停账号。
+
+二、没有护照或不想在网页绑卡，怎么把 Free 升到 Pro？
+既然网页收银台绑卡是触发付款被拒和 Persona 核验的重灾区，最省心的思路就是绕开网页端自行绑卡扣款这一步，改用已经封装好的自助充值卡密（CDK）：
+
+日常对话、长文档与轻度写代码：选 Claude Pro · 月卡 CDK（¥168 / 1 个月）。付款后自动发卡密，按页面指引自助充到你自己的 Free 账号上，不需要账号密码，也不用自己去折腾绑卡。
+每天重度跑 Claude Code 或长上下文项目：Pro 的每 5 小时消息限额如果不够用，可以直接一步到位选 Claude Max 5x · 月卡 CDK（¥799 / 1 个月），用量约为 Pro 的 5 倍。
+如果只是想立刻用上顶级大模型、不执着于 Claude：也可以对比 ChatGPT Plus 月卡卡密（¥133.9 / 30 天） 或即买即用的 ChatGPT Plus 成品账号（¥106.9 / 30 天），完全没有 KYC 困扰。
+
+三、操作前必须核对的 3 个细节
+
+确认账号当前是纯 Free 状态：CDK 充值要求你的账号当前没有正在生效的 Pro 或 Max 订阅。如果之前开过会员，必须等旧订阅彻底到期变回 Free 后再充值。
+已经被封禁或已弹出强制验证锁死的号不能充：如果你的账号打开就已经无法对话、或者已经被强制卡在验证页面进不去聊天界面，请勿购买充值卡密（充值无法解除已有的账号封禁）。
+不要相信「代过人脸 KYC」服务：市面上任何声称收费帮你上传假证件过 KYC、或者索要你主邮箱密码去代充的，都有极高的隐私泄露与二次封号风险。
+
+更多关于订阅失败排查与额度说明，可延伸阅读：Claude Pro 订阅失败怎么办、Claude 弹出身份验证怎么处理 以及 Claude Pro 与 Max 5x 区别对比。
+⚠ 风险提示通过第三方 CDK 开通会员虽无需在网页收银台自行绑卡，但账号后续使用期间是否会触发平台风控或身份验证仍由服务商系统决定；封号及充值后触发的身份验证不在售后范围内。卡密售出或激活成功后不支持无理由退款。
+售后规则以各商品页写明的为准，下单即视为已阅读并接受商品页规则；因账号不符合使用条件或平台风控造成的问题不在售后范围内。
+逛逛店铺全部商品 →
+
+## 常见问题
+Q：Claude 显示 Free 在哪里点 KYC 认证？
+A：Claude 没有主动申请 KYC 的按钮。Persona 身份验证只在网页端绑卡付款或账号异常触发风控时才会弹窗；正常 Free 账号不需要、也找不到这个入口。
+
+Q：用 CDK 卡密把 Free 升级到 Claude Pro 需要护照吗？
+A：不需要。购买 Claude Pro 月卡 CDK（¥168）后按说明自助核销到自己的 Free 账号，无需在网页端绑卡，也无需提供护照或账号密码。
+
+Q：充值 Claude Pro CDK 多久能到账？
+A：店铺 24 小时自动发卡密，拿到卡密后按页面说明自助提交核销，一般 1～3 分钟即可刷新看到左下角变为 Pro。
+
+Q：如果充值后使用过程中账号被封或弹出验证怎么办？
+A：本店质保针对订阅本身，因账号环境触发平台风控封禁或后续弹出身份核验不在质保范围内；平时请固定网络环境并勿与他人共享账号。
+
+Q：Pro 额度不够用可以直接升 Max 吗？
+A：如果当前已是 Pro 订阅中，CDK 不支持直接叠加覆盖；建议等当月 Pro 到期变回 Free 后，再购买 Claude Max 5x 月卡 CDK（¥799）兑换。
+
+# ChatGPT Pro 5x / 10x / 20x / 25x 额度区别与价格对比：哪档最划算？（2026 现货一览）
+URL: https://ai-huiyuan.vercel.app/guides/chatgpt-pro-5x-10x-20x-25x-pricing/
+- 当 ChatGPT Plus（¥133.9 起）的推理和 Codex 额度不够用时，Pro 系列按额度倍数分为 5x（Standard）、10x、20x（More）和 25x（Max）四大梯队。
+- 价格梯队速览：Pro 5x 月卡 CDK 仅 ¥699～¥816.9；Pro 10x 月卡 CDK 为 ¥1235.9（支持已有 Plus/5x 升级）；Pro 20x 月卡 CDK 为 ¥1249～¥1619.9；Pro 25x 顶配档为 ¥3499～¥3839.9。
+- 关键选型技巧：Pro 10x（¥1235.9）与 Pro 20x（¥1249）仅差约 13 元——如果是无订阅账号全新直充，直接买 Pro 20x（¥1249）性价比远高于 10x；只有当前还在 Plus 或 5x 订阅期内急需平滑升级时，才优先选支持升级的 10x 款（¥1235.9）。
+- 本店已配齐 5x 通道 A/B/C、独立账单版、可覆盖续费版、20x 临期续费版及 25x 抵扣升级版，全部 24 小时自动发货、无需交出账号密码。
+
+
+## 对比
+| 档位规格 | 本店在售商品与价格 | 核心优势与适用条件 | 推荐人群 |
+| --- | --- | --- | --- |
+| Plus 月卡（1x 基准） | 卡密 ¥133.9 / 专线卡 ¥135.9 / 站内卡付 ¥137.9 / CDK ¥148 | 无订阅账号自助充值，质保 30 天 | 日常问答、办公写作、轻度辅助编程 |
+| Pro 5x（Standard） | 月卡 CDK ¥699｜通道A ¥731.9｜通道B ¥749.9｜通道C ¥773.9｜站内卡付 ¥779.9｜独立账单 ¥797.9｜可覆盖续费 ¥816.9 | Plus 的约 5 倍高阶额度；多条独立通道可选，另有成品号 ¥799 | 每天高频跑深度推理、Plus 经常限流的进阶用户 |
+| Pro 10x（进阶升级档） | Pro 10x CDK 自助充值 ¥1235.9 | 既可无订阅直充，也支持已有 Plus / Pro 5x 账号直接升级 | 当月已开 Plus 或 5x、不想等到期急需提额的用户 |
+| Pro 20x（More 主力重度档） | 月卡 CDK ¥1249｜临期续费专用 ¥1249｜站内卡付 ¥1259.9｜成品号 ¥1299｜卡密+网址 ¥1619.9 | 比 10x 只贵 13 元但额度翻倍；含 3 天内临期无缝续费专款 | 全天候使用 Codex 写代码、跑长上下文科研的重度开发者 |
+| Pro 25x（Max 顶配档） | 代充 ¥3499｜站内卡付 CDK ¥3719.9｜支持 5x 抵扣升级 CDK ¥3839.9 | 个人端最高天花板额度；新增免密码站内卡付 CDK 与 5x 抵扣升级款 | AI 工作室、重度 Agent 自动化与高频推理团队 |
+## 步骤
+1. 先看自己账号当前状态：是「无生效订阅（Free）」、「正在用 Plus / Pro 5x 想中途升级」，还是「已有 Pro 20x 还有 1～3 天到期想原号续费」。
+2. 无订阅全新开通：预算 700 元左右选 Pro 5x（¥699 起）；预算 1250 元左右直接跳过 10x 选 Pro 20x（¥1249 或站内卡付 ¥1259.9）；追求极限算力选 Pro 25x 站内卡付 CDK（¥3719.9）。
+3. 已有订阅想中途提额或续费：Plus/5x 升级选 Pro 10x（¥1235.9）；同通道 Pro 5x 升 25x 选抵扣升级款（¥3839.9）；已有订阅覆盖续费选 Pro 5x 可覆盖款（¥816.9）或 Pro 20x 临期续费款（¥1249）。
+4. 在对应商品页下单付款，系统自动发卡密；按页面教程提取自己账号的 Session 在自助站完成核销（全程不填账号密码）。
+5. 核销完成后回到 ChatGPT 设置页确认套餐档位已更新，保留订单号与截图享受 30 天订阅质保。
+一、为什么现在 ChatGPT Pro 分出了 5x / 10x / 20x / 25x 这么多档？
+随着深度推理模型与 Codex 云端编程助手对算力消耗的拉开，单一的月卡已经无法满足不同强度的用户。目前在售的 Pro 体系按额度档位细分为四档：
+
+Pro 5x（Standard 档）：定位在 Plus 与重度 Pro 之间。如果你每天用深度推理或 Codex 经常遇到「达到上限需等待重置」，但又用不完上千元的额度，Pro 5x 是最稳的甜点档。
+Pro 10x：介于 5x 与 20x 之间的过渡档。它最大的价值不是裸买，而是支持已有 Plus 或 Pro 5x 账号中途直接升级。
+Pro 20x（More 档）：全天候程序员与重度研究员的主力档。注意看价格：Pro 10x 是 ¥1,235.9，而 Pro 20x 只要 ¥1,249（站内卡付款 ¥1,259.9），两者差价仅十几块钱！因此只要你是无订阅的干净账号，闭眼直接买 Pro 20x 最划算。
+Pro 25x（Max 顶配档）：算力拉满的旗舰档，适合多任务并发跑满全天的工程团队或重度科研场景。
+
+二、同为 Pro 5x / 20x / 25x，店里不同通道的商品怎么挑？
+为了保证库存充足并适配不同账号状态，本店上架了多条独立充值通道，按下面这张清单对号入座即可：
+1. Pro 5x 选型（¥699 ～ ¥816.9）
+
+追求最低价：选 ChatGPT Pro 5x · 月卡 CDK（¥699） 或 Pro 5x 专线通道A CDK（¥731.9）。
+备用多通道分流：如果某条通道维护，可随时选 专线通道B（¥749.9）、专线通道C（¥773.9） 或 Pro 5x (Standard) 站内卡付 CDK（¥779.9）。
+后续打算补差升更高档：选 Pro 5x 独立账单 CDK（¥797.9）（一卡一独立账单，支持后续同通道补差升级）。
+账号里还有未到期的订阅、想直接覆盖续费：选 Pro 5x 自动卡充｜可覆盖续费（¥816.9）。
+不想用自己号、想拿现成号直接用：选 ChatGPT Pro 5x 成品号（¥799）。
+
+2. Pro 10x 与 Pro 20x 选型（¥1,235.9 ～ ¥1,619.9）
+
+已有 Plus 或 5x 想中途升级：选 ChatGPT Pro 10x 月卡 CDK｜支持 Plus/5x 升级（¥1,235.9）。
+无订阅账号全新开 20x（性价比王牌）：选 ChatGPT Pro 20x · 月卡 CDK（¥1,249） 或 Pro 20x (More) 站内卡付 CDK（¥1,259.9）。
+已有 Pro 20x 且在到期前 1～3 天内想无缝续订：选 Pro 20x 临期续费专用 CDK（¥1,249）。
+想要独立激活网址自助操作或现成号：可选 Pro 20x 卡密+激活网址（¥1,619.9） 或 Pro 20x 成品号（¥1,299）。
+
+3. Pro 25x 顶配选型（¥3,499 ～ ¥3,839.9）
+
+全新账号代充：ChatGPT Pro 25x · 代充（¥3,499）（仅限从未订阅过的账号）。
+免密码 24h 自动发卡密自助充：ChatGPT Pro 25x (Max) 站内卡付 CDK（¥3,719.9）。
+支持同通道 Pro 5x 抵扣升级：ChatGPT Pro 25x CDK｜支持 Pro 5x 抵扣升级（¥3,839.9）。
+
+如果你只是偶尔写代码缺额度，也可以保留 Plus（¥133.9）并单独加购 Codex 250 / 500 / 1000 额度包（¥95 起）。
+⚠ 风险提示请务必在下单前核对各商品页写明的账号条件（如是否要求无生效订阅、非 Team 空间、无违规低价充值记录）。不符合条件强行兑换导致的失败不在售后范围内；所有第三方充值均质保订阅期，不质保账号封禁。
+售后规则以各商品页写明的为准，下单即视为已阅读并接受商品页规则；因账号不符合使用条件或平台风控造成的问题不在售后范围内。
+逛逛店铺全部商品 →
+
+## 常见问题
+Q：ChatGPT Pro 10x（¥1235.9）和 Pro 20x（¥1249）只差 13 块钱，该买哪个？
+A：如果你的账号当前没有生效中的订阅（处于 Free 状态），强烈建议直接买 Pro 20x（¥1249 或 ¥1259.9），多花十几元额度翻倍；只有当你的账号还在 Plus 或 Pro 5x 订阅期内、想直接覆盖升级时，才选支持升级的 Pro 10x（¥1235.9）。
+
+Q：Pro 5x 有 ¥699、¥731.9、¥749.9、¥779.9 好几款，有什么区别？
+A：它们都是充入自己账号的 Pro 5x 月卡（质保 30 天订阅），区别在于上游充值通道与自助核销界面不同。日常选有现货的低价款即可；需要后续补差升级选 ¥797.9 独立账单款；需要覆盖未到期订阅选 ¥816.9 款。
+
+Q：充值 Pro 5x / 20x / 25x CDK 需要提供我的 ChatGPT 密码吗？
+A：除标明「代充」的 ¥3499 款外，其余所有标明「CDK 自助充值 / 站内卡付」的款式均只需按教程提取浏览器 Session 配合卡密自助核销，不需要提供账号密码。
+
+Q：之前开过 Plus 或 Pro 的老号能买吗？
+A：只要旧订阅已经自然到期、当前状态变回 Free，且不在 Team 团队空间内、没有用过违规 0 元黑卡，就可以正常购买常规 CDK 充值；若离到期还有 1～3 天，20x 用户可选 ¥1249 临期续费专用款。
+
+Q：如果平时对话够用，只是写代码跑 Codex 不够用，需要升 Pro 吗？
+A：如果缺口不大，可以先在已有 Plus 账号上单买 Codex 250 额度包（¥95）或 500 额度包（¥179）；只有当你既需要高频深度推理又需要海量 Codex 任务时，直接上 Pro 5x 或 20x 才更划算。
+
+# Grok Ultra (200刀档) 与 SuperGrok 有什么区别？DeepSearch 与 Heavy 满血算力评测（2026）
+URL: https://ai-huiyuan.vercel.app/guides/grok-ultra-vs-supergrok/
+- 按 xAI 当前产品矩阵，Grok 付费订阅从低到高分为四档：Plus（8美元/月）、Premium（30美元/月，4倍额度）、SuperGrok（100美元/月，15倍额度）与顶配 Grok Ultra（200美元/月，50倍额度）。
+- SuperGrok 与 Grok Ultra 的核心差距在三点：① 每周共享算力池大小（Ultra 是 Plus 的 50 倍，约为 SuperGrok 的 3.3 倍）；② 高峰期重度推理（Heavy / DeepSearch）与长视频生成的并发优先级；③ 新模型与新功能的首发内测权。
+- 本店已上架全系列免密码自助方案：Grok Plus ¥84.9、Grok Premium 卡密 ¥156.9（SSO款 ¥204.9）、SuperGrok 卡密 ¥429（月卡卡密 ¥468.9 / 15x SSO ¥528.9）、Grok Ultra 卡密 ¥829 / 200刀档月卡卡密 ¥899.9 / 50x SSO ¥936.9。
+- 所有卡密款均由买家自己拿卡密兑换到自有账号，无需提供密码，质保 30 天订阅（掉订阅按剩余天数比例退款）。
+
+
+## 对比
+| 订阅档位 | 厂商月费 | 额度倍数（相对 Plus） | 本店在售规格与价格 | 核心能力与适用人群 |
+| --- | --- | --- | --- | --- |
+| Grok Plus | 8 美元 / 月 | 1x 基准池 | 月卡卡密 ¥84.9（4yeq0w） | 基础对话、语音与 Imagine 出图，不含视频生成与 Grok Bot |
+| Grok Premium | 30 美元 / 月 | 4x 额度 | 月卡卡密 ¥156.9（oq33lr）｜SSO自助 ¥204.9（j6pz6u） | 解锁视频生成、Grok Bot 与最新主力模型，适合绝大多数日常用户 |
+| SuperGrok (Super) | 100 美元 / 月 | 15x 额度 | 卡密 ¥429（iqhaij）｜月卡卡密 ¥468.9（d7f419）｜15x SSO ¥528.9（2fi2dh） | 高频 DeepSearch 实时深度检索、批量图片/视频生成、高峰期优先响应 |
+| Grok Ultra (200刀档) | 200 美元 / 月 | 50x 满血额度 | Ultra 卡密 ¥829（rshf2h）｜200刀档卡密 ¥899.9（osr7vg）｜50x SSO ¥936.9（gcdpba） | 50 倍超大每周算力池、重度推理与长任务不中断、最早体验实验性模型 |
+## 步骤
+1. 第一步：评估你每周的算力消耗——如果只是每天聊几十条、偶尔出几张图，选 Grok Premium 卡密（¥156.9）完全够用，没必要直接上百元大档。
+2. 第二步：如果你每天高频跑 DeepSearch 搜集全网实时情报、或者密集生成 AI 视频，Premium 的 4x 池子往往两三天就见底，此时建议选 SuperGrok（¥429 / ¥468.9，15x 额度）。
+3. 第三步：如果你是全天候把 Grok 当作主力生产力工具、跑高消耗 Heavy 推理或团队级内容产出，直接选 Grok Ultra（¥829 / ¥899.9 卡密款，或 ¥936.9 SSO 款），享受 50x 封顶额度池。
+4. 第四步：下单前务必确认你的 Grok 账号当前没有未到期的会员（生效中的账号不能叠加覆盖充值，必须等旧会员到期后再兑换）。
+5. 第五步：在店铺付款后自动拿到卡密，按商品页指引自助完成兑换（无需交出账号密码），到账后在 Settings → Usage 查看额度池状态。
+一、Grok Ultra（200刀档）比 SuperGrok（100刀档）到底强在哪？
+很多已经用过 SuperGrok 的老用户会问：厂商定价 200 美元/月的 Grok Ultra，除了贵一倍之外，实际体验和 100 美元/月的 SuperGrok 有什么本质区别？核心差距集中在三个维度：
+
+每周共享算力池相差 3.3 倍以上（50x vs 15x）：Grok 的付费机制是所有功能（深度推理、DeepSearch 实时深搜、Imagine 高清出图、视频生成、Grok Build）共用一个每周刷新的总额度池。文字聊天消耗极小，但一旦你连续跑 DeepSearch 深度研究报告或连续生成多段视频，15x 的 SuperGrok 仍可能在周中触顶暂停；而 Ultra 的 50x 额度池几乎能支撑单人全天候高强度连轴转。
+高负载时段的算力调度优先级：在全网工作高峰期或新模型刚发布算力紧张时，Ultra 档位享有最高队列优先级，长上下文响应速度与多步推理稳定性明显优于普通档。
+前沿功能与新模型抢先体验：xAI 的实验性大参数模型、更长时长的视频生成特性，往往先向 200 美元 Ultra 档开放。
+
+二、本店 Grok 全档位现货怎么选最省钱？
+目前本店已将 Grok 从入门到 200 刀顶配档全部配齐，按交付方式分为「卡密自助兑换」与「SSO 自助开通」两类，均不需要你提供账号密码：
+
+轻量尝鲜档（¥84.9 ～ ¥204.9）：
+  
+    只想要基础文字和出图额度：Grok Plus 月卡 · 自助兑换（¥84.9）。
+    想要视频生成 + Grok Bot + 4倍额度（全站性价比最高）：首选 Grok Premium 月卡 · 卡密自助充值（¥156.9），或选 Grok Premium SSO 自助开通款（¥204.9）。
+  
+
+中重度主力档 SuperGrok（¥429 ～ ¥528.9）：
+  
+    偏好纯卡密兑换：选 SuperGrok 卡密（¥429） 或 Grok Super 月卡 · 卡密自助充值（¥468.9）。
+    偏好提交浏览器 SSO 自助直通：选 Grok Super 15x 月卡 · SSO 自助开通（¥528.9）。
+  
+
+满血旗舰档 Grok Ultra 200刀档（¥829 ～ ¥936.9）：
+  
+    卡密自助兑换首选：Grok Ultra 卡密（¥829） 或今日新上架的 Grok Ultra 200刀档 月卡 · 卡密自助充值（¥899.9）（双通道互为备份，哪款有库存拍哪款）。
+    SSO 自助开通款：Grok Ultra 50x 月卡 · SSO 自助开通（¥936.9）。
+  
+
+如果你还没有现成的 X 账号用来绑定或登录 Grok，店里也有即买即用的 X (Twitter) 带 2FA 成品账号（¥21.9） 与 微软 Outlook 令牌版邮箱（¥15.9） 可供搭配。更多横向对比可看 Grok 会员全档位选购指南 与 Grok 免费版与付费版区别。
+⚠ 风险提示x.ai 定价页写明其订阅仅由其直接销售，非直接购买的订阅存在被暂停、掉订阅或触发风控的可能。本店卡密款质保 30 天订阅（若中途掉订阅按剩余天数比例退款），但账号被封禁不在质保范围内；会员未到期的账号切勿叠加充值。
+售后规则以各商品页写明的为准，下单即视为已阅读并接受商品页规则；因账号不符合使用条件或平台风控造成的问题不在售后范围内。
+逛逛店铺全部商品 →
+
+## 常见问题
+Q：Grok Ultra ¥829、¥899.9 和 ¥936.9 三款有什么区别？
+A：三款对应的都是 200 美元/月的 Grok Ultra（50x 额度）月卡，均质保 30 天订阅。¥829（rshf2h）和 ¥899.9（osr7vg）是不同上游通道的卡密自助兑换款；¥936.9（gcdpba）是提交浏览器 SSO 自助开通款。
+
+Q：SuperGrok 和 Grok Premium 哪个更适合普通人？
+A：90% 的普通用户先买 Grok Premium 卡密（¥156.9）就够了，已经包含视频生成和 4 倍额度；只有当你每周都把 Premium 额度用光、需要大量跑 DeepSearch 或视频时，再上下一档 SuperGrok（¥429）。
+
+Q：我的 Grok 会员还没到期，能提前买卡密续费吗？
+A：可以提前买卡密备着，但千万不要在会员还没到期时就去兑换！Grok 卡密不支持叠加覆盖，必须在旧会员彻底到期变回免费状态后再充值。
+
+Q：万一用满 30 天之前掉订阅了怎么售后？
+A：本店在售的 Grok Plus / Premium / Super / Ultra 卡密款均带 30 天订阅质保，若在 30 天内出现掉订阅，凭订单号和截图联系店铺，按未用完的剩余天数比例核算退款（账号本身被封禁除外）。
+
+Q：充值需要把账号密码发给客服吗？
+A：不需要。无论是卡密款还是 SSO 款，都是付款后系统自动发货，你按照页面步骤自助兑换或提交 SSO 即可，全程不索要密码。
+
+# 2026 AI 编程最佳组合：Claude Code (Max) vs ChatGPT Codex (Pro) 怎么选？
+URL: https://ai-huiyuan.vercel.app/guides/cursor-claude-code-codex-combo/
+- 2026 年开发者最主流的两套 AI 编程引擎是：Anthropic 的「Claude Code（终端/IDE 助手）」与 OpenAI 的「ChatGPT Codex（云端异步工程助手 + 深度推理）」。
+- 特长分工明确：Claude 在前端 UI、多文件连贯重构、遵循复杂代码规范上交互手感极佳；而 ChatGPT Pro 配合高阶推理模型与 Codex，在底层算法攻坚、跨模块疑难 Bug 排查、异步批量跑测试与提 PR 上更强。
+- 预算 ¥200～¥300 轻度方案：ChatGPT Plus（¥133.9）+ Codex 250 额度包（¥95），或单开 Claude Pro 月卡 CDK（¥168）。
+- 预算 ¥700～¥1500 全职开发者黄金组合：Claude Max 5x（¥799）负责日常交互式写码 + ChatGPT Pro 5x（¥699）或 Pro 20x（¥1249）负责架构攻坚与 Codex 异步任务。
+
+
+## 对比
+| 组合方案 | 包含商品与本店参考价 | 月度总成本 | 擅长场景与算力表现 | 适合哪类开发者 |
+| --- | --- | --- | --- | --- |
+| 入门高性价比套 | ChatGPT Plus 卡密（¥133.9）+ Codex 250 额度包（¥95） | ¥228.9 / 月 | 既有日常对话推理，又有独立 Codex 编程额度按需消耗 | 学生、独立开发者、非全天写代码的工程师 |
+| Claude 交互式编程套 | Claude Pro 月卡 CDK（¥168）或 Claude Max 5x CDK（¥799） | ¥168 或 ¥799 / 月 | 终端 Claude Code 直接读写本地仓库，多文件重构顺滑；Max 5x 解锁 5 倍高频用量 | 全栈开发、前端/移动端重构、重度依赖 Claude 代码风格的程序员 |
+| OpenAI 深度推理编程套 | ChatGPT Pro 5x（¥699起）或 Pro 20x（¥1249起） | ¥699 ～ ¥1249 / 月 | 超大额度跑深度推理与云端 Codex 任务，攻克复杂后端逻辑与疑难 Bug | 后端架构师、算法工程师、高频跑自动化测试的开发者 |
+| 双持满血旗舰套（终极方案） | Claude Max 5x（¥799）+ ChatGPT Pro 20x（¥1249）或 Pro 25x（¥3719.9） | ¥2048 起 / 月 | 本地用 Claude Code 实时写码 + 后台用 Codex 并发跑重型任务，彻底告别限流等待 | 高产出全职独立开发者、AI 创业团队与技术负责人 |
+## 步骤
+1. 第一步：先明确自己的主力开发痛点——是「写业务代码和改多文件时频繁撞上 5 小时限流」，还是「遇到深层架构难题和异步测试任务缺算力」。
+2. 第二步：如果主力用 Claude Code 且 Pro（¥168）每天下午就限流，直接升级 Claude Max 5x 月卡 CDK（¥799，需等旧 Pro 到期后核销）。
+3. 第三步：如果主力用 OpenAI 体系，日常中高频选 ChatGPT Pro 5x（¥699 起，多通道可选）；全天候高强度直接选 ChatGPT Pro 20x（¥1249，比 10x 只贵 13 元）。
+4. 第四步：如果当月只是临时赶项目缺 Codex 算力，无需换套餐，直接在已有付费账号上叠加兑换 Codex 250（¥95）/ 500（¥179）/ 1000（¥339）额度 CDK。
+5. 第五步：所有 CDK 均支持 24 小时自动发货并充入你自己的账号，无需交出密码；建议两个平台的账号都绑定独立邮箱并定期备份本地代码。
+一、Claude Code 与 ChatGPT Codex 到底有什么区别？
+很多程序员在选定订阅套餐前都会纠结：同样是花七八百块钱开高级会员，到底是开 Claude Max 5x（¥799） 跑 Claude Code，还是开 ChatGPT Pro 5x（¥699） / 20x（¥1,249） 跑 Codex？其实这两者在工程工作流里扮演的是完全互补的角色：
+
+Claude Code（搭配 Claude Pro / Max 5x）——「手把手结对编程大师」：
+  Claude 的强项在于极高的代码审美、极少偷懒省略代码（不爱写 // ... existing code 敷衍你），以及在命令行终端里直接检索你的本地代码库、一气呵成修改十几个关联文件。对于日常写全栈业务、改 React/Next.js 前端组件、写脚本，Claude 的第一遍跑通率极高。但 Claude Pro（¥168）的 5 小时滚动限额在连续喂入大文件后消耗很快，全职写代码建议上 Claude Max 5x 月卡 CDK（¥799）。
+
+ChatGPT Codex（搭配 ChatGPT Pro 5x / 10x / 20x / 25x 或额度包）——「深度架构师 + 云端异步苦力」：
+  OpenAI 的高阶推理模型在「卡了半天找不出原因的并发 Bug」「复杂 SQL 与分布式状态机设计」「底层算法优化」上往往能给出更严密的推导。同时，Codex 可以在云端沙箱里异步拉取代码、跑单元测试、修 Bug 并生成 PR。当你手头在写功能 A 时，可以把修 Bug B 和补测试 C 丢给 Codex 并行处理。
+
+二、按预算段给出 4 套现货选购方案
+1. 预算 ¥200 左右：先解决「够用」问题
+
+方案 A：Claude Pro 月卡 CDK（¥168） —— 适合每天中轻度写代码、还没有用上大仓库 Agent 的开发者。
+方案 B：ChatGPT Plus 月卡卡密（¥133.9） + Codex 250 额度 CDK（¥95） —— 总计 ¥228.9，既有 Plus 会员又备好了独立编程加油包。
+
+2. 预算 ¥700 ～ ¥800：单平台主力进阶（最受欢迎档）
+
+偏好 Claude 手感：Claude Max 5x · 月卡 CDK（¥799）。
+偏好 OpenAI 推理与 Codex：ChatGPT Pro 5x · 月卡 CDK（¥699），或选 Pro 5x 专线通道A（¥731.9）、Pro 5x 独立账单款（¥797.9，支持后续补差升级）、Pro 5x 可覆盖续费款（¥816.9）。
+只补纯 Codex 额度：Codex 500 额度 CDK（¥179） 或 Codex 1000 额度 CDK（¥339）（注意：免费账号不可用，也不是 API Key 余额）。
+
+3. 预算 ¥1,250 ～ ¥3,800：全天候重度开发与团队顶配
+
+高性价比 20x 档：ChatGPT Pro 20x · 月卡 CDK（¥1,249） 或 Pro 20x 站内卡付 CDK（¥1,259.9）；已有 Plus/5x 想中途升级可选 ChatGPT Pro 10x 支持升级款（¥1,235.9）。
+25x 满血封顶档：ChatGPT Pro 25x (Max) 站内卡付 CDK（¥3,719.9） 或 Pro 25x 支持 5x 抵扣升级款（¥3,839.9）。
+
+更多细节可参考：写代码选 Claude Max 5x 还是 ChatGPT Pro 5x、Claude Code 限流解决指南 与 ChatGPT Pro 全档位价格对比。
+⚠ 风险提示Codex 额度包（250/500/1000）仅限已有付费订阅的账号叠加使用，免费版 Free 账号无法兑换，且不属于 OpenAI API 余额。所有第三方 CDK 充值均质保订阅期，封号不在售后范围内，下单前请仔细阅读商品页顶部的账号要求。
+售后规则以各商品页写明的为准，下单即视为已阅读并接受商品页规则；因账号不符合使用条件或平台风控造成的问题不在售后范围内。
+逛逛店铺全部商品 →
+
+## 常见问题
+Q：Cursor、Claude Code 和 ChatGPT Codex 冲突吗？
+A：完全不冲突。很多开发者在 IDE 里写代码，终端开 Claude Code（用 Claude Max 5x 额度）做本地多文件重构，同时把复杂的架构设计和单元测试丢给 ChatGPT Pro / Codex，两者互补效率最高。
+
+Q：Codex 250 / 500 / 1000 额度包（¥95 / ¥179 / ¥339）能充到免费号或 API 里吗？
+A：不能。Codex 额度 CDK 是给 ChatGPT 网页/客户端内的 Codex 编程功能补充额度的，要求账号本身已是付费会员（如 Plus 或 Pro），免费账号无法使用，也不能当作 API Key 余额调用。
+
+Q：我现在是 Claude Pro 会员，今天写代码限流了，能直接买 Max 5x CDK 覆盖吗？
+A：Claude Max 5x CDK 要求账号当前无生效中的订阅。建议先在 Claude 设置里取消 Pro 自动续费，等当期 Pro 到期变回 Free 后再核销 Max 5x；如果今天急用，可以先开一个 ChatGPT Pro 5x（¥699）双持顶上。
+
+Q：ChatGPT Pro 5x 还没到期，额度用光了怎么办？
+A：有三种办法：① 直接买 Codex 250/500/1000 额度包叠加；② 购买支持 Plus/5x 升级的 ChatGPT Pro 10x CDK（¥1235.9）；③ 若之前买的是同通道独立账单 5x，可选支持 5x 抵扣升级的 Pro 25x CDK（¥3839.9）。
+
+Q：购买这些编程会员需要交出我的账号密码或代码仓库权限吗？
+A：完全不需要。所有 CDK 与卡密商品均由你自己在核销页面自助充值到个人账号，本店与店铺均不接触你的账号密码或任何代码数据。
+
+# Claude Pro 年付还是月付划算？$200/年 vs $20/月 怎么选（附按月 CDK ¥168）
+URL: https://ai-huiyuan.vercel.app/guides/claude-pro-annual-vs-monthly/
+- 按 Anthropic 定价页：Claude Pro 月付每月 20 美元；年付一次性收 200 美元，折合每月约 17 美元，一年比月付少花 40 美元（均不含税，价格以厂商页面为准）。
+- 年付是一次付清一整年；按 Anthropic 帮助中心的说明，除服务条款明确规定或法律要求的情形外，付款不予退款，中途取消只是到期不再续费，剩余时间照常可用。
+- 年付目前只适用于 Pro（以及团队版）；Max 计划按月订阅，没有年付选项。
+- 已确定会连续用满 12 个月、自己能顺利付款的人，年付单价最低；还在试用、需求可能变化、或不想绑卡的人，按月开更灵活，例如本站 Claude Pro 月卡 CDK ¥168 / 1 个月。
+
+
+## 对比
+| 对比维度 | 年付 | 月付 | 本站按月 CDK |
+| --- | --- | --- | --- |
+| 价格 | 200 美元 / 年（折合约 17 美元 / 月） | 20 美元 / 月 | ¥168 / 1 个月 |
+| 付款方式 | 一次付清一年，需要自己绑卡 | 每月自动扣款，需要自己绑卡 | 店铺下单，CDK 充到自己的号，不用绑卡 |
+| 中途不想用了 | 可取消续费，已付款一般不退，用到年底 | 可取消续费，用到当期结束 | 用完当月不续即可 |
+| 升级到 Max | 需要调整套餐，规则以账单页面为准 | 可在账单设置里调整 | 可直接改买 Max 5x CDK（¥799） |
+| 适合谁 | 确定长期用、能自己付款 | 想先用几个月看看 | 不想绑卡、按需开通、偶尔断用 |
+## 步骤
+1. 先算清需求：过去两三个月是否几乎每周都在用 Claude？如果答案是否定的，先别急着年付。
+2. 能自己付款、确定会用满一年：在 Settings > Billing 选择年付；已在月付的用户可以在账单页把月付改成年付，月付剩余时间会抵扣到首张年付账单。
+3. 不想绑卡或只打算用一两个月：选按月开通，例如 Claude Pro 月卡 CDK（¥168），按商品页步骤充到自己的账号。
+4. 下单前对照商品页条件自查账号状态，到账后在 Settings > Billing 或用量页确认已是 Pro。
+5. 用一个周期后再评估：经常撞到 5 小时或每周限额，考虑 Max 5x；用得少就停一个月，不必一直续。
+年付到底省多少
+按 Anthropic 定价页的标价，Pro 月付每月 20 美元，连续 12 个月是 240 美元；年付一次收 200 美元，相当于每月约 17 美元，一年少花 40 美元，大约是两个月的月费。标价不含税，实际金额会因计税和付款渠道不同而变化，以付款页面显示为准。
+年付之前一定要知道的 3 条规则
+
+一般不退款：Anthropic 帮助中心写明，除服务条款明确规定或法律要求的情形外，付款均不退款。年付中途取消，只是不再自动续费，已经付的一年照常可用到期满。
+取消要提前：想避免下一期扣款，至少在下一个扣款日前 24 小时取消。
+只有 Pro 能年付：个人档里年付只针对 Pro，Max 计划按月订阅。如果你预计几个月后会升级到 Max，年付 Pro 的意义就没那么大。
+
+什么人适合年付，什么人更适合按月
+
+适合年付：每天都在用 Claude 写作或写代码、确定一年内不会换工具、自己的银行卡能顺利完成付款。
+适合按月：还在 ChatGPT、Claude、Grok 之间比较；工作节奏有淡旺季；不想绑卡；担心中途需求变化。按月买 Claude Pro 月卡 CDK（¥168），用完当月不续即可。
+预算优先：只是想先体验一个付费 AI，可以从 ChatGPT Plus 月卡卡密（¥133.9 / 30 天） 开始，对比见 ChatGPT Plus 和 Claude Pro 怎么选。
+Pro 额度明显不够：与其年付 Pro，不如看看 Claude Max 5x 月卡 CDK（¥799），区别见 Claude Pro 和 Max 的区别。
+
+和 ChatGPT Plus 对比一下
+ChatGPT Plus 目前按月结算，不支持年付或预付多月，所以“年付省钱”只在 Claude Pro 这边成立。两边都买的话，可以 Claude 年付、ChatGPT 按月，也可以都按月、需要哪个开哪个。自己订阅遇到付款问题，可以先看 Claude Pro 订阅失败怎么办 和 Claude Pro 怎么开通。
+⚠ 风险提示CDK 充值成功后一般不支持退款；账号是否符合使用条件、是否会被平台风控由平台决定，不在售后范围内。厂商价格和套餐规则可能随时调整，以厂商页面为准。请勿共享账号。
+售后规则以各商品页写明的为准，下单即视为已阅读并接受商品页规则；因账号不符合使用条件或平台风控造成的问题不在售后范围内。
+逛逛店铺全部商品 →
+
+## 常见问题
+Q：Claude Pro 年付多少钱？
+A：按 Anthropic 定价页，年付一次 200 美元，折合每月约 17 美元；月付每月 20 美元。均不含税，以付款页面为准。
+
+Q：年付中途取消能退剩余的钱吗？
+A：一般不能。帮助中心写明除服务条款明确规定或法律要求的情形外付款不退；取消后可以用到当期结束。
+
+Q：月付可以改成年付吗？
+A：可以。在 Settings > Billing 调整套餐选择年付，月付剩余时间会自动抵扣到首张年付账单。
+
+Q：Claude Max 能年付吗？
+A：个人档的年付只针对 Pro，Max 按月订阅。
+
+Q：不想绑卡怎么开 Claude Pro？
+A：可以按月买 Claude Pro 月卡 CDK（¥168 / 1 个月），按商品页步骤充到自己的账号，不需要账号密码。
+
+# Grok 免费版和付费版有什么区别？免费额度够不够用、Plus / Premium / Super 怎么选（¥84.9 起）
+URL: https://ai-huiyuan.vercel.app/guides/grok-free-vs-paid/
+- 按 x.ai 定价页：免费版 0 美元，聊天、图片生成（Imagine）和 Grok Build 都只有有限次数，不含视频生成和 Grok Bot。
+- 付费档目前分 Plus（8 美元/月）、Premium（30 美元/月，额度为 Plus 的 4 倍）、Super（100 美元/月，15 倍）、Ultra（200 美元/月，50 倍），价格不含税，以厂商页面为准。
+- 付费档共用一个每周刷新的额度池，聊天、图片、语音等都从里面扣；用完后付费功能暂停到每周重置，免费档的聊天和语音额度仍可用，也可以另购额外额度或升级。
+- 只是聊天、偶尔生成图片：先用免费版；免费次数不够、想要更多额度：Grok Plus 月卡 ¥84.9；要视频生成、Grok Bot、最新模型：Grok Premium 卡密 ¥156.9 起。
+
+
+## 对比
+| 档位 | 厂商价格 | 主要区别 | 本站在售 |
+| --- | --- | --- | --- |
+| Free | 0 美元 | 有限聊天、有限图片生成与 Build，无视频生成、无 Grok Bot | — |
+| Plus | 8 美元 / 月 | 共享额度池，含 Chat、Voice、Imagine、Build | Grok Plus 月卡 ¥84.9 |
+| Premium | 30 美元 / 月 | Plus 的 4 倍额度，加视频生成、Grok Bot、最新模型、更快回复 | 卡密 ¥156.9 / SSO ¥204.9 |
+| Super | 100 美元 / 月 | Plus 的 15 倍额度，高峰期优先使用 | 月卡卡密 ¥468.9 / 15x SSO ¥528.9 |
+| Ultra | 200 美元 / 月 | Plus 的 50 倍额度，最早体验新产品和新模型 | Ultra 卡密 ¥829 / 50x SSO ¥936.9 |
+## 步骤
+1. 先用免费版跑一周：观察是否经常提示次数用完、是否需要视频生成或 Grok Bot。
+2. 只是免费次数不够、日常聊天和图片为主：选 Grok Plus 月卡（¥84.9），按商品页步骤兑换到自己的账号。
+3. 需要视频生成、Grok Bot、最新模型或更多额度：选 Grok Premium 卡密（¥156.9）；习惯 SSO 自助开通可选 ¥204.9 款。
+4. 每天大量生成视频或跑长任务、Premium 每周额度不够：再考虑 Grok Super（¥468.9 起）或 Ultra。
+5. 到账后在 Settings → Usage 查看额度百分比和每周重置时间，按实际消耗决定下个月要不要升降档。
+免费版能做什么，不能做什么
+按 x.ai 定价页，免费版可以日常聊天、少量生成图片、少量使用 Grok Build，适合偶尔问问题、看看实时话题。限制主要在两点：一是次数有限，用多了要等重置；二是视频生成、Grok Bot 等功能不在免费版里。
+付费版的额度是怎么算的
+按 Grok 帮助文档，付费用户不再按产品分别设每日上限，而是共用一个每周额度池：聊天、Imagine、语音、Build 都从同一个池子里扣，消耗多少看功能本身的算力需求——发一条文字消息用得很少，生成一段高质量视频或跑一个长任务会用掉多得多。额度池每周按设置页显示的时间重置，用完后付费功能暂停，免费档的聊天和语音额度仍然可以继续用；也可以在网页端购买额外额度（最低 5 美元起，一般一年内有效），或者升级到更高档位。
+按需求快速选
+
+只聊天、看实时资讯：免费版通常就够，没必要付费。
+免费次数经常不够：Grok Plus 月卡（¥84.9），是本站最便宜的 Grok 会员。
+要做视频、用 Grok Bot、用最新模型：Grok Premium 卡密（¥156.9），厂商推荐新用户从 Premium 开始。
+每天高强度使用：Grok Super 月卡（¥468.9），额度是 Plus 的 15 倍。
+拿不准 Grok 和 ChatGPT 选哪个：ChatGPT 这边最低价的付费入口是 ChatGPT Plus 月卡卡密（¥133.9 / 30 天），对比见 SuperGrok 和 ChatGPT Plus 哪个好。
+
+完整的档位价格和开通方式见 Grok 会员全档位对比，兑换步骤见 Grok 会员怎么开通。
+⚠ 风险提示x.ai 定价页写明其订阅只由其自己直接销售，其他来源的订阅可能被暂停或终止。第三方渠道开通存在掉订阅、被风控或封号的可能，封号不质保；卡密发出或开通成功后不退不换，质保范围以各商品页写明的为准。会员权益和额度由厂商决定，可能随时调整。
+售后规则以各商品页写明的为准，下单即视为已阅读并接受商品页规则；因账号不符合使用条件或平台风控造成的问题不在售后范围内。
+逛逛店铺全部商品 →
+
+## 常见问题
+Q：Grok 免费版有次数限制吗？
+A：有。按 x.ai 定价页，免费版的聊天、图片生成和 Build 都是有限次数，用完要等重置。
+
+Q：Grok 免费版能生成视频吗？
+A：不能。视频生成从 Premium 档开始提供。
+
+Q：Grok 付费档多少钱？
+A：厂商价格：Plus 8 美元/月、Premium 30 美元/月、Super 100 美元/月、Ultra 200 美元/月（不含税）。本站 Grok Plus 月卡 ¥84.9、Premium 卡密 ¥156.9、Super 月卡 ¥468.9。
+
+Q：付费额度用完了怎么办？
+A：付费功能会暂停到每周重置，免费档的聊天和语音仍可用；也可以购买额外额度或升级档位。
+
+Q：开 Grok 会员要给账号密码吗？
+A：不需要。Grok Plus 和 Premium 卡密款按商品页步骤自助兑换到自己的账号。
+
+# ChatGPT / Claude 会员拼车靠谱吗？共享号常见的 5 个坑与独享替代方案
+URL: https://ai-huiyuan.vercel.app/guides/ai-membership-carpool-risks/
+- 拼车 = 多人共用同一个付费账号。看起来分摊后很便宜，但服务条款普遍禁止共享账号凭据，多人多设备同时登录本身就是风控重点。
+- 公开论坛上常见的拼车纠纷有三类：整车被封连坐、名额超卖导致额度被挤占、车主收款后失联或拒绝退款。
+- 如果只是想省钱，优先考虑低档位独享（如 ChatGPT Go ¥49）；如果要长期稳定使用，选充到自己账号上的卡密/CDK，聊天记录和设置都在自己手里。
+- 任何方式都不能保证账号不被平台风控，下单前请先读完商品页的使用条件。
+
+
+## 对比
+| 对比维度 | 拼车 / 共享号 | 卡密 / CDK 充到自己的号 |
+| --- | --- | --- |
+| 账号归属 | 车主的号，你只是使用者 | 你自己的号 |
+| 聊天记录与隐私 | 同车的人都能看到 | 只有你自己能看到 |
+| 额度 | 多人分摊，高峰期容易被挤占 | 整份额度归你一个人 |
+| 被封后的影响 | 整车一起失效，常见连坐 | 只影响你自己的号，按商品页售后规则处理 |
+| 售后依据 | 多为私下约定，缺少凭证 | 商品页写明的规则 + 订单记录 |
+## 步骤
+1. 先确认自己的真实需求：偶尔用、每天用还是重度写代码，决定要不要上高档位。
+2. 如果正在考虑拼车，先问清楚：一辆车几个人、能否查看额度、被封怎么退、是否走有交易保障的平台付款。任何一项答不上来都建议放弃。
+3. 想独享又不想交密码：选卡密或 CDK，充到自己的账号上（ChatGPT Plus 卡密 ¥133.9、Claude Pro CDK ¥168）。
+4. 下单前对照商品页条件自查，例如 ChatGPT Plus 卡密要求账号当前无订阅、未用过 $0 充值、不在 Team 工作区中。
+5. 付款后按商品页步骤自助兑换，到账后截图保存订单号，以便出现问题时按商品页规则处理。
+拼车为什么容易出问题
+多人共用一个账号，平台看到的是同一个账号在不同设备、不同网络环境下频繁登录，还经常同时开多个会话。这类行为在各家服务条款里通常都被视为共享或转售账号，一旦被风控识别，往往是整个账号停用，同车的人一起受影响。公开技术论坛上可以看到不少类似讨论：有人反映刚上车不久账号就被封，有人遇到车主收款后迟迟不交付、不退款。
+拼车最常见的 5 个坑
+
+连坐封号：一个人的使用行为触发风控，整车失效。
+超卖：车主拉的人比说好的多，高峰时段额度很快被耗尽。
+隐私外泄：同车的人能看到你的对话、上传的文件和项目内容。
+私下转账无保障：不走平台交易，出了问题很难追回。
+规则全靠口头：“封号退款”的计算方式事后容易扯皮。
+
+想省钱又想独享，可以怎么选
+预算有限、只做日常问答：先看 ChatGPT Go 月卡（¥49）。需要更强的推理和更多工具额度：ChatGPT Plus 月卡卡密（¥133.9），提交自己账号的 session 自助充值，无需密码。偏好 Claude 写长文或入门编程：Claude Pro 月卡 CDK（¥168）。每天高强度用 Claude、经常撞到 Pro 限额：Claude Max 5x 月卡 CDK（¥799）。不确定交付方式的区别，可以先看 CDK、代充和成品号有什么区别 和 提交 Session 安全吗。
+⚠ 风险提示卡密/CDK 充值同样不能保证账号永久可用：账号是否会被平台风控取决于平台规则和你自己的使用方式。请勿把账号分享给他人使用；充值成功后一般不支持退款，质保范围以各商品页写明的为准。
+售后规则以各商品页写明的为准，下单即视为已阅读并接受商品页规则；因账号不符合使用条件或平台风控造成的问题不在售后范围内。
+逛逛店铺全部商品 →
+
+## 常见问题
+Q：拼车被封了能退钱吗？
+A：取决于车主的私下约定，多数没有书面凭证，追回难度大。买之前就要问清楚退款计算方式，并尽量走有交易保障的平台。
+
+Q：几个人合用一个 Plus 账号会被封吗？
+A：服务条款禁止共享账号凭据，多人多设备频繁登录容易触发风控。是否被封无法预测，但风险明显高于一人一号。
+
+Q：不想拼车又想省钱怎么办？
+A：先从低档位独享开始，例如 ChatGPT Go（¥49）；确实需要高级功能再升级到 Plus 卡密（¥133.9）。
+
+Q：卡密充值需要交出账号密码吗？
+A：不需要。本站在售的 ChatGPT Plus 卡密按商品页步骤提交 session 自助充值，Claude Pro / Max 5x 为 CDK，均不需要账号密码。
+
+Q：充到自己号上就一定不会出问题吗？
+A：不能保证。平台风控由平台决定，请先按商品页条件自查，售后范围以商品页为准。
+
+# 写代码选 Claude Max 5x 还是 ChatGPT Pro 5x？Claude Code 与 Codex 重度用户对比（¥799 vs ¥699）
+URL: https://ai-huiyuan.vercel.app/guides/claude-max-5x-vs-chatgpt-pro-5x-coding/
+- 两者都是各家面向重度用户的高档位，Claude Max 与 ChatGPT Pro 的厂商定价都是每月 100 美元起（以厂商页面为准）；本站参考价 Claude Max 5x CDK ¥799、ChatGPT Pro 5x CDK ¥699。
+- Claude Code 偏“结对编程”：在终端里边看计划边让你介入，适合复杂多文件改动和架构梳理；Claude 的聊天和 Claude Code 共用同一份额度。
+- Codex 偏“派任务”：适合把边界清楚、能用测试验证的任务交出去并行跑；ChatGPT Pro 的额度按模型和功能分别计算，Codex 等功能用完套餐额度后还可另购 credits。
+- 还没确认自己是不是重度用户，先用 Plus 卡密（¥133.9）或 Claude Pro CDK（¥168）跑一个月再升级。
+
+
+## 对比
+| 对比维度 | Claude Max 5x | ChatGPT Pro 5x |
+| --- | --- | --- |
+| 本站参考价 | ¥799 / 1 个月（CDK，质保订阅） | ¥699 / 1 个月（CDK，质保 30 天） |
+| 主力编程工具 | Claude Code | Codex |
+| 额度计算 | 按滚动 5 小时窗口 + 每周上限，聊天与 Claude Code 共用 | 按模型和功能分别计算，某个模型到上限可换用其他模型或等重置 |
+| 工作风格 | 展示计划、随时打断调整，适合边做边引导 | 适合把明确任务整块交出去，多任务并行 |
+| 更适合 | 大型代码库理解、复杂重构、长文写作兼顾 | 多个中小项目、测试驱动的修 bug 与迭代 |
+| 交付方式 | CDK 卡密，按商品页步骤充到自己账号 | CDK 卡密，按商品页步骤充到自己账号 |
+## 步骤
+1. 回顾过去一个月：是否经常在 Pro / Plus 档撞到额度上限？没有的话先别急着上 5x。
+2. 按工作方式选：喜欢在终端里和 AI 一起一步步改代码，选 Claude Max 5x；习惯把任务拆好交出去并行处理，选 ChatGPT Pro 5x。
+3. 确认账号条件：两款都是充到自己的账号，下单前读完商品页的使用条件与质保说明。
+4. 在店铺下单付款，按商品页步骤自助兑换，到账后在账号设置里确认套餐已生效并截图保存订单号。
+5. 用满一个周期后再评估：额度仍然不够，再考虑更高档位或两边各留一个基础档交叉使用。
+额度怎么理解，为什么“5x”不等于同样多
+两家都用“5x”来表示相对于基础付费档的倍数，但基数和计算方式不同，不能直接横向换算。Claude 的付费档按滚动 5 小时窗口计算，另有每周上限，而且网页聊天、桌面端和 Claude Code 共用同一份额度——一个下午的高强度编程可能把聊天额度也一起用掉。ChatGPT Pro 的额度按模型和功能分别计算，某个模型到上限后可以换用其他模型或等待重置；Codex 等功能用完套餐内额度后，还可以在用量设置里另购 credits 继续使用。
+按场景快速选
+
+单个大型项目、经常需要 AI 先读懂整个代码库：倾向 Claude Max 5x（¥799）。
+同时维护多个中小项目、任务能写成清晰的需求和测试：倾向 ChatGPT Pro 5x（¥699），本站价格也更低。
+预算允许：一个主力 5x 档 + 另一家的基础档做交叉审查，是不少开发者的组合用法。
+还在入门阶段：先用 ChatGPT Plus 卡密（¥133.9） 或 Claude Pro CDK（¥168），参考 Claude Code 限流怎么办 与 Codex 额度怎么选。
+
+容易踩的坑
+
+在终端环境变量里设置了 API Key 时，编程工具可能按 API 计费而不是走会员额度，用前检查一下。
+高强度自动化、多人共用同一账号容易触发风控，5x 档同样只供个人使用。
+额度和功能会随厂商调整变化，以账号内实际显示为准。
+
+⚠ 风险提示CDK 充值成功后一般不支持退款；账号是否符合使用条件、是否会被平台风控由平台决定，不在售后范围内。质保范围以各商品页写明的为准，请勿共享账号或用于批量自动化。
+售后规则以各商品页写明的为准，下单即视为已阅读并接受商品页规则；因账号不符合使用条件或平台风控造成的问题不在售后范围内。
+逛逛店铺全部商品 →
+
+## 常见问题
+Q：Claude Max 和 ChatGPT Pro 厂商价格多少？
+A：两者厂商定价都是每月 100 美元起（以厂商页面为准）。本站 Claude Max 5x CDK 参考价 ¥799，ChatGPT Pro 5x CDK 参考价 ¥699。
+
+Q：Claude Code 和 Claude 聊天共用额度吗？
+A：是的，网页、桌面端、移动端和 Claude Code 共用同一份额度，按滚动 5 小时窗口和每周上限计算。
+
+Q：只写一点代码有必要买 5x 吗？
+A：没必要。先用 ChatGPT Plus 卡密（¥133.9）或 Claude Pro CDK（¥168），确实经常撞到上限再升级。
+
+Q：两款 CDK 需要提供账号密码吗？
+A：不需要，按商品页步骤自助兑换到自己的账号。
+
+Q：到账后怎么确认生效？
+A：在账号的套餐或订阅页面查看当前档位，并保存订单号和截图，遇到问题按商品页规则处理。
+
+# ChatGPT 免费版和 Plus 有什么区别？2026 值不值得开 Plus（附 ¥49 / ¥133.9 开通选择）
+URL: https://ai-huiyuan.vercel.app/guides/chatgpt-free-vs-plus/
+- 免费版可以做日常文字对话，但上传文件、生成图片、语音、深度研究和高级推理模型的用量都更受限，达到上限要等重置。
+- Plus 厂商定价为每月 20 美元，按月结算，目前不支持年付；提供更强的推理模型、更高的消息与上传额度、项目与计划任务、更多 Codex 用量。
+- Plus 仍有用量上限，不等于无限使用；API 用量另外计费，不包含在 Plus 里。
+- 偶尔问答、翻译、润色：免费版或 Go（¥49）就够；经常处理文件、写代码、做数据分析，并且免费额度频繁打断工作：考虑 Plus 卡密（¥133.9）。
+
+
+## 对比
+| 对比维度 | 免费版 | Go | Plus |
+| --- | --- | --- | --- |
+| 本站参考价 | — | ¥49 / 1 个月 | ¥133.9 卡密 / ¥148 CDK（30 天） |
+| 日常文字对话 | 可用（受防滥用规则约束） | 可用 | 可用 |
+| 文件上传 / 图片生成 / 语音 | 受限 | 比免费版多 | 更高额度 |
+| 高级推理模型 | 有限 | 有限 | 包含 |
+| 项目、计划任务 | — | — | 包含 |
+| Codex 编程 | 有限使用 | 有限使用 | 更多用量 |
+## 步骤
+1. 先用免费版记录一周：遇到了哪些“已达上限”提示，是上传、图片、深度研究还是推理模型。
+2. 如果只是偶尔撞限，先试 ChatGPT Go（¥49）；如果每天都被打断，直接选 Plus。
+3. 选 Plus 交付方式：已有自己的账号、不想交密码，选 Plus 卡密 ¥133.9（提交 session 自助充值）；习惯兑换码核销，选 Plus CDK ¥148。
+4. 下单前自查：账号当前无订阅、未用过 $0 充值、不在 Team 工作区中（以商品页条件为准）。
+5. 付款后按商品页步骤充值，到账后在设置里确认套餐为 Plus；升级后免费版已触发的限额会随之重置。
+免费版够用的人
+如果你主要用 ChatGPT 做翻译、润色、简单问答，每天对话量不大，也很少上传文件和生成图片，免费版基本够用。默认模型和可用额度会随时间调整，具体以账号内显示为准。
+值得开 Plus 的信号
+
+经常上传 PDF、表格做分析，频繁看到上传或数据分析的上限提示。
+需要更强的推理模型处理编程、复杂规划或多步骤分析。
+想用项目、计划任务，或用 Codex 写代码。
+高峰时段经常排队或响应慢，影响工作节奏。
+
+Go 和 Plus 怎么取舍
+Go 是介于免费版和 Plus 之间的入门付费档，主要多给了工具、上传、图片和语音的额度，但不含 Plus 的高级推理、项目与计划任务。预算紧可以先用 ChatGPT Go 月卡（¥49） 过渡；确定需要高级功能再上 ChatGPT Plus 卡密（¥133.9）。更详细的对比见 ChatGPT Go 和 Plus 选哪个，价格梯度见 ChatGPT Plus 多少钱一个月。
+开通前常见误区
+
+以为 Plus 是无限用：Plus 同样有用量上限，高需求期间可能更严格。
+以为 Plus 包含 API：API 单独计费，Plus 不含 API 额度。
+想一次买一年：Plus 目前按月结算，不支持年付或预付多月，到期再续即可，见 ChatGPT Plus 怎么续费。
+
+⚠ 风险提示卡密/CDK 充值成功后一般不支持退款；请先确认账号满足商品页的使用条件。账号是否会被平台风控由平台决定，因不符合使用条件或平台风控造成的问题不在售后范围内，具体质保以商品页为准。
+售后规则以各商品页写明的为准，下单即视为已阅读并接受商品页规则；因账号不符合使用条件或平台风控造成的问题不在售后范围内。
+逛逛店铺全部商品 →
+
+## 常见问题
+Q：ChatGPT 免费版能一直用吗？
+A：可以。免费版的日常文字对话不限次数（需遵守防滥用规则），但文件上传、图片生成、语音和高级功能有更严格的限额。
+
+Q：ChatGPT Plus 一个月多少钱？
+A：厂商定价每月 20 美元、按月结算；本站 Plus 卡密参考价 ¥133.9 / 30 天，CDK ¥148 / 30 天。
+
+Q：开了 Plus 就没有次数限制了吗？
+A：不是。Plus 的额度更高，但仍有用量上限，高峰期可能更严格。
+
+Q：Plus 能年付吗？
+A：目前不支持年付或预付多月，按月续费即可。
+
+Q：免费版撞到上限后升级 Plus，限额会重置吗？
+A：会。免费账号达到限额后升级到 Plus，使用限额会随之重置。
+
+# Muse Token 成品账号怎么选？10亿/50亿/300亿 Token（¥18.9 起）与 Gmail / Outlook / X / Facebook 成品号指南
+URL: https://ai-huiyuan.vercel.app/guides/muse-token-account-guide/
+- 需要大批量 Token 额度、不想绑卡按量计费：本站新上架 Muse Token 成品账号三档（10 亿 ¥18.9 / 50 亿 ¥28.9 / 300 亿 ¥58.9），自动发货、即买即用。
+- 单价折算：10 亿档每 10 亿 ¥18.9；50 亿档每 10 亿约 ¥5.78；300 亿档每 10 亿仅约 ¥1.96，跑量越大越省钱。
+- 独立邮箱配齐：注册 AI 平台缺独立邮箱可选微软 Outlook/Hotmail 令牌版（¥15.9）或 Google Gmail 老账号（¥27.9）。
+- 常用社交成品号：需要现成社交号直接登录 Grok 或主流应用，可选 X (Twitter) 带 2FA 成品号（¥21.9）或 Facebook 成品号（¥33.9）。
+- 成品号注意事项：付款拿到账号后请第一时间登录核验（Muse 账号可按商品页说明使用公开收件箱接收验证码），具体售后规则以店铺对应商品页说明为准。
+
+
+## 对比
+| 在售商品 | 本站参考价 | 规格/折算 | 交付方式 | 适合谁 |
+| --- | --- | --- | --- | --- |
+| Muse 10亿 Token 成品账号 | ¥18.9 | ¥18.9 / 10亿 | 自动发货成品号 | 第一次试水、轻度测试调用 |
+| Muse 50亿 Token 成品账号 | ¥28.9 | 约 ¥5.78 / 10亿 | 自动发货成品号 | 只比 10 亿档贵 10 元，额度多 5 倍，日常主力首选 |
+| Muse 300亿 Token 成品账号 | ¥58.9 | 约 ¥1.96 / 10亿 | 自动发货成品号（质保首登） | 高频长上下文、批量生成与重度消耗 |
+| 微软 Outlook/Hotmail 邮箱（令牌版） | ¥15.9 | ¥15.9 / 个 | 自动发货邮箱账号+令牌 | 低成本注册 ChatGPT / Claude / Grok 等主流平台 |
+| Google Gmail 老账号（成品号） | ¥27.9 | ¥27.9 / 个 | 自动发货谷歌老邮箱 | 需要 Google OAuth 一键登录或高权重老邮箱 |
+| X (Twitter) 成品账号（带2FA） | ¥21.9 | ¥21.9 / 个 | 自动发货账号+密码+2FA | 直接用于登录 Grok 或日常浏览 X 实时资讯 |
+| Facebook 成品账号 | ¥33.9 | ¥33.9 / 个 | 自动发货成品账号（带2FA） | 需要现成 Facebook 账号绑定主流服务或日常使用 |
+## 步骤
+1. 根据用途选择对应成品号：跑大模型 Token 选 Muse 10 亿（¥18.9）/ 50 亿（¥28.9）/ 300 亿（¥58.9）；需要邮箱或社交号选 Outlook（¥15.9）、Gmail 老号（¥27.9）、X（¥21.9）或 Facebook（¥33.9）。
+2. 在本站 Muse / 账号品类页点击对应商品跳转第三方店铺，付款前先读完商品页顶部的说明。
+3. 在店铺收银台完成付款，订单页会立即显示发货的账号信息（也可在 catfk.com/order 查询）。
+4. Muse 账号登录时如需接收邮箱验证码，直接打开商品页说明里的公开收件箱网址即可查看验证码。
+5. 拿到账号后请立即登录核对额度与状态，并保存订单号与截图。
+为什么 Muse 50 亿和 300 亿档更划算
+从价格梯度可以直观看到：Muse 10 亿 Token 成品号（¥18.9） 定位是低门槛试水；而 Muse 50 亿 Token 成品号（¥28.9） 只需要多花 10 元，可用 Token 数量直接翻了 5 倍；如果你有批量文本处理、长上下文对话或团队高频测试需求，Muse 300 亿 Token 成品号（暂时缺货，补货后恢复）折算下来每 10 亿 Token 不到 2 元，是单位额度成本最低的一档。商品说明中已附上公开收件箱地址，拿到账号即可直接收验证码登录。
+Outlook 令牌邮箱（¥15.9）与 Google Gmail 老账号（¥27.9）怎么选
+不少读者在自己注册 ChatGPT、Claude、Grok 等账号以便使用 CDK 卡密充值时，会被国内邮箱无法注册或收不到验证码卡住。本站同步上架两款独立邮箱成品号：
+
+微软 Outlook/Hotmail 邮箱 · 令牌版（¥15.9）：全新微软邮箱成品号，附带长效令牌，库存充足、价格最低，适合需要干净邮箱注册独立 AI 账号的用户。
+Google Gmail 老账号 · 成品号（¥27.9）：谷歌老账户成品号，适合习惯使用「Continue with Google」一键登录各家主流 AI 网站、或对邮箱注册年限与权重有更高要求的用户。
+
+X (Twitter) 成品号（¥21.9）与 Facebook 成品号（¥33.9）适用场景
+除了邮箱，许多主流 AI 与工具平台支持或要求绑定社交账号：
+
+X (Twitter) 成品账号 · 带2FA（¥21.9）：自带两步验证（2FA）和绑定邮箱信息，既可以用于日常刷 X 上的 AI 圈一手动态，也可以作为基础账号去开通本站的 Grok Plus 月卡（¥84.9）或 Grok Premium（¥204.9）。
+Facebook 成品账号 · 即买即用（¥33.9）：适合需要现成 Facebook 老号登录主流应用或日常社交使用的读者。
+
+成品号使用与验号提醒
+
+到手即验：虚拟成品账号发出后，请在第一时间登录验证账号状态与额度（其中 300 亿 Token 款明确为质保首登）。
+备份重要产出：成品账号并非由你本人实名注册，日常生成的重要内容请随手保存在本地，不要把成品号当作唯一的数据仓库。
+查单与售后：若订单页不小心关闭，可随时前往 catfk.com/order 找回发货内容；遇到首登异常请保留完整截图并在商品页「联系TA」留言。
+
+⚠ 风险提示成品账号与邮箱商品均为第三方注册的虚拟商品，发货后不支持无理由退换。请收到后立即完成首次登录核验；具体质保范围（如质保首登）以店铺商品页说明为准，因买家自身违规操作或超时未验号导致的问题不在售后范围内。
+售后规则以各商品页写明的为准，下单即视为已阅读并接受商品页规则；因账号不符合使用条件或平台风控造成的问题不在售后范围内。
+逛逛店铺全部商品 →
+
+## 常见问题
+Q：Muse Token 成品账号付款后怎么发货？怎么收验证码？
+A：全天自动发货，付款成功后立即在订单页显示账号信息；如需邮箱验证码，按商品页说明打开公开收件箱网址即可直接查看。
+
+Q：10亿、50亿和 300亿 Token 选哪个？
+A：测试流程选 10 亿（¥18.9）；日常使用最推荐 50 亿（¥28.9，比 10 亿只贵 10 元）；重度消耗选 300 亿（¥58.9）。
+
+Q：Outlook 邮箱（¥15.9）和 Gmail 老账号（¥27.9）有什么区别？
+A：Outlook 令牌版价格更低（¥15.9），适合收发注册验证码；Gmail 老账号（¥27.9）支持谷歌一键登录主流站点，老号稳定性更好。
+
+Q：X (Twitter) 成品号（¥21.9）带 2FA 是什么意思？
+A：发货内容包含两步验证密钥，登录时可按说明生成 6 位验证码，比无 2FA 裸号更容易通过登录验证。
+
+Q：成品号能充到我自己的号上吗？
+A：不能。成品号是已经注册好或带好额度的现成账号，直接登录使用。
+
+# 没有账号或不想自己注册？ChatGPT Plus 成品号 ¥106.9 与卡密充值 ¥133.9 怎么选
+URL: https://ai-huiyuan.vercel.app/guides/chatgpt-plus-finished-account-vs-cdk/
+- 还没有 ChatGPT 账号、或想付款后马上拿到现成 Plus 账号直接用：选 Plus 成品账号 ¥106.9（交付账号 + 密码 + 2FA，订阅质保 30 天）。
+- 已经有自己的账号、想保留聊天记录和个人设置：选 Plus 月卡卡密 ¥133.9（提交 session 自助充值，无需密码）或 Plus CDK ¥148（兑换码自己核销）。
+- 两者售后边界不同：成品账号为第三方注册，封号风险高于自有账号充值，只保 30 天订阅、封号不质保，收到后请立即登录并修改密码。
+- 自有账号充值要求当前无正在生效的订阅、未用过 $0 充值、不在 Team 工作区中。
+
+
+## 对比
+| 对比维度 | Plus 成品账号（¥106.9） | Plus 月卡卡密（¥133.9） | Plus CDK（¥148） |
+| --- | --- | --- | --- |
+| 本站参考价 | ¥106.9 / 30 天 | ¥133.9 / 30 天 | ¥148 / 30 天 |
+| 有无账号要求 | 无需自己有号，直接发新号 | 需自备符合条件的免费号 | 需自备符合条件的免费号 |
+| 发货内容 | 账号 + 密码 + 2FA | 卡密（按指引提交 session 充值） | CDK 兑换码（自己核销） |
+| 原聊天记录 | 新账号，无旧记录 | 保留在自己账号内 | 保留在自己账号内 |
+| 售后与风险 | 质保 30 天订阅，封号不质保 | 质保 30 天，充成后不退 | 质保 30 天，核销后不退 |
+## 步骤
+1. 先看自己手里有没有能正常登录的 ChatGPT 账号，以及是否在意历史对话记录。
+2. 完全没账号或只想临时用一个现成号：选 ¥106.9 成品账号；有老账号想长期用：选 ¥133.9 月卡卡密或 ¥148 CDK。
+3. 点击本页对应商品按钮跳转第三方店铺，付款前先完整阅读商品页顶部的「下单前必看」。
+4. 买成品号：付款后在订单页拿到「账号 + 密码 + 2FA」，立即登录确认 Plus 状态并修改密码。
+5. 买卡密/CDK：确认自己账号无生效订阅、非 Team，按商品页说明提交 session 或核销 CDK。
+6. 保存订单号、发货内容与订阅生效截图，方便后续查询或联系店铺售后。
+为什么成品号（¥106.9）比充自己号（¥133.9）还便宜
+不少读者看到价格会好奇：为什么直接给一个带会员的账号只要 ¥106.9，而充到自己账号的月卡卡密是 ¥133.9？原因在于两者的成本结构和风险承担不同：成品号由上游批量注册并开通好 Plus，省去了在买家指定账号上核销的环节，因此单价更低；但因为账号本身是第三方注册的，平台风控和封号概率高于你自己的老账号，且封号不在质保范围内。
+什么情况选成品账号（¥106.9）
+
+手里还没有账号：不想自己折腾注册流程，希望付款后拿到账号就能直接对话。
+短期项目或备用号：只想临时用一个月的 Plus 跑任务，或者想和自己的主账号分开使用，不在乎下个月换号。
+
+成品账号发货内容包含账号、密码和 2FA（两步验证信息）。拿到后请第一时间登录核对 Plus 状态，并按说明立即修改密码；使用期间不要短时间内在多个设备或不同网络环境频繁切换，重要文稿随手备份到本地，不要只留在聊天记录里。
+什么情况选卡密充自己号（¥133.9 / ¥148）
+
+已经有常用的 ChatGPT 账号：里面有长期积累的对话历史、自定义指令（Custom Instructions）或记忆内容，不想换号重来。
+打算按月长期续用：用自己的账号按月充值，下个月到期后还能继续在同一个号上续（见 ChatGPT Plus 到期怎么续费）。
+
+充自己号有两款可选：追求性价比选 Plus 月卡卡密 ¥133.9（提交自己账号的 session 自助充值，不需要给密码，原理见 提交 Session 安全吗）；完全不想提交 session 凭证的，多花十多元选 Plus CDK ¥148，拿到兑换码自己在账号内核销。三种开通方式的通盘对比见 CDK、代充和成品号怎么选。
+⚠ 风险提示成品账号为第三方注册，风控与封号风险高于自有账号充值；本商品质保 30 天订阅（掉订阅可按规则售后），但封号不质保，收到后请立即登录并修改密码。自有账号充值须满足无生效订阅、未用过 $0 充值、不在 Team 中等条件，不符合条件不在售后范围内。
+售后规则以各商品页写明的为准，下单即视为已阅读并接受商品页规则；因账号不符合使用条件或平台风控造成的问题不在售后范围内。
+逛逛店铺全部商品 →
+
+## 常见问题
+Q：Plus 成品号 ¥106.9 付款后发什么？
+A：自动发货账号、密码和 2FA 验证信息，拿到后即可登录使用，请立即登录核对并修改密码。
+
+Q：成品号被封了能退或换吗？
+A：不能。成品号只保 30 天订阅（掉订阅可按商品页规则售后），封号不在质保范围内。
+
+Q：想保留原来的聊天记录选哪个？
+A：选充自己账号的款式：Plus 月卡卡密 ¥133.9（session 自助充值）或 Plus CDK ¥148。
+
+Q：充自己账号需要给密码吗？
+A：不需要。¥133.9 款提交 session 会话凭证，¥148 款自己核销兑换码，都不用提供密码。
+
+Q：Plus 成品号到期后还能续费吗？
+A：成品号一般作为单月使用，到期后若想长期稳定保留记录，建议注册自己的账号改用卡密充值。
+
+# 2026 Grok 会员全档位对比：Grok Plus ¥84.9、Premium ¥156.9 起、SuperGrok ¥429 起、Ultra 50x ¥936.9 差在哪
+URL: https://ai-huiyuan.vercel.app/guides/grok-plus-vs-grok-premium-vs-supergrok/
+- Grok Plus 月卡 ¥84.9 是本站最便宜的 Grok 会员：卡密充值到自己账号，质保 30 天（掉订阅按剩余天数退款），会员生效中不可叠加。
+- Grok Premium 两款可选：新上架卡密自助款 ¥156.9（无需密码、不可覆盖充值、质保 30 天）与 SSO 自助开通款 ¥204.9（质保 30 天）。
+- SuperGrok / Super 三款可选：SuperGrok 卡密 ¥429、Grok Super 月卡卡密自助 ¥468.9（含 1080p 视频生成与优先访问，不可覆盖）、以及 Grok Super 15x SSO 款 ¥528.9。
+- 顶配 Ultra 两款可选：Grok Ultra 卡密 ¥829（卡密自助兑换）与 Grok Ultra 50x 月卡 ¥936.9（额度为 Plus 的 50 倍，SSO 自助开通）。
+- SuperGrok 3 个月成品号目前暂时缺货 · 补货中；建议自己注册或买 X 成品号（¥21.9），直接用 ¥84.9 Grok Plus 或 ¥156.9 Premium 卡密开通。
+
+
+## 对比
+| 在售规格 | 本站参考价 | 交付/开通方式 | 叠加与账号条件 | 适合人群 |
+| --- | --- | --- | --- | --- |
+| Grok Plus 月卡 | ¥84.9 / 1 个月 | 卡密自助兑换（无需密码） | 会员生效中不可叠加，需到期后充 | 低预算尝鲜、日常轻中度用 Grok |
+| Grok Premium 月卡（卡密款） | ¥156.9 / 1 个月 | 卡密自助充值（无需密码） | 不可覆盖充值，需到期后充，质保30天 | 追求高性价比的正价 Premium 权益用户 |
+| Grok Premium 月卡（SSO款） | ¥204.9 / 1 个月 | 提交 SSO 自助开通（无需密码） | 开在自己账号，按商品页说明 | 每天稳定使用、习惯 SSO 自动开通 |
+| SuperGrok 卡密 | ¥429（质保 30 天） | 卡密自助兑换（无需密码） | 开在自己账号，不交任何凭证 | 不想提交 SSO、追求省心兑换 |
+| Grok Super 月卡（卡密款） | ¥468.9 / 1 个月 | 卡密自助充值（无需密码） | 不可覆盖充值，需到期后充，质保30天 | 需要更高额度与 1080p 视频生成 |
+| Grok Super 15x 月卡 | ¥528.9 / 1 个月 | 提交 SSO 自助开通（无需密码） | 开在自己账号，高额度倍数 | 高频长对话、普通档额度不够用 |
+| Grok Ultra 卡密 | ¥829（质保 30 天） | 卡密自助兑换（无需密码） | 开在自己账号，顶配档位 | 极重度深度研究与高并发需求 |
+| Grok Ultra 50x 月卡（SSO款） | ¥936.9 / 1 个月 | 提交 SSO 自助开通（无需密码） | 额度为 Plus 的 50 倍，质保30天 | 需要 50 倍顶配额度的重度用户 |
+## 步骤
+1. 先确认自己已经有一个能正常登录的 Grok 账号，且当前没有正在生效的同类付费订阅。
+2. 按预算和用量选档：第一次试水选 Grok Plus ¥84.9；日常主力选 Premium ¥204.9 或 SuperGrok 卡密 ¥429；重度选 Super 15x ¥528.9 或 Ultra ¥829。
+3. 在本站 Grok 品类页点击对应商品跳转第三方店铺，仔细阅读商品页顶部的「下单前必看」。
+4. 付款后在订单页取卡密：卡密款按指引直接在自己账号兑换；SSO 款按指引提交浏览器 SSO 凭证完成开通。
+5. 刷新 Grok 页面确认对应档位已生效，保存订单号与截图。
+Grok 为什么有这么多档位？怎么一眼分清
+很多第一次买 Grok 的读者会被 Plus、Premium、SuperGrok、Super 15x、Ultra 绕晕。其实从预算和开通方式两个维度看就非常清楚：
+
+百元以内入门（¥84.9）：Grok Plus 月卡 ¥84.9 是新上架的低门槛月卡，采用卡密充值到你自己的账号，不需要提供密码。质保 30 天，万一中途掉订阅按剩余天数退款（封号不在售后范围）。唯一要注意的硬性规则是：账号当前有生效中会员的不能叠加充值，必须等旧会员到期后再兑。
+两百元主力正价档（¥204.9）：Grok Premium 月卡 ¥204.9 适合每天都要刷 X 实时话题、用 Grok 写稿查资料的用户。它通过提交自己账号的 SSO 登录凭证自助开通，同样不需要密码，质保 30 天。
+四百元免凭证卡密档（¥429）：SuperGrok 卡密 ¥429 适合连 SSO 会话凭证都不想提交的用户，拿卡密自己兑换，详见 SuperGrok 卡密兑换教程。
+高倍数重度档（¥528.9 / ¥829）：如果你每天高强度跑深度推理、普通档经常碰到限流，再看 Grok Super 15x 月卡 ¥528.9（SSO 自助开通）或顶配 Grok Ultra 卡密 ¥829。各档具体功能与限额由 xAI 动态调整，请以厂商页面当前说明为准。
+
+SuperGrok 3 个月成品号缺货怎么办
+之前不少没有账号的读者会看 SuperGrok 3 个月成品号，该款目前上游断货、处于「暂时缺货 · 补货中」状态。其实自己注册一个 Grok 账号并不复杂，而且用自己的账号开通 Grok Plus ¥84.9 或 Grok Premium ¥204.9 有两个明显好处：一是历史对话都留在自己号里，二是不用承担成品号更高的异地登录风控风险。若你还在 Grok 和 ChatGPT 之间纠结，可对照 SuperGrok 和 ChatGPT Plus 哪个值。
+⚠ 风险提示第三方渠道开通存在被平台风控、掉订阅或封号的可能；所有 Grok 商品封号均不在售后范围内。Grok Plus 月卡在会员生效期内不可叠加充值；卡密发出或开通成功后不支持无理由退款。
+售后规则以各商品页写明的为准，下单即视为已阅读并接受商品页规则；因账号不符合使用条件或平台风控造成的问题不在售后范围内。
+逛逛店铺全部商品 →
+
+## 常见问题
+Q：现在最便宜的 Grok 会员是哪款？
+A：本站目前最便宜的是 Grok Plus 月卡 ¥84.9 / 1 个月，卡密自助兑换，质保 30 天。
+
+Q：Grok Plus ¥84.9 可以提前续费叠加时长吗？
+A：不可以。会员正在生效中的账号不能叠加充值，必须等当前会员到期后再兑换。
+
+Q：SSO 自助开通和卡密兑换有什么区别？
+A：两者都不需要账号密码。SSO 款需按指引提交浏览器里的 SSO 会话凭证；卡密款直接用兑换码核销。
+
+Q：SuperGrok 3 个月成品号什么时候有货？
+A：目前暂时缺货、补货中，恢复后会第一时间在 Grok 页面上架；急用建议用自己账号开 ¥84.9 Grok Plus 或 ¥204.9 Premium。
+
+Q：掉订阅了怎么售后？
+A：质保期内出现掉订阅，请保存账号订阅状态截图和订单号，在店铺商品页点击「联系TA」留言处理；封号不在售后范围。
+
+# Claude Code 额度不够用、频繁限流怎么办？Claude Pro ¥168 与 Max 5x ¥799 CDK 实测选购指南
+URL: https://ai-huiyuan.vercel.app/guides/claude-code-rate-limit-max-5x-20x/
+- 写代码、读多文件仓库最耗上下文：Pro 档位每天写一两个小时够用，全天挂着写代码或跑代理任务很容易撞上滚动窗口限流。
+- 本站 Claude Pro（¥168 / 1 个月）与 Claude Max 5x（¥799 / 1 个月）均为月卡 CDK 卡密充值，核销到你自己账号，无需提供密码，质保订阅。
+- Claude Max 5x 的可用额度约为 Pro 的 5 倍；Max 20x 目前暂未上架，绝大多数全职开发者用 Max 5x 已能大幅缓解限流。
+- 硬性条件：Claude CDK 只能充入「当前没有正在生效付费订阅」的账号。正在用 Pro 的用户，必须先取消续费、等 Pro 到期变回免费版后再核销 Max 5x CDK。
+- 避坑：市面上的「Claude 额度 API Key」属于第三方中转接口，不能给你的 Claude 账号或网页版补充订阅额度。
+
+
+## 对比
+| 方案 | 本站参考价 | 交付方式 | 适合的编程强度 | 关键注意事项 |
+| --- | --- | --- | --- | --- |
+| Claude Pro 月卡 CDK | ¥168 / 1 个月 | CDK 卡密充值（充自己号） | 日常查报错、写单文件脚本、改稿 | 账号须无生效中订阅，质保订阅 |
+| Claude Max 5x 月卡 CDK | ¥799 / 1 个月 | CDK 卡密充值（充自己号） | 每天数小时写代码、多文件重构、重度开发 | 约为 Pro 的 5 倍用量；须等旧订阅到期再兑 |
+| Claude Max 20x | 首批暂未上架 | — | 全天候跑自动化代理工作流 | 普通开发者很难用满，先从 5x 开始 |
+| Codex 250 / 500 / 1000 额度 | ¥95 / ¥179 / ¥339 | CDK 卡密（非 API） | 搭配 OpenAI Codex 分担编程任务 | 需付费 ChatGPT 账号，免费号不可用 |
+## 步骤
+1. 评估限流频率：如果一周只撞一两次限额，优化提示词并继续用 Claude Pro ¥168 即可；如果每天上下午都因为限流被迫停工，再升 Max 5x ¥799。
+2. 检查当前 Claude 账号状态：确认账号能正常登录，且当前没有正在生效的 Pro 或其他付费订阅（若有，先取消自动续费并等到期日结束）。
+3. 在本站 Claude 品类页选择 Claude Pro 月卡 CDK（¥168）或 Claude Max 5x 月卡 CDK（¥799），跳转店铺并读完「下单前必看」。
+4. 付款后在订单页复制 CDK 卡密，按商品页说明步骤在自己账号内完成核销。
+5. 核销后进入账号 Settings 查看订阅档位已变为 Pro 或 Max，保存订单号与截图。
+为什么写代码时 Claude 额度掉得特别快
+Claude 的订阅限额并不是简单按「发了几条消息」计算，而是与每次对话携带的上下文总长度、模型档位和滚动时间窗口紧密相关。写代码时，无论是把整个项目的多个源码文件贴进对话，还是在长会话里连续追问二三十轮，每一轮发送都会把前面的历史上下文重新计算一遍，消耗速度是普通聊天写稿的好几倍。
+Claude Pro（¥168）和 Max 5x（¥799）怎么选
+本站目前在售两档 Claude 订阅，全部采用月卡 CDK 卡密充值，开在你自己的账号上，不用交出密码：
+
+Claude Pro 月卡 CDK ¥168：适合把 Claude 当作辅助工具的人——比如每天问十几个技术问题、审查单个文件的代码、写文档。只要养成「改完一个模块就开新对话」的习惯，Pro 通常够用。
+Claude Max 5x 月卡 CDK ¥799：提供约 5 倍于 Pro 的用量空间，专门解决重度开发者「写到一半提示等待几小时恢复」的痛点。如果你每天有 3 小时以上高强度使用 Claude 写代码或读长报告，升级 Max 5x 省下的等待时间远超差价。更详细的档位拆解见 Claude Pro、Max 5x 和 20x 怎么选。
+
+从 Pro 升级 Max 5x 必看的硬性规则
+最多人踩的坑是：手里的 Claude Pro 还有十几天才到期，直接买了 Max 5x CDK 去兑换，结果报错失败。请务必记住：CDK 卡密不是补差价升级包，只能核销到当前处于免费状态的账号。如果你正在用 Pro，正确步骤是先取消自动续费，等当前周期走完、账号变回 Free，再用 Max 5x CDK 兑换（详见 Claude Max 5x 兑换步骤与失败排查）。如果不想干等，也可以准备一个符合条件的第二账号开通，或搭配 OpenAI 侧的 Codex 额度包（¥95 起） 分担日常编程任务。
+警惕「低价无限 Claude Code 额度 Key」
+不少地方会推销所谓的「Claude 额度充值 Key」。实际上，Anthropic 并未发行通用的零售额度充值码，市面上卖的 Key 绝大多数是第三方搭建的 API 中转站密钥：一不能充进你的 Claude 账号给网页版/客户端解锁 Max 权益，二来代码会经过未知第三方服务器，存在隐私泄露与随时跑路的风险。本站只上架直接核销到你自己账号的订阅 CDK。
+⚠ 风险提示Claude Pro 与 Max 5x CDK 均须在无正在生效付费订阅的账号上使用；因账号已有订阅或不符合商品页条件导致核销失败的，不在售后范围内。第三方渠道开通存在被平台风控或封号的可能，本商品质保订阅，封号不质保；卡密发出后不退不换。
+售后规则以各商品页写明的为准，下单即视为已阅读并接受商品页规则；因账号不符合使用条件或平台风控造成的问题不在售后范围内。
+逛逛店铺全部商品 →
+
+## 常见问题
+Q：Claude Pro ¥168 是代充还是卡密？
+A：现在本站的 Claude Pro（¥168）与 Claude Max 5x（¥799）均为月卡 CDK 卡密充值，按商品页说明核销到你自己账号，无需提供主邮箱密码。
+
+Q：正在用 Claude Pro，能直接买 Max 5x CDK 叠加升级吗？
+A：不能。必须先取消 Pro 的续费，等当前 Pro 到期变回免费状态后，才能核销 Max 5x CDK。
+
+Q：本店有 Claude Max 20x 吗？
+A：Max 20x 首批暂未上架。建议先用 Max 5x（¥799），绝大多数开发场景 5x 已经够用。
+
+Q：怎么让 Claude 额度更耐用？
+A：最有效的方法是「一个独立问题开一个新对话」，不要在一个已经聊了几十轮的超长对话里继续问新问题，并避免重复上传未改动的大文件。
+
+Q：遇到手机或身份验证提示怎么办？
+A：验证由 Anthropic 按其风控规则触发，请用本人真实信息按页面完成，切勿找人代过；详见本站《Claude 要验证怎么办》。
+
+# 2026 国内怎么买 ChatGPT Plus 最稳？卡密充值 ¥133.9、CDK ¥148、成品号 ¥106.9 与学生绑卡对比
+URL: https://ai-huiyuan.vercel.app/guides/chatgpt-plus-alipay-recharge-2026/
+- 国内用户自己订阅 ChatGPT Plus 最常卡在「没有外币卡」或「付款被拒」，频繁换卡重试反而容易触发账号风控。
+- 通过第三方发卡平台店铺购买，可在店铺收银台直接付款并自动取卡，无需自备外币卡。
+- 有自己账号的：首选 Plus 月卡卡密 ¥133.9 / 30 天（提交 session 自助充值，无需密码，质保 30 天），或选 Plus CDK ¥148 / 30 天（兑换码核销）。
+- 没有账号或不想注册的：选 Plus 成品账号 ¥106.9 / 30 天（发账号+密码+2FA，质保 30 天订阅，封号不质保）。
+- 已通过学生认证的账号：可选学生认证绑卡服务 ¥99（只保绑卡成功，未通过学生认证请勿下单）。
+
+
+## 对比
+| 开通方案 | 本站参考价 | 充到哪里 | 需要你提供什么 | 硬性前置条件 |
+| --- | --- | --- | --- | --- |
+| Plus 月卡卡密（主力推荐） | ¥133.9 / 30 天 | 你自己的账号 | 浏览器 session（不要密码） | 账号无生效订阅、未用过 $0 充值、非 Team |
+| Plus CDK 兑换码 | ¥148 / 30 天 | 你自己的账号 | 无需提供，自己拿码核销 | 账号无生效订阅、未用过其他兑换码、非 Team |
+| Plus 成品账号 | ¥106.9 / 30 天 | 直接发新账号 | 无需提供，拿号直接登录 | 接受成品号封号不质保，收到立即改密 |
+| Plus 学生认证绑卡 | ¥99 | 你自己的账号 | 按商品页说明提交必要信息 | 账号必须已通过学生认证（只保绑卡成功） |
+| ChatGPT Go 月卡 | ¥49 / 1 个月 | 按商品页说明 | 按商品页说明 | 只想低预算体验入门付费档 |
+## 步骤
+1. 按自己情况四选一：有号想省钱选 ¥133.9 月卡卡密；有号不想交 session 选 ¥148 CDK；没号选 ¥106.9 成品号；已过学生认证选 ¥99 绑卡。
+2. 选自有账号充值的，先登录 ChatGPT 确认当前是免费版（无正在生效的订阅）、没用过 $0 充值、不在 Team 工作区里。
+3. 在本站点击对应商品跳转第三方店铺，先读完商品页顶部的「下单前必看」，再在店铺收银台完成付款。
+4. 付款后订单页会自动显示卡密或成品号信息（也可随时在 catfk.com/order 查单）。
+5. 按商品页图文指引完成充值/核销或登录成品号修改密码，确认左下角或设置里已显示 Plus，保存订单号与截图。
+为什么不建议找虚拟卡平台反复试绑
+很多教程会教大家去开各种虚拟信用卡自己绑卡，但实际操作下来常遇到三个问题：一是开卡费、充值手续费和最低充值门槛加起来往往超过两百元；二是部分虚拟卡段早已被支付通道拉黑，一绑就被拒；三是短时间内在同一个账号上连续试绑多张被拒的卡，极易触发安全风控。相比之下，按月购买现成的卡密或 CDK，花多少付多少、不留自动扣费隐患，反而更省心。
+四种方案怎么对号入座
+
+有自己的账号、追求高性价比 → Plus 月卡卡密 ¥133.9：这是本站销量主力。付款后拿到卡密，在商品页指定的自助页面粘贴自己账号的 session 完成充值，全程不需要提供账号密码，30 天质保。
+有自己的账号、不想提交 session → Plus CDK ¥148：比 session 款贵 14.1 元，拿到一串兑换码自己在账号里核销，不暴露会话凭证（区别详见 提交 Session 安全吗）。
+没有账号、想立刻用上 → Plus 成品账号 ¥106.9：付款即发「账号 + 密码 + 2FA」，不用自己注册。注意成品号只保 30 天订阅、封号不质保，收到后请立即登录并修改密码（对比见 成品号 ¥106.9 与卡密 ¥133.9 怎么选）。
+账号已通过学生认证 → 学生认证绑卡服务 ¥99：专门解决「过了学生认证但没卡绑」的问题，只保绑卡成功；还没过认证的账号千万别拍（详见 学生认证绑卡说明）。
+
+下单前 30 秒必查三件事
+
+看订阅状态：账号当前必须是免费版，不能有尚未到期的 Plus 或 Team 席位（到期续费注意见 Plus 续费指南）。
+只在店铺收银台付款：所有交易均在第三方发卡平台店铺收银台完成，绝不要向任何私聊二维码转账。
+留存订单号：付款后把订单号和卡密截图保存，随时可在 catfk.com/order 查询。
+
+⚠ 风险提示第三方充值存在被平台风控、掉订阅或封号的可能，无人能承诺账号不被限制。自有账号充值须满足无生效订阅、未用过 $0 充值、不在 Team 中等条件，充值成功后不退款；成品账号封号不质保；学生认证绑卡仅限已通过认证的账号。
+售后规则以各商品页写明的为准，下单即视为已阅读并接受商品页规则；因账号不符合使用条件或平台风控造成的问题不在售后范围内。
+逛逛店铺全部商品 →
+
+## 常见问题
+Q：在店铺下单怎么付款？会自动续费扣款吗？
+A：跳转第三方发卡店铺收银台付款，按次购买单月卡密或成品号，到期不会自动扣你的钱。
+
+Q：¥133.9 和 ¥148 都是充自己号，选哪个？
+A：都不需要密码。¥133.9 需按指引提交浏览器 session，价格更划算；¥148 是纯兑换码核销，不交 session。
+
+Q：完全没有 ChatGPT 账号可以买 ¥133.9 卡密吗？
+A：不可以，卡密是用来给已有账号充值的。没有账号请选 ¥106.9 的 Plus 成品账号，或先自己注册一个免费号。
+
+Q：付款后多久发货？
+A：自动发卡商品付款成功后立即在订单页显示卡密或账号信息，也可在 catfk.com/order 输入下单联系方式查询。
+
+Q：Plus 额度不够用怎么办？
+A：日常使用 Plus 足够；若每天高强度跑长任务经常撞限额，可看本站 ChatGPT Pro 5x 月卡 CDK（¥699）或 Pro 20x（¥1249）。
+
+# OpenAI Codex 额度包是什么？250 / 500 / 1000 额度 CDK（¥95 起）免密码补充用量避坑说明
+URL: https://ai-huiyuan.vercel.app/guides/codex-250-credits-add-on-guide/
+- Codex 额度包是给已有付费订阅的 ChatGPT 账号补充 Codex 编程任务用量的 CDK 兑换码，无需提供账号密码。
+- 本站在售三档：250 额度 ¥95、500 额度 ¥179、1000 额度 ¥339，自动发货，自己核销。
+- 三大避坑红线：① 这不是 OpenAI API 余额（不能用于 platform.openai.com 的 API Key 调用）；② 免费（Free）账号不能使用；③ 封号不在售后范围内。
+- 算账法则：如果平时对话够用、只是写代码跑 Codex 额度不够，买 ¥95～¥339 额度包比直接升级 Pro 5x（¥699）更省钱；如果对话和深度推理也天天顶满，再上 Pro 5x / 20x。
+
+
+## 对比
+| 商品规格 | 本站参考价 | 交付方式 | 能否用于 API 调用 | 账号要求与适合人群 |
+| --- | --- | --- | --- | --- |
+| Codex · 250 额度 CDK | ¥95 | CDK 自动发货，自己核销 | 否（非 API 额度） | 非免费号；第一次试水、测算周消耗 |
+| Codex · 500 额度 CDK | ¥179 | CDK 自动发货，自己核销 | 否（非 API 额度） | 非免费号；每周固定用 Codex 改代码 |
+| Codex · 1000 额度 CDK | ¥339 | CDK 自动发货，自己核销 | 否（非 API 额度） | 非免费号；高频让 Codex 跑多文件任务 |
+| ChatGPT Pro 5x 月卡 CDK | ¥699 / 1 个月 | CDK 自动发货，自己核销 | 否（个人订阅档） | 无生效订阅、非 Team；对话与编程都重度 |
+| ChatGPT Pro 20x 月卡 CDK | ¥1249 / 1 个月 | CDK 自动发货，自己核销 | 否（个人订阅档） | 无生效订阅、非 Team；极重度全天候使用 |
+## 步骤
+1. 先确认你的 ChatGPT 账号当前不是免费（Free）账号——按商品页规则，免费账号无法使用 Codex 额度包（若还是免费号，先开 Plus ¥133.9）。
+2. 确认你的用途是在 ChatGPT 内使用 Codex 编程功能，而不是调用 OpenAI 开发者平台的 API Key。
+3. 第一次买建议选 Codex 250 额度（¥95），跳转店铺读完「下单前必看」后付款。
+4. 在订单页复制 CDK 兑换码，按商品页说明步骤在自己已登录的账号中完成核销，全程无需交出密码。
+5. 记录核销日期和未来一周的消耗速度，按实际消耗决定后续补 500（¥179）还是 1000（¥339）。
+先搞懂：Codex 额度包到底加在哪儿
+很多程序员搜「Codex 额度」「OpenAI 额度充值」时容易把两样东西混为一谈：
+
+OpenAI 开发者平台 API 余额（Credits）：那是给第三方软件、自建脚本通过 sk-... API Key 按 Token 扣费用的，在 platform.openai.com 结算。本站的 Codex 额度包不是 API 余额，不能用来调 API 接口。
+ChatGPT Codex 额度包（本站在售商品）：当你用付费 ChatGPT 账号在 Codex 环境里让 AI 读代码库、跑测试、交PR或执行多步编程任务时，套餐自带的额度用完后需要补充的专属用量包。通过 CDK 兑换码直接核销到你自己的账号里，不需要给商家密码。
+
+为什么免费账号不能直接买 Codex 额度包
+按商品规则，免费（Free）状态的 ChatGPT 账号无法核销使用 Codex 额度包。如果你的账号目前还是免费版，请先开通基础订阅（例如本站 ChatGPT Plus 月卡卡密 ¥133.9 或 Plus CDK ¥148），等账号变成付费会员后，再按需补充 Codex 额度包。
+买 Codex 额度包（¥95～¥339）还是直接升 Pro 5x（¥699）？
+这笔账很容易算：
+
+如果你日常聊天、查资料用 Plus（¥133.9）完全够用，只是写代码跑 Codex 时偶尔不够：Plus（¥133.9）+ Codex 250 额度（¥95）= ¥228.9，就算加到 500 额度（¥179）总计也才 ¥312.9，比直接买 ChatGPT Pro 5x 月卡 CDK（¥699） 省下一半以上。
+如果你不仅 Codex 用量大，平时网页端高级推理模型也天天撞限额，或者需要更高并发与完整 Pro 权益，那就在 Plus 到期后直接换 Pro 5x（¥699）或 Pro 20x（¥1249）。关于 250 额度具体能跑多少任务的估算方法，可参考 Codex 250 额度能用多久。
+
+⚠ 风险提示Codex 额度包（250 / 500 / 1000）均不是 API 额度，不能用于 API Key 调用；免费账号不可使用。因看错用途或使用免费账号导致无法核销的，不在售后范围内。第三方渠道充值存在风控可能，封号不质保；CDK 发出后不退不换。
+售后规则以各商品页写明的为准，下单即视为已阅读并接受商品页规则；因账号不符合使用条件或平台风控造成的问题不在售后范围内。
+逛逛店铺全部商品 →
+
+## 常见问题
+Q：Codex 额度包能给 Cursor 或其他软件填 API Key 用吗？
+A：不能。这是 ChatGPT 账号内的 Codex 额度（非 API），不是 platform.openai.com 的 API Key 余额。
+
+Q：免费账号买了 Codex 250 额度能兑吗？
+A：不能。按商品页规则，免费账号不可使用，请先确保账号已有生效的 Plus 或 Pro 订阅。
+
+Q：250、500、1000 额度包选哪个最划算？
+A：单价上 1000 额度（¥339）折算下来最低，但第一次买建议先选 250 额度（¥95）跑通流程并测算自己的消耗速度，确定用得完再买大包。
+
+Q：核销 Codex CDK 需要提供账号密码吗？
+A：不需要。付款后在订单页直接拿 CDK 卡密，按商品页说明自己在账号内核销。
+
+Q：核销报错怎么办？
+A：先不要反复提交同一个码，检查是否登错了账号或账号是否为免费版，截图报错页面并带订单号在商品页「联系TA」留言。
+
+# SuperGrok 和 ChatGPT Plus 哪个值？价格、开通方式与怎么选
+URL: https://ai-huiyuan.vercel.app/guides/supergrok-vs-chatgpt-plus/
+- 只想开一个、用途是日常写作/办公/学习/写代码：大多数人先选 ChatGPT Plus，本站月卡卡密 ¥133.9 / 30 天（没账号也可选 Plus 成品号 ¥106.9）。
+- 经常刷 X、想让 AI 结合 X 上的帖子和实时讨论来回答：Grok 更顺手。
+- 想最低成本试 Grok：Grok Plus 月卡 ¥84.9 / 1 个月（卡密兑换，到期后可充）；想用正价档选 Grok Premium 月卡 ¥204.9（SSO 开通，不要密码）。
+- 不想提交任何登录凭证：SuperGrok 卡密 ¥429，自己兑换。
+- 两个都开也可以，但先用一个月确认自己真的会用，再加第二个。
+
+
+## 对比
+| 对比项 | ChatGPT Plus | SuperGrok / Grok 系列 |
+| --- | --- | --- |
+| 本站价格 | 卡密 ¥133.9 / 30 天；CDK ¥148；成品号 ¥106.9 | Grok Plus 月卡 ¥84.9；Premium 月卡 ¥204.9；SuperGrok 卡密 ¥429 |
+| 开通方式 | 卡密自助充值或 CDK，开在自己账号上 | Grok Plus 卡密充值；Premium 提交 SSO；SuperGrok 卡密自己兑换 |
+| 更擅长的场景 | 通用写作、办公、学习、编程，生态和教程多 | 和 X 平台内容结合紧，适合关注实时话题的人 |
+| 同系列升级 | Pro 5x / 20x | Super 15x / Ultra |
+| 质保 | Plus 月卡卡密质保 30 天 | Grok Plus、Premium、SuperGrok 卡密质保 30 天 |
+## 步骤
+1. 先想清楚你最常用 AI 做什么：写东西、做表、写代码，还是跟进 X 上的话题。
+2. 前者先开 ChatGPT Plus；后者先开 Grok Plus、Grok Premium 或 SuperGrok。
+3. 用自己账号的，下单前确认账号没有正在生效的同类订阅。
+4. 在本站 ChatGPT 页或 Grok 页点击对应商品跳转店铺，读完商品页「下单前必看」后付款。
+5. 按商品页步骤充值或兑换，确认会员已生效，保存订单号和截图。
+6. 用满一个月，再决定续费、换另一家，还是两个都留。
+为什么多数人先选 Plus
+日常通用场景下，本站 ChatGPT Plus 月卡卡密 ¥133.9 / 30 天是主力之选（如果没有账号，还有 Plus 成品号 ¥106.9）。ChatGPT 的使用教程、插件和第三方工具最多，遇到问题容易搜到答案。日常写作、办公、学习和写代码，Plus 一般够用。Plus 有几种开法，价格差多少，见 ChatGPT Plus 怎么开最便宜。
+什么人更适合 Grok
+Grok 是 xAI 的产品，和 X 平台结合得紧，适合每天刷 X、想快速了解热门话题和讨论的人。如果你本来就重度用 X，Grok 的体验会更顺手。具体模型和功能以厂商页面为准，会随时调整。
+Grok 选哪一款
+预算最低，选 Grok Plus 月卡 ¥84.9，卡密充值到自己账号（会员到期后才能兑换）；想用正价档，选 Grok Premium 月卡 ¥204.9，提交 SSO 开通，不要密码；完全不想提交登录凭证，选 SuperGrok 卡密 ¥429，自己兑换；SuperGrok 3 个月成品号暂时缺货、补货中，没有账号的可先自己注册，再选上面几款。完整对比见 Grok 会员全档位对比，卡密兑换步骤见 SuperGrok 怎么买。
+还在犹豫的话
+想比较更多家：ChatGPT 和 Gemini 的对比见 Gemini 和 ChatGPT Plus 哪个好，和 Claude 的对比见 ChatGPT Plus 和 Claude Pro 怎么选。只是想先低价体验一个大模型会员，可以看 最便宜的 AI 会员；Gemini 目前暂时缺货、补货中，见 Gemini 页。
+⚠ 风险提示第三方渠道开通存在被平台风控、掉订阅或封号的可能，封号不质保；卡密发出或开通成功后不退不换。会员权益由厂商决定，可能随时调整。
+售后规则以各商品页写明的为准，下单即视为已阅读并接受商品页规则；因账号不符合使用条件或平台风控造成的问题不在售后范围内。
+逛逛店铺全部商品 →
+
+## 常见问题
+Q：SuperGrok 和 ChatGPT Plus 哪个便宜？
+A：本站 Grok 最低是 Grok Plus 月卡 ¥84.9 / 1 个月，Grok Premium 月卡 ¥204.9 / 1 个月，SuperGrok 卡密 ¥429；ChatGPT Plus 月卡卡密 ¥133.9 / 30 天（成品号 ¥106.9）。以店铺页为准。
+
+Q：只能开一个选哪个？
+A：日常写作、办公、编程优先 Plus；重度使用 X、关注实时话题的优先 Grok。
+
+Q：开 Grok 或 Plus 要给密码吗？
+A：不要。Plus 卡密和 CDK、Grok Plus 卡密、SuperGrok 卡密都是自己操作；Grok Premium 提交 SSO 凭证，不要密码。
+
+Q：可以两个都开吗？
+A：可以，两个账号互不影响；建议先用一个月再决定。
+
+Q：封号能退吗？
+A：不能，封号不在质保范围内，售后以商品页规则为准。
+
+# Claude Pro 订阅失败怎么办？付款被拒、扣款不生效的原因与处理
+URL: https://ai-huiyuan.vercel.app/guides/claude-pro-subscribe-failed/
+- 订阅失败最常见的是付款环节：卡片不支持外币或线上扣款、账单信息不一致、银行风控拦截。
+- 扣款成功但没变成 Pro：先刷新、退出重登，确认登录的是付款的那个账号，不要马上重复付款。
+- 同一个账号反复失败后，不要短时间内频繁换卡重试，容易触发更严格的风控。
+- 不想自己绑卡：本站 Claude Pro 月卡 CDK ¥168 / 1 个月（质保订阅），开在你自己的账号上，开通条件以商品页为准。
+- 验证类提示（手机或身份验证）由厂商发起，任何人都不能代过，见 Claude 要验证怎么办。
+
+
+## 对比
+| 你遇到的情况 | 常见原因 | 先这样处理 |
+| --- | --- | --- |
+| 付款提示卡被拒绝 | 卡片不支持外币/线上交易，或银行风控 | 查看银行 App 是否有拦截记录，开通相关功能后再试一次 |
+| 提示账单信息有误 | 卡号、有效期、账单地址与发卡行记录不一致 | 核对后重新填写，不要连续乱试 |
+| 已扣款但仍是免费版 | 账号不对、页面未刷新、订单处理中 | 刷新并退出重登，检查付款邮箱收到的收据 |
+| App 内购买失败 | 应用商店账号付款方式问题 | 在应用商店的付款设置里检查，或改用网页端 |
+| 跳出手机/身份验证 | 厂商风控规则，原因不公开 | 能用本人信息完成就按页面完成，完成不了不要找人代过 |
+## 步骤
+1. 截图保存报错提示和时间，先别重复点付款。
+2. 对照上表判断是付款问题、账号问题还是验证问题。
+3. 付款问题：在银行 App 里查拦截记录，确认卡片支持线上和外币交易，再只试一次。
+4. 扣款后没生效：刷新、退出重登，确认登录账号就是付款时的账号；查收付款邮箱的收据，必要时联系厂商帮助中心。
+5. 不想再自己绑卡的，先确认账号没有正在生效的付费订阅，再在本站 Claude 页选择 Claude Pro 月卡，读完商品页「下单前必看」后付款。
+6. 按商品页步骤开通，确认设置里显示 Pro 后保存订单号和截图。
+先分清是哪一类失败
+“订阅失败”通常是三类问题：付款没成功（卡被拒、信息不对）、付款成功但会员没到账（账号不对、处理延迟）、被要求验证（风控）。三类的处理方法完全不同，先看清提示再动手，能少走很多弯路。
+付款被拒为什么不要一直重试
+支付平台和银行都有风控。同一个账号在短时间内换很多张卡、反复提交，容易被判定为异常交易，之后即使换了能用的卡也可能被拦。正确做法是先找到原因（多数在银行一侧），解决后只试一次。
+扣了钱却没变成 Pro
+先确认登录的是付款时用的那个账号，很多人有两个邮箱注册的账号；再刷新页面或退出重登。付款邮箱里有收据但仍不生效的，联系厂商帮助中心处理。不要因为没生效就再付一次，可能会重复扣费。
+不想自己绑卡怎么办
+本站 Claude 页的 Claude Pro 月卡是 CDK 开通，¥168 / 1 个月，质保订阅，开在你自己的账号上，你不需要自己绑卡付款。下单前要确认账号符合商品页写明的条件，例如没有正在生效的付费订阅。Pro 和 Max 的区别见 Claude Pro 和 Max 怎么选，开通前的准备见 Claude Pro 怎么订阅，经常撞限额的看 Claude Pro 额度用完怎么办。
+遇到验证提示
+手机或身份验证由厂商按自己的风控规则发起，本站和店铺都不能替你完成或绕过。处理方法见 Claude 要验证怎么办。
+⚠ 风险提示第三方渠道开通存在被平台风控或封号的可能，封号不在质保范围内；CDK 发出或开通成功后不退不换。账号不符合商品页使用条件导致的失败，不在售后范围内。
+售后规则以各商品页写明的为准，下单即视为已阅读并接受商品页规则；因账号不符合使用条件或平台风控造成的问题不在售后范围内。
+逛逛店铺全部商品 →
+
+## 常见问题
+Q：Claude Pro 付款一直被拒怎么办？
+A：先在银行 App 查拦截记录，确认卡片支持线上和外币交易，核对账单信息后只再试一次，不要频繁换卡。
+
+Q：扣款了但没开通 Pro 怎么办？
+A：确认登录的是付款账号，刷新或退出重登；有收据仍不生效的联系厂商帮助中心，不要重复付款。
+
+Q：不绑卡能开 Claude Pro 吗？
+A：可以用本站 Claude Pro 月卡 CDK，¥168 / 1 个月，开在你自己的账号上，条件以商品页为准。
+
+Q：店铺能帮我过验证吗？
+A：不能。验证由厂商发起，任何人都不能代过。
+
+Q：开通失败能退款吗？
+A：售后以商品页规则为准；账号不符合使用条件导致的失败不在售后范围内。
+
+# Claude Pro 额度用完了怎么办？等重置、加购用量还是升级 Max
+URL: https://ai-huiyuan.vercel.app/guides/claude-pro-limit-reached/
+- Pro 的用量按时间窗口重置，偶尔撞限额，最省钱的办法是等重置。
+- Anthropic 允许 Pro/Max 用户在自己账号的 Settings > Usage 里开启用量加购，需要自己绑卡付款。
+- 每天都撞限额的，厂商帮助中心的建议是升级 Max；本站 Claude Max 5x 月卡 CDK ¥799 / 1 个月。
+- Max 5x CDK 只能兑换到没有正在生效付费订阅的账号：正在用 Pro 的，要先取消续费、等 Pro 到期后再兑换。
+- 市面上的“Claude 额度 Key”大多是中转接口，只能在 Claude Code 等客户端里用，不能给网页版或 App 补额度。
+
+
+## 对比
+| 办法 | 花费 | 要做什么 | 适合谁 |
+| --- | --- | --- | --- |
+| 等重置 | ¥0 | 看提示里的恢复时间，到点继续用 | 偶尔撞限额 |
+| 用量加购 | 按厂商标准价，自己付款 | 账号 Settings > Usage 里开启并充值 | 有可用外币卡、只是偶尔超一点 |
+| 升级 Max 5x | 本站 ¥799 / 1 个月 | 取消 Pro 续费，等到期后兑换 CDK | 每天长时间使用、经常撞限额 |
+| 继续用 Pro | 本站 ¥168 / 1 个月 | 到期后续上 | 用量够、能接受偶尔等待 |
+## 步骤
+1. 先看限额提示里的恢复时间：如果几个小时后就恢复，又不赶时间，直接等。
+2. 把长对话拆成新对话、减少反复上传大文件，同样的额度能用得更久。
+3. 确认自己是不是每天都撞限额；如果是，考虑升级 Max 5x。
+4. 升级前在账号设置里取消 Pro 的自动续费，等 Pro 到期、账号回到免费状态。
+5. 在本站 Claude 页点击 Max 5x 跳转店铺，读完商品页「下单前必看」后付款。
+6. 在订单页拿到 CDK，按商品页步骤在自己的账号里兑换，确认显示 Max 后保存订单号和截图。
+为什么 Pro 会“额度用完”
+Claude 的付费档位不是无限用。Pro 有一个按时间窗口计算的用量上限，对话越长、上传的文件越大、用的模型越强，消耗越快。撞到上限后会提示等待到某个时间再用，这不是账号出了问题。
+三条路分别多少钱
+等重置不花钱，适合偶尔撞一次的人。用量加购是厂商给 Pro/Max 用户的功能，在账号里开启后超出部分按标准价计费，帮助中心还列了预购套餐（例如付 $45 得 $50 额度），但都要用你自己的卡在账号内付款，第三方没法替你卖。升级 Max 5x适合每天高强度使用的人，本站 Claude 页的 Max 5x 月卡 CDK 是 ¥799 / 1 个月。
+升级 Max 5x 最容易踩的坑
+Max 5x CDK 只能兑换到当前没有正在生效付费订阅的账号。很多人 Pro 还没到期就兑换，结果失败。正确顺序是：先取消 Pro 自动续费，等 Pro 到期，再兑换 Max。兑换步骤见 Claude Max 5x 怎么开通，Pro 和 Max 的完整对比见 Claude Pro 和 Max 怎么选。
+“Claude 额度 Key”能不能买
+你可能看到有人卖“Claude 额度”“API 余额”。这类大多是中转接口的 Key，只能在 Claude Code、Cursor 等支持自定义接口的客户端里使用，不能给 Claude 网页版和 App 补额度，来源和稳定性也难判断。本站不卖这类商品。
+⚠ 风险提示Max 5x CDK 兑换后不退不换；账号有正在生效的付费订阅导致兑换失败的，不在售后范围内。第三方渠道开通存在被平台风控的可能，重要资料不要只放在一个账号里。
+逛逛店铺全部商品 →
+
+## 常见问题
+Q：Claude Pro 额度多久恢复？
+A：按时间窗口重置，具体恢复时间以限额提示为准；另有每周上限。
+
+Q：能单独买 Claude 额度吗？
+A：厂商的用量加购只能在你自己账号里付款开启；本站不卖额度类商品。
+
+Q：Pro 没到期能直接升级 Max 5x CDK 吗？
+A：不能。要先取消 Pro 续费、等 Pro 到期，再兑换 Max 5x CDK。
+
+Q：Max 5x 多少钱？
+A：本站 Claude Max 5x 月卡 CDK ¥799 / 1 个月，以店铺页为准。
+
+Q：中转 Key 能给网页版加额度吗？
+A：不能，只能在支持自定义接口的客户端里用。
+
+# Claude Max 5x 怎么开通？CDK 兑换条件、步骤与常见失败原因
+URL: https://ai-huiyuan.vercel.app/guides/claude-max-5x-how-to-redeem/
+- 本站 Claude Max 5x 是月卡 CDK，¥799 / 1 个月，质保订阅。
+- CDK 是兑换码，不是“补差价升级”，开在你自己的账号上。
+- 兑换前账号必须没有正在生效的付费订阅：正在用 Pro 的先取消续费，等到期再兑换。
+- 兑换失败先别反复提交，截图报错，带订单号联系店铺。
+
+
+## 步骤
+1. 登录自己的 Claude 账号，打开设置查看当前订阅状态。
+2. 如果正在用 Pro：取消自动续费，等到期日过后账号回到免费状态。
+3. 在本站 Claude 页点击 Max 5x 跳转店铺，读完商品页「下单前必看」后付款。
+4. 在订单页复制 CDK，按商品页步骤在自己的账号里兑换。
+5. 刷新后在设置里确认显示 Max，保存订单号和截图。
+Max 5x 适合谁
+Max 5x 的用量大约是 Pro 的 5 倍，适合每天长时间写作、读长文档或写代码、经常撞 Pro 限额的人。只是偶尔撞限额的，先看 Claude Pro 额度用完怎么办，不一定要升级。
+为什么一定要等 Pro 到期
+CDK 是给“免费状态”的账号开通订阅用的。账号上已经有生效中的付费订阅，系统不会叠加或补差价，兑换就会失败。所以从 Pro 升级的顺序是：取消续费 → 等到期 → 兑换 Max 5x。
+常见失败原因
+Pro 还没到期，或者刚续费过。登录的不是要兑换的那个账号。同一个码反复提交，被判定为已使用。
+更多兑换报错处理见 CDK 兑换报错怎么办；担心售后可以先看 续费、掉会员和退款常见问题。
+⚠ 风险提示CDK 兑换后不退不换；账号有正在生效的付费订阅导致失败的，不在售后范围内。第三方渠道开通存在被平台风控的可能。
+逛逛店铺全部商品 →
+
+## 常见问题
+Q：Claude Max 5x 多少钱？
+A：本站月卡 CDK ¥799 / 1 个月，以店铺页为准。
+
+Q：需要给密码吗？
+A：不需要，CDK 由你自己在账号里兑换。
+
+Q：Pro 用户能直接兑换吗？
+A：不能，要先取消 Pro 续费、等到期后再兑换。
+
+Q：有 Max 20x 吗？
+A：暂未上架，以店铺页为准。
+
+# Grok 会员怎么开？Plus、Premium、SuperGrok、Super 15x、Ultra 价格与选择
+URL: https://ai-huiyuan.vercel.app/guides/grok-membership-how-to/
+- 预算最低：Grok Plus 月卡 ¥84.9 / 1 个月，卡密充值到自己账号，质保 30 天（订阅掉了按剩余天数退款）；会员生效中不能叠加，需到期后再兑换。
+- 想用正价档：Grok Premium 月卡 ¥204.9 / 1 个月，质保 30 天，提交 SSO 自助开通，不要密码。
+- 想用卡密自己兑换：SuperGrok 卡密 ¥429，质保 30 天。
+- 额度要更高：Grok Super 15x 月卡 ¥528.9 / 1 个月，或 Grok Ultra 卡密 ¥829。
+- SuperGrok 3 个月成品号暂时缺货 · 补货中；没有自己账号的可先注册一个，再选 Grok Premium 月卡或 SuperGrok 卡密。
+
+
+## 对比
+| 商品 | 本站价格 | 开通方式 | 适合谁 |
+| --- | --- | --- | --- |
+| Grok Plus 月卡 | ¥84.9 / 1 个月 | 自己账号卡密充值（到期后才能兑换） | 预算最低、先体验 |
+| Grok Premium 月卡 | ¥204.9 / 1 个月 | 自己账号提交 SSO | 入门、预算有限 |
+| SuperGrok 卡密 | ¥429 | 自己兑换卡密 | 不想提交任何凭证 |
+| Grok Super 15x 月卡 | ¥528.9 / 1 个月 | 自己账号提交 SSO | 需要更高额度倍数 |
+| Grok Ultra 卡密 | ¥829 | 自己兑换卡密 | 重度使用 |
+## 步骤
+1. 先确认有自己的 Grok 账号（成品号暂时缺货），长期用、在意聊天记录的，用自己的账号更稳。
+2. 按预算和用量在上表里选一款。
+3. 在本站 Grok 页点击对应商品跳转店铺，读完商品页「下单前必看」后付款。
+4. SSO 款按商品页指引提交自己账号的 SSO 凭证；卡密款在自己账号里兑换。
+5. 确认会员已生效，保存订单号和截图。
+SSO 开通是什么
+SSO 是你登录 Grok 后浏览器里的登录凭证，开通页面用它识别你的账号，不需要密码。它和 ChatGPT 的 session 类似，在有效期内能代表你的登录状态，只在商品页指引的页面提交；开通完成后可以退出再登录，让旧凭证失效。原理可参考 提交 session 安全吗。
+卡密和 SSO 怎么选
+完全不想提交任何凭证的，选卡密款，自己兑换；想花更少的钱，选 Grok Plus 月卡 ¥84.9（卡密充值，会员到期后才能兑换）或 Premium SSO 月卡。卡密兑换的详细步骤见 SuperGrok 怎么买。
+没有自己的账号怎么办
+SuperGrok 3 个月成品号目前暂时缺货、补货中。没有账号的，建议先自己注册一个 Grok 账号，再选 Grok Premium 月卡 ¥204.9（提交 SSO 开通）或 SuperGrok 卡密 ¥429（自己兑换）；会员开在自己号上，记录都在。
+⚠ 风险提示第三方渠道开通存在被平台风控、掉订阅或封号的可能，封号不质保；卡密和开通成功后不退不换。会员权益由厂商决定，可能随时调整。
+逛逛店铺全部商品 →
+
+## 常见问题
+Q：Grok 会员最便宜多少钱？
+A：本站最低是 Grok Plus 月卡 ¥84.9 / 1 个月（卡密充值，质保 30 天，封号不保）；SuperGrok 3 个月成品号暂时缺货 · 补货中。
+
+Q：开 Grok 要给密码吗？
+A：不要。SSO 款提交登录凭证，卡密款自己兑换。
+
+Q：Super 15x 和 Ultra 差在哪？
+A：都是高额度档；Super 15x 是 SSO 月卡 ¥528.9，Ultra 是卡密 ¥829，具体权益以商品页为准。
+
+Q：封号能退吗？
+A：不能，封号不在质保范围内。
+
+# ChatGPT Plus 和 Team（Business）有什么区别？个人该选哪个
+URL: https://ai-huiyuan.vercel.app/guides/chatgpt-plus-vs-team/
+- Plus 是个人订阅，开在你自己的账号上；Team（现名 Business）是团队工作区，由管理员按席位付费。
+- 个人使用选 Plus 就够了；本站 Plus 月卡卡密 ¥133.9 / 30 天，Plus CDK ¥148 / 30 天。
+- 在 Team 工作区里的账号不能使用本站 Plus 卡密/CDK，下单前先确认。
+- 工作区里的对话归工作区管理，离开团队后可能看不到；个人资料建议放在个人账号。
+
+
+## 对比
+| 对比项 | Plus | Team / Business |
+| --- | --- | --- |
+| 面向 | 个人 | 团队、公司 |
+| 计费 | 按月，个人付款 | 按席位，管理员付款，有最少席位要求（以厂商页面为准） |
+| 对话归属 | 你自己 | 工作区，管理员可管理 |
+| 本站能否充值 | 可以（卡密 ¥133.9 / CDK ¥148） | 不在售，Team 中的账号也不能用 Plus 卡密 |
+## 步骤
+1. 打开 ChatGPT 左下角的账号菜单，看当前是在个人空间还是某个工作区里。
+2. 如果在工作区里又想开个人 Plus，切回个人账号，或用一个没加入任何工作区的账号。
+3. 确认个人账号是免费状态、没用过 $0 充值。
+4. 在本站 ChatGPT 页选择 Plus 卡密或 CDK，跳转店铺付款，按商品页步骤充值。
+个人为什么不建议用 Team
+Team/Business 的设计是给多人协作用的：管理员统一付款、管理成员、控制数据设置。一个人用，要按席位付费、还要满足最少席位，算下来比 Plus 贵；对话也归工作区，团队解散或被移出后可能看不到。
+“拼车 Team”要注意什么
+有人卖“加入 Team 工作区”的名额，便宜但你的对话在别人的工作区里，管理员可以管理，随时可能被移出。本站不卖这类商品。想低价用，可以看 Plus 怎么开最便宜；轻度使用看 Go 和 Plus 的区别；用量大看 Pro 值不值得。
+⚠ 风险提示账号在 Team 中、有正在生效的订阅或用过 $0 充值的，不能使用 Plus 卡密/CDK，不在售后范围内。充值成功后不退款。
+逛逛店铺全部商品 →
+
+## 常见问题
+Q：Plus 和 Team 哪个划算？
+A：个人用 Plus 更划算；Team 适合需要统一管理的团队。
+
+Q：Team 账号能用 Plus 卡密吗？
+A：不能，账号在 Team 中无法使用。
+
+Q：本站卖 Team 吗？
+A：不卖。
+
+Q：Plus 多少钱？
+A：本站 Plus 月卡卡密 ¥133.9 / 30 天，Plus CDK ¥148 / 30 天，以店铺页为准。
+
+# ChatGPT Pro 5x 和 20x 怎么选？月卡 CDK 和成品号价格对比
+URL: https://ai-huiyuan.vercel.app/guides/chatgpt-pro-5x-vs-20x/
+- Pro 5x 月卡 CDK ¥699 / 1 个月，质保 30 天；Pro 20x 月卡 CDK ¥1249 / 1 个月，质保订阅。
+- 没有自己的账号或不想动自己的号：Pro 5x 成品号 ¥799、Pro 20x 成品号 ¥1299（库存少，以店铺为准）。
+- 更高需求还有 Pro 25x 代充 ¥3499，质保 30 天。
+- Plus 经常撞限额的先试 5x；5x 也常不够用、每天跑长任务的再上 20x。
+
+
+## 对比
+| 商品 | 本站价格 | 方式 | 适合谁 |
+| --- | --- | --- | --- |
+| Pro 5x 月卡 CDK | ¥699 / 1 个月 | 自己账号兑换 | Plus 经常不够用 |
+| Pro 5x 成品号 | ¥799 | 直接给账号 | 不想动自己的号 |
+| Pro 20x 月卡 CDK | ¥1249 / 1 个月 | 自己账号兑换 | 每天高强度、长任务 |
+| Pro 20x 成品号 | ¥1299 | 直接给账号 | 重度且要现成账号 |
+| Pro 25x 代充 | ¥3499 | 按商品页说明 | 极重度使用 |
+## 步骤
+1. 回想过去一个月：Plus 撞限额的频率和你等待的时间。
+2. 偶尔撞：继续 Plus；每周多次撞：选 Pro 5x；5x 也不够：选 20x。
+3. 用自己账号的，确认没有正在生效的订阅、不在 Team 中。
+4. 在本站 ChatGPT 页点击对应商品跳转店铺，读完「下单前必看」后付款。
+5. 按商品页步骤兑换或接收账号，确认已显示 Pro，保存订单号和截图。
+5x 和 20x 差在哪
+两者都是 Pro 档，主要差在用量倍数：20x 的可用量明显高于 5x，适合连续几个小时跑代码、长文档分析的人。具体权益以厂商页面为准，会随时调整。不确定的先买一个月 5x，不够再升。
+CDK 和成品号怎么选
+CDK 兑换到你自己的账号，聊天记录都在，推荐优先选；成品号是现成账号，到手即用，但不是你自己的号，风控风险更高。成品号库存很少，售完会下架。是否值得上 Pro，可以先读 GPT Pro 值不值得买 和 Plus 和 Pro 的区别。
+⚠ 风险提示高价商品务必先读商品页规则：账号不能有正在生效的订阅，不能是 Team 账号；卡密发出后不退不换。第三方渠道开通存在被平台风控的可能。
+逛逛店铺全部商品 →
+
+## 常见问题
+Q：ChatGPT Pro 5x 多少钱？
+A：本站月卡 CDK ¥699 / 1 个月，成品号 ¥799，以店铺页为准。
+
+Q：Pro 20x 多少钱？
+A：本站月卡 CDK ¥1249 / 1 个月，成品号 ¥1299。
+
+Q：5x 不够能中途升 20x 吗？
+A：当前订阅生效期间不能再兑换，需等到期后再兑换 20x。
+
+Q：要给密码吗？
+A：CDK 款不需要，自己兑换。
+
+# ChatGPT Plus 怎么开最便宜（2026）？三种方式价格与条件对比
+URL: https://ai-huiyuan.vercel.app/guides/chatgpt-plus-cheapest-2026/
+- 本站目前最便宜的 Plus 是月卡卡密 ¥133.9 / 30 天，质保 30 天，自动发货。
+- 它需要你提交自己账号的 session 自助充值，不需要密码；会员开在自己的号上。
+- 不想提交 session 的，选 Plus CDK ¥148 / 30 天，兑换码自己核销。
+- 账号须无正在生效的订阅、未用过 $0 充值、不在 Team 中；不符合条件的不在售后范围内。
+
+
+## 对比
+| 方式 | 本站价格 | 需要提供 | 适合谁 |
+| --- | --- | --- | --- |
+| Plus 月卡卡密 | ¥133.9 / 30 天 | 自己账号的 session（不要密码） | 想花最少的钱开 Plus |
+| Plus CDK | ¥148 / 30 天 | 无，自己核销兑换码 | 不想提交 session |
+| 厂商网页订阅 | 每月 20 美元 + 税费 | 可用的银行卡 | 有可用外币卡的人 |
+| ChatGPT Go | ¥49 / 1 个月 | 以商品页为准 | 轻度使用、先体验 |
+## 步骤
+1. 登录自己的 ChatGPT 账号，确认当前没有正在生效的订阅、没用过 $0 充值、不在 Team 中。
+2. 打开本站 ChatGPT 页，点击 ¥133.9 Plus 月卡卡密跳转店铺。
+3. 先读商品页顶部的「下单前必看」，再付款。
+4. 付款后在订单页拿到卡密，按商品页指引提交自己账号的 session 完成充值。
+5. 刷新 ChatGPT，在账号设置里确认已显示 Plus；保存订单号和截图。
+为什么 ¥133.9 比 ¥148 便宜
+两款都是 30 天、充到你自己的账号上，差别在充值方式：¥133.9 的月卡卡密需要你提交自己账号的 session 自助充值；¥148 的 CDK 是一串兑换码，你自己在账号里核销。两种都不需要密码。介意提交 session 的，多花十几块选 CDK 即可。
+session 是什么，安全吗
+session 是你登录后浏览器里的会话凭证，充值页面用它识别你的账号。它不是密码，但在有效期内能代表你的登录状态，所以只在商品页指引的充值页面里提交，充值完成后可以退出登录再重新登录，让旧会话失效。
+最省钱的思路
+先看自己用多少：轻度使用先买 Go ¥49；每天都用就买 ¥133.9 的 Plus 月卡；Plus 经常不够用，再看 Pro 值不值得。按月买，不合适下个月换档。
+⚠ 风险提示充值成功后不退款。账号有正在生效的订阅、用过 $0 充值或在 Team 中的，无法使用，不在售后范围内。任何第三方方式都不能保证账号不被平台风控。付款后怎么查订单、出问题找谁
+付款成功后，卡密类商品一般会直接显示在订单页。关掉页面也没关系，可以到 订单查询页 用下单时填写的联系方式或订单号查回来。建议马上把订单号、卡密和付款截图存好，后面续费或申请售后都用得到。
+出问题时按这个顺序处理：先别重复操作，把报错页面截图（带上时间）；再到店铺商品页点「联系TA」留言，写清订单号、遇到的问题和截图；店铺不处理的，再走发卡平台的投诉入口。本站不收款，不能直接退款，但可以帮你理清流程，常见报错见 CDK 兑换报错排查，退款和续费问题见 续费与退款常见问题。
+
+## 常见问题
+Q：ChatGPT Plus 最便宜多少钱？
+A：本站目前最低是 Plus 月卡卡密 ¥133.9 / 30 天，以店铺页实时价格为准。
+
+Q：要给密码吗？
+A：不要。¥133.9 需要提交 session，¥148 CDK 什么都不用提供。
+
+Q：已经是 Plus 能续吗？
+A：要等当前订阅结束后再充值。
+
+Q：可以退款吗？
+A：充值成功后不退款；未发货或卡密无效按店铺售后规则处理。
+
+# Gemini 会员 19.9 怎么开？兑换步骤、账号条件与风险
+URL: https://ai-huiyuan.vercel.app/guides/gemini-19-9-how-to/
+- Gemini 目前暂时缺货、补货中：不质保版（曾售约 ¥19.9）和质保版都已下架，补货后恢复。
+- 不质保版是 Gemini Pro 18 个月低价兑换权益（含 5TB 存储），只保链接短时可用，不保订阅时长。
+- 中国 IP、中国谷歌账号、家庭组账号无法使用，下单前先确认。
+- 补货前可改选其他产品，例如 ChatGPT Go ¥49。
+
+
+## 步骤
+1. 确认你的谷歌账号不是中国谷歌账号，也不在家庭组里。
+2. 补货后选不质保版，读完「下单前必看」后付款；补货前可先看 ChatGPT Go ¥49。
+3. 在订单页拿到兑换链接或 CDK，按商品页时限使用。
+4. 用浏览器无痕窗口登录自己的谷歌账号，打开链接完成兑换。
+5. 在 Google One 页面确认会员已生效，截图保存。
+当前库存说明
+Gemini 暂时缺货、补货中：不质保版和质保版目前都已下架，补货后恢复购买。补货前可看 ChatGPT Go ¥49。
+不质保版能买到什么
+这是 Gemini Pro 18 个月的低价兑换权益，含 5TB 云存储。它来自合作活动的兑换权益，持续多久取决于活动方，所以本站把它定为不质保版：只保链接短时可用，不保后续时长。用来低成本体验 Gemini 很合适，重要资料不要只放在这个账号里。
+和质保版怎么选
+不质保版适合低成本体验，质保版适合需要订阅质保的人；两款目前都暂时缺货、补货中。更详细的原理见 Gemini Pro 18 个月是真的吗，各家低价入门对比见 最便宜的 AI 会员。
+⚠ 风险提示不质保版只保链接短时可用，不保订阅时长。中国 IP、中国谷歌账号、家庭组账号无法使用；因账号不符合条件或超时未使用导致的问题，不在售后范围内。Gemini 目前暂时缺货、补货中。付款后怎么查订单、出问题找谁
+付款成功后，卡密类商品一般会直接显示在订单页。关掉页面也没关系，可以到 订单查询页 用下单时填写的联系方式或订单号查回来。建议马上把订单号、卡密和付款截图存好，后面续费或申请售后都用得到。
+出问题时按这个顺序处理：先别重复操作，把报错页面截图（带上时间）；再到店铺商品页点「联系TA」留言，写清订单号、遇到的问题和截图；店铺不处理的，再走发卡平台的投诉入口。本站不收款，不能直接退款，但可以帮你理清流程，常见报错见 CDK 兑换报错排查，退款和续费问题见 续费与退款常见问题。
+
+## 常见问题
+Q：现在能买 Gemini 吗？
+A：暂时缺货、补货中，不质保版和质保版都已下架。补货前可看 ChatGPT Go ¥49。
+
+Q：Gemini 19.9 能用 18 个月吗？
+A：不能保证。不质保版只保链接短时可用，不保订阅时长。
+
+Q：要给谷歌密码吗？
+A：不需要，自己登录账号打开链接兑换。
+
+Q：能用国内谷歌账号吗？
+A：中国谷歌账号无法使用。
+
+# ChatGPT Plus 怎么开通？国内用户订阅方法与步骤（2026）
+URL: https://ai-huiyuan.vercel.app/guides/chatgpt-plus-how-to-subscribe/
+- Plus 厂商标价为每月 20 美元，按月订阅，不支持一次买多个月（以 OpenAI 帮助中心为准）。
+- 厂商网页端用银行卡付款，很多国内发行的卡会被拒，这是多数人卡住的地方。
+- 本站首推 Plus 月卡卡密 ¥133.9 / 30 天（质保 30 天）：提交自己账号的 session 自助充值，不需要密码；也可选 Plus CDK ¥148 / 30 天。
+- 账号已有订阅、做过 0 元或其他 CDK 充值、Team 账号都不能用，下单前先确认。
+
+
+## 步骤
+1. 确认你已经有一个能正常登录的 ChatGPT 账号，并且当前是免费状态。
+2. 检查账号条件：没有正在生效的订阅、没有用过 0 元或其他 CDK 充值、不是 Team 账号。
+3. 在本站 ChatGPT 页核对价格与规则，点击购买按钮跳转店铺。
+4. 在店铺收银台付款，付款后在订单页复制 CDK。
+5. 按商品页说明的步骤，在自己的账号里完成核销。
+6. 核销后刷新页面，在账号设置里确认已显示 Plus；保存订单号和截图。
+先弄清楚：Plus 是什么、多少钱
+ChatGPT Plus 是 OpenAI 面向个人的付费档位。按 OpenAI 帮助中心的说明，Plus 每月 20 美元，按月结算，目前不提供年付或预付多个月。权益包括更高的使用限额、高级推理模型、文件上传分析、图像生成等，具体以厂商页面为准，会随时调整。
+国内用户为什么开通难
+厂商网页端的付款需要绑定银行卡并填写账单地址。很多国内发行的卡在这一步会被拒，和卡里有没有钱关系不大。应用商店内购则需要对应地区的商店账号和付款方式。这两条路对很多人来说门槛都不低，所以才有了 CDK 卡密和代充这类第三方方式。
+CDK 卡密方式怎么用
+CDK 是一串兑换码。你在店铺付款后拿到它，再按商品页说明在自己的账号里兑换，会员开在你自己的号上，聊天记录和设置都还在，也不用把密码交给任何人。本站在售的 ChatGPT Plus CDK 参考价 ¥148，时长 30 天，质保 30 天。
+更便宜的选择：¥133.9 Plus 月卡卡密
+本站目前首推 ChatGPT Plus 月卡卡密 ¥133.9（30 天，质保 30 天，自动发货）。它的用法是：付款拿到卡密后，在商品页指引的页面提交你自己账号的 session 自助充值，会员开在你自己的号上，不需要密码。账号须无正在生效的订阅、未用过 $0 充值、不在 Team 中；充值成功后不退款。不想提交 session 的，选 ¥148 的 CDK 即可。
+只想先体验、预算更低的，可以看 Go 和 Plus 的区别；用量很大的，看 GPT Pro 值不值得买。
+⚠ 风险提示第三方充值存在被平台风控、订阅被收回或封号的可能，没有人能保证不出问题。卡密发出后不退不换；账号不符合条件导致无法使用的，不在售后范围内。重要资料不要只放在一个账号里。
+下单前自查清单
+账号能正常登录，当前是免费版。没有正在生效或刚过期的订阅，也没用过其他兑换码。不是 Team 或企业工作区账号。读完商品页顶部的「下单前必看」。付款后怎么查订单、出问题找谁
+付款成功后，卡密类商品一般会直接显示在订单页。关掉页面也没关系，可以到 订单查询页 用下单时填写的联系方式或订单号查回来。建议马上把订单号、卡密和付款截图存好，后面续费或申请售后都用得到。
+出问题时按这个顺序处理：先别重复操作，把报错页面截图（带上时间）；再到店铺商品页点「联系TA」留言，写清订单号、遇到的问题和截图；店铺不处理的，再走发卡平台的投诉入口。本站不收款，不能直接退款，但可以帮你理清流程，常见报错见 CDK 兑换报错排查，退款和续费问题见 续费与退款常见问题。
+
+## 常见问题
+Q：ChatGPT Plus 多少钱一个月？
+A：厂商标价每月 20 美元，部分地区另加税费。本站 Plus 月卡卡密 ¥133.9 / 30 天，Plus CDK ¥148 / 30 天，以店铺页为准。
+
+Q：¥133.9 和 ¥148 差在哪？
+A：¥133.9 要提交自己账号的 session 自助充值；¥148 是 CDK 兑换码。两者都不需要密码，时长都是 30 天。
+
+Q：用 CDK 开通需要给密码吗？
+A：不需要。CDK 由你自己在账号里核销。
+
+Q：已经是 Plus 了还能用 CDK 续吗？
+A：按商品规则，已有订阅的账号不能使用，请等订阅结束后再兑换，或先咨询店铺。
+
+Q：核销失败怎么办？
+A：不要反复提交，截图报错，带订单号在店铺商品页「联系TA」留言。也可以看本站的 CDK 报错排查指南。
+
+# ChatGPT Plus 多少钱一个月？厂商价、代购价与各档位对比
+URL: https://ai-huiyuan.vercel.app/guides/chatgpt-plus-price-per-month/
+- Plus 厂商标价每月 20 美元，按月订阅，实际扣款可能因税费略高。
+- 本站在售：Go ¥49 / 1 个月，Plus 月卡卡密 ¥133.9 / 30 天（session 自助充值，最低价），Plus CDK ¥148 / 30 天，Pro 5x ¥699，Pro 20x ¥1249。
+- 多数人从 Plus 开始就够用；每天高强度使用才需要考虑 Pro。
+- 价格以店铺页面实时显示为准，本站核对日期见页面底部。
+
+
+## 对比
+| 档位 | 本站参考价 | 适合谁 |
+| --- | --- | --- |
+| ChatGPT Go | ¥49 / 1 个月 | 入门体验、预算有限 |
+| ChatGPT Plus 月卡卡密（session 自助充值） | ¥133.9 / 30 天 | 日常使用，想要最低价 |
+| ChatGPT Plus CDK | ¥148 / 30 天 | 日常写作、学习、办公；不想提交 session |
+| ChatGPT Pro 5x 月卡 CDK | ¥699 / 1 个月 | 高频使用、经常撞额度 |
+| ChatGPT Pro 20x 月卡 CDK | ¥1249 / 1 个月 | 重度专业用户 |
+厂商价格怎么算
+OpenAI 帮助中心写明 Plus 每月 20 美元、按月结算，不提供年付。网页端会按账单地址所在地区计税，App 内购按商店地区定价，所以不同人看到的实际金额会不一样。人民币成本还要看汇率和付款方式的手续费。
+第三方价格为什么不一样
+第三方店铺的价格包含了渠道成本和售后成本，不同店铺差别很大。比价时不要只看数字，还要看三件事：是充到你自己的账号还是给你一个新号；质保多少天、保的是什么；账号有什么限制条件。价格明显低于同类的，多问一句来源。
+怎么选最省钱
+如果你一周只用几次，免费版或 Go 可能就够了；每天都用、要用文件分析和推理模型，选 Plus；Plus 额度经常不够用，再看 Pro，详细对比见 Plus 和 Pro 怎么选。还拿不准的话，用 套餐选择器 回答 3 个问题。
+⚠ 风险提示本站价格为参考价，以店铺页面为准。第三方充值有被风控、掉订阅或封号的可能；卡密发出后不退不换。请按自己能接受的风险购买。续费要注意什么CDK 是按次购买，不会自动续费；到期前想继续用，再买一张即可。按商品规则，账号有正在生效的订阅时不能兑换，所以续费要等上一个周期结束。厂商订阅则是默认自动续费，取消要到订阅的那一端操作。付款后怎么查订单、出问题找谁
+付款成功后，卡密类商品一般会直接显示在订单页。关掉页面也没关系，可以到 订单查询页 用下单时填写的联系方式或订单号查回来。建议马上把订单号、卡密和付款截图存好，后面续费或申请售后都用得到。
+出问题时按这个顺序处理：先别重复操作，把报错页面截图（带上时间）；再到店铺商品页点「联系TA」留言，写清订单号、遇到的问题和截图；店铺不处理的，再走发卡平台的投诉入口。本站不收款，不能直接退款，但可以帮你理清流程，常见报错见 CDK 兑换报错排查，退款和续费问题见 续费与退款常见问题。
+
+## 常见问题
+Q：ChatGPT Plus 能按年买吗？
+A：厂商目前只有月付。声称"厂商年卡"的说法要谨慎。
+
+Q：本站 Plus 多少钱？
+A：Plus 月卡卡密 ¥133.9 / 30 天（session 自助充值），Plus CDK ¥148 / 30 天，以店铺页为准。
+
+Q：Go 和 Plus 差多少？
+A：本站 Go ¥49，Plus ¥148。Go 是入门档，额度和功能少于 Plus，具体以厂商说明为准。
+
+Q：价格会变吗？
+A：会。第三方价格随成本变化，以下单时店铺页面为准。
+
+# GPT Pro 值不值得买？Pro 5x / 20x / 25x 怎么选
+URL: https://ai-huiyuan.vercel.app/guides/gpt-pro-worth-it/
+- Pro 面向每天高强度使用、经常撞到 Plus 额度上限的人；普通对话很难用满。
+- 本站在售：Pro 5x 月卡 CDK ¥699，Pro 20x 月卡 CDK ¥1249，Pro 25x 代充 ¥3499（质保 30 天）。
+- 没有自己账号的，有 Pro 5x / 20x 成品号 ¥799 / ¥1299，但封号不质保。
+- 先用 Plus 一个月，确认确实不够再升级，最省钱。
+
+
+## 对比
+| 商品 | 参考价 | 交付方式 | 要点 |
+| --- | --- | --- | --- |
+| Pro 5x 月卡 CDK | ¥699 | 卡密核销到自己账号 | 质保 30 天 |
+| Pro 20x 月卡 CDK | ¥1249 | 卡密核销到自己账号 | 质保订阅 |
+| Pro 25x 代充 | ¥3499 | 代充，按商品页提交信息 | 仅限未订阅过的账号，质保 30 天 |
+| Pro 5x / 20x 成品号 | ¥799 / ¥1299 | 新账号 | 风控/封号风险更高，封号不质保 |
+什么人值得买 Pro
+判断方法很简单：你用 Plus 时是不是经常看到额度用完、要等恢复？是不是每天连续几个小时跑长任务、写代码、做深度研究？如果答案都是否定的，Pro 对你来说大概率不划算。Pro 的倍数指相对 Plus 的用量，具体额度由 OpenAI 决定并会调整。
+5x 和 20x 怎么选
+先从 5x 开始。用一段时间后如果 5x 仍然不够，再换 20x。20x 和 25x 价格高很多，适合已经明确知道自己用量的人。用 Codex 写代码为主的，也可以先看 Codex 额度怎么选，额度包可能更省钱。
+CDK、代充、成品号的区别
+CDK 和代充都是开在你自己的账号上，记录都在；成品号是一个新账号，适合没有账号的人，但风控和封号风险高于自有账号充值，封号不质保。三种方式的详细区别见 CDK、代充和成品号怎么选。
+⚠ 风险提示高价商品更要先读商品页规则：账号不能有正在生效的订阅，不能是 Team 账号；卡密发出后不退不换。第三方充值有风控和封号风险，封号不在质保范围。购买步骤确认账号当前没有正在生效的订阅，不是 Team 账号。选好档位和交付方式，跳转店铺付款。CDK 在订单页取卡密并按说明核销；代充按商品页提交信息。确认已显示 Pro，保存订单号与截图。付款后怎么查订单、出问题找谁
+付款成功后，卡密类商品一般会直接显示在订单页。关掉页面也没关系，可以到 订单查询页 用下单时填写的联系方式或订单号查回来。建议马上把订单号、卡密和付款截图存好，后面续费或申请售后都用得到。
+出问题时按这个顺序处理：先别重复操作，把报错页面截图（带上时间）；再到店铺商品页点「联系TA」留言，写清订单号、遇到的问题和截图；店铺不处理的，再走发卡平台的投诉入口。本站不收款，不能直接退款，但可以帮你理清流程，常见报错见 CDK 兑换报错排查，退款和续费问题见 续费与退款常见问题。
+
+## 常见问题
+Q：Pro 和 Plus 主要差在哪？
+A：主要是使用额度和部分功能，具体以厂商页面为准。
+
+Q：Pro 能按天退款吗？
+A：一般不支持，以店铺商品页售后规则为准。
+
+Q：成品号和 CDK 哪个好？
+A：有自己账号的优先 CDK；没有账号、接受更高风险的才考虑成品号。
+
+Q：25x 适合谁？
+A：已经明确 20x 也不够用的重度用户。仅限未订阅过的账号。
+
+# Claude Pro 怎么订阅？国内开通方法、条件与注意事项
+URL: https://ai-huiyuan.vercel.app/guides/claude-pro-how-to-subscribe/
+- 本站 Claude Pro 为月卡 CDK 卡密充值，参考价 ¥168 / 1 个月；Max 5x 月卡 CDK ¥799。
+- CDK 核销到你自己的账号，不需要提供主邮箱密码；账号须无正在生效的付费订阅。
+- 质保范围是掉订阅；封号不在质保范围内。
+- 若账号触发验证，验证由 Anthropic 发起，任何人都不能替你完成或绕过。
+
+
+## 步骤
+1. 准备一个自己能正常登录、且当前没有正在生效付费订阅的 Claude 账号。
+2. 若账号提示需要验证，先按 Claude 页面的要求完成验证；完成不了的先别下单。
+3. 在本站 Claude 页核对价格和规则，跳转店铺下单付款。
+4. 在订单页复制 CDK 卡密，按商品页说明在自己的账号里完成核销充值。
+5. 开通后在账号设置里确认已显示 Pro，保存订单号与截图。
+6. 使用中出现掉订阅，带订单号在店铺商品页「联系TA」留言。
+Pro 和 Max 怎么选
+读长文档、写作、偶尔写代码，Pro 一般够用。如果每天都会碰到用量上限、要等恢复，再考虑 Max 5x。详细对比见 Claude Pro 和 Max 怎么选。
+关于账号条件与验证提示
+CDK 充值要求你的账号当前没有正在生效的付费订阅。另外，Claude 会按自己的风控规则要求手机或身份验证，规则不公开。若账号出现验证提示，需先用本人信息完成验证再充值，否则即使充上也可能用不了。遇到验证提示怎么处理，见 Claude 要验证怎么办。不要找人"代过验证"，那会带来额外的账号和隐私风险。
+CDK 卡密充值怎么操作
+付款后在订单页拿到 CDK 卡密，按商品页说明的步骤在你自己的账号内完成核销，不需要交出主邮箱密码。核销成功后刷新设置页确认已显示 Pro。
+⚠ 风险提示Claude 对第三方充值和账号共享有限制，存在被风控或封号的可能。本商品封号不质保，只保掉订阅；账号不符合使用条件导致的问题不在售后范围内。付款后怎么查订单、出问题找谁
+付款成功后，卡密类商品一般会直接显示在订单页。关掉页面也没关系，可以到 订单查询页 用下单时填写的联系方式或订单号查回来。建议马上把订单号、卡密和付款截图存好，后面续费或申请售后都用得到。
+出问题时按这个顺序处理：先别重复操作，把报错页面截图（带上时间）；再到店铺商品页点「联系TA」留言，写清订单号、遇到的问题和截图；店铺不处理的，再走发卡平台的投诉入口。本站不收款，不能直接退款，但可以帮你理清流程，常见报错见 CDK 兑换报错排查，退款和续费问题见 续费与退款常见问题。
+
+## 常见问题
+Q：Claude Pro 多少钱？
+A：本站月卡 CDK 参考价 ¥168 / 1 个月，以店铺页为准。
+
+Q：Claude Pro 需要给密码吗？
+A：不需要，为 CDK 卡密充值，按商品页说明核销到自己账号。
+
+Q：封号了能补吗？
+A：不能，封号不在质保范围，质保只针对掉订阅。
+
+Q：Max 5x 是怎么交付的？
+A：同样是月卡 CDK，按商品页说明兑换。
+
+# Gemini Pro 18 个月是真的吗？低价兑换链接原理、风险与选法
+URL: https://ai-huiyuan.vercel.app/guides/gemini-pro-18-months/
+- 市面上的 18 个月 Gemini Pro 大多是运营商合作活动的兑换权益，不是 Google 直接零售的商品。
+- 这类权益的持续时间取决于活动方，可能提前失效，没有人能保证一定用满 18 个月。
+- 本站 Gemini 目前暂时缺货、补货中：不质保版和质保版都已下架，补货后恢复。
+- 中国 IP、中国谷歌账号和家庭组账号无法使用，兑换建议用浏览器无痕窗口。
+
+
+## 步骤
+1. 确认你的谷歌账号不是中国谷歌账号，也不在家庭组里。
+2. Gemini 补货后再下单；补货前可看 ChatGPT Go ¥49。
+3. 在店铺下单付款，拿到兑换链接。
+4. 用浏览器无痕窗口登录自己的谷歌账号，打开链接完成兑换。
+5. 在 Google One 页面确认会员已生效，截图保存。
+为什么这么便宜
+Google 和一些合作方做过赠送 Gemini Pro 的活动，部分权益以兑换链接形式流到二手市场，所以价格远低于按月订阅。它的稳定性取决于活动方的规则，活动方收紧或权益被撤销时，订阅可能提前掉。这也是我们把它分成两个版本的原因。
+当前怎么选
+Gemini 目前暂时缺货、补货中，补货动态见 Gemini 页。不质保版只保链接短时可用、不保订阅时长，适合低成本体验；质保版质保订阅。
+哪些账号用不了
+按商品规则：中国 IP、中国谷歌账号、家庭组账号都无法使用。下单前请先确认，否则不在售后范围内。重要资料不要只放在这个账号里。
+⚠ 风险提示低价兑换权益随时可能被活动方收紧或撤销。不质保版只保链接短时可用，不保订阅时长；不符合账号条件导致无法使用的，不退不换。Gemini 目前暂时缺货、补货中。付款后怎么查订单、出问题找谁
+付款成功后，卡密类商品一般会直接显示在订单页。关掉页面也没关系，可以到 订单查询页 用下单时填写的联系方式或订单号查回来。建议马上把订单号、卡密和付款截图存好，后面续费或申请售后都用得到。
+出问题时按这个顺序处理：先别重复操作，把报错页面截图（带上时间）；再到店铺商品页点「联系TA」留言，写清订单号、遇到的问题和截图；店铺不处理的，再走发卡平台的投诉入口。本站不收款，不能直接退款，但可以帮你理清流程，常见报错见 CDK 兑换报错排查，退款和续费问题见 续费与退款常见问题。
+
+## 常见问题
+Q：不质保版现在能买吗？
+A：暂时缺货、补货中，质保版也已下架。补货前可看 ChatGPT Go ¥49。
+
+Q：Gemini Pro 18 个月能用满吗？
+A：不能保证。不质保版不保订阅时长；质保版按商品页规则处理掉订阅。两款目前都暂时缺货。
+
+Q：需要给谷歌账号密码吗？
+A：不需要，链接由你自己登录账号兑换。
+
+Q：为什么要用无痕窗口？
+A：这是商品页的兑换建议，可以减少其他已登录账号的干扰。
+
+# SuperGrok 怎么买？卡密自助兑换步骤与注意事项
+URL: https://ai-huiyuan.vercel.app/guides/supergrok-how-to-buy/
+- 本站 SuperGrok 卡密 ¥429，自己兑换到自己的账号，不需要提供密码。
+- Grok Ultra 卡密 ¥829，适合需要更高档位的人。
+- 两款都质保 30 天：订阅掉了可售后，封号不保。
+- 会员权益由 xAI 决定，会随时调整，以厂商说明为准。
+
+
+## 步骤
+1. 准备一个能正常登录的 Grok 账号。
+2. 在本站 Grok 页核对价格与规则，跳转店铺付款。
+3. 在订单页复制卡密。
+4. 按商品页说明的步骤，在自己的账号里完成兑换。
+5. 确认会员已生效，保存订单号和截图。
+6. 30 天内出现掉订阅，带订单号在店铺商品页「联系TA」留言。
+为什么推荐卡密方式
+很多 SuperGrok 代充要求你交出账号密码或登录凭证，这会带来账号被他人掌握的风险。卡密方式是你自己兑换，商家接触不到你的账号，这也是本站只上架卡密款的原因。
+SuperGrok 和 Ultra 怎么选
+日常问答、写作、看 X 上的实时信息，SuperGrok 一般够用。经常用到更高额度或高阶功能的，再看 Ultra。具体权益差异以 xAI 页面为准，本站不复述可能已经变化的细节。两款都在 Grok 页。
+售后保什么
+两款都是质保 30 天，保的是掉订阅；封号不在质保范围内。商品页没有写明订阅时长，下单前请以商品页说明为准，有疑问先在「联系TA」问清楚。
+⚠ 风险提示第三方渠道开通的会员存在被平台风控、掉订阅或封号的可能。封号不质保；卡密发出后不退不换。任何索要你主账号密码的做法都请谨慎。兑换前自查账号能正常登录，没有被限制。读完商品页顶部的「下单前必看」，了解兑换步骤。有疑问先在「联系TA」问清楚再下单。付款后怎么查订单、出问题找谁
+付款成功后，卡密类商品一般会直接显示在订单页。关掉页面也没关系，可以到 订单查询页 用下单时填写的联系方式或订单号查回来。建议马上把订单号、卡密和付款截图存好，后面续费或申请售后都用得到。
+出问题时按这个顺序处理：先别重复操作，把报错页面截图（带上时间）；再到店铺商品页点「联系TA」留言，写清订单号、遇到的问题和截图；店铺不处理的，再走发卡平台的投诉入口。本站不收款，不能直接退款，但可以帮你理清流程，常见报错见 CDK 兑换报错排查，退款和续费问题见 续费与退款常见问题。
+
+## 常见问题
+Q：SuperGrok 卡密需要密码吗？
+A：不需要，自己兑换。
+
+Q：SuperGrok 卡密多少钱？
+A：本站参考价 ¥429，以店铺页为准。
+
+Q：能用多久？
+A：商品页没有写明订阅时长，质保 30 天。下单前以商品页为准。
+
+Q：封号了能退吗？
+A：不能，封号不在质保范围内。
+
+# Codex 额度怎么买？250 / 500 / 1000 额度包怎么选
+URL: https://ai-huiyuan.vercel.app/guides/codex-quota-how-to-choose/
+- 本站 Codex 额度包：250 ¥95，500 ¥179，1000 ¥339，都是 CDK。
+- 这不是 API 额度，不能用在 API 调用上。
+- 按商品规则，免费账号不能使用。
+- 封号不在售后范围内。
+
+
+## 对比
+| 额度包 | 参考价 | 适合谁 |
+| --- | --- | --- |
+| Codex 250 | ¥95 | 先试试、用量不确定 |
+| Codex 500 | ¥179 | 编程用量较大 |
+| Codex 1000 | ¥339 | 编程重度使用 |
+额度能用多久
+没有固定答案。消耗速度取决于任务大小、上下文长度、使用频率等，详细估算方法见 Codex 250 额度能用多久 和 Codex 额度说明。建议先买 250 试一段时间，记下用了多少天，再决定要不要买更大的包。
+和 Pro 比哪个划算
+如果你主要是写代码、偶尔用对话，额度包往往比直接上 Pro 更省钱；如果你对话和编程都很重，Pro 可能更合适，见 GPT Pro 值不值。
+⚠ 风险提示Codex 额度包不是 API 额度；免费账号不能使用。第三方充值存在风控风险，封号不在售后范围内；卡密发出后不退不换。购买和使用步骤确认账号不是免费账号，按商品规则免费账号不能用。按自己的用量选 250、500 或 1000。在店铺付款，在订单页复制 CDK。按商品页说明在自己的账号里核销。核销后记下开始日期，观察几天消耗速度，下次就知道该买多大的包。怎么判断自己用量一个比较实用的办法：先买最小的包，每天大致记录一下用了哪些任务、任务大小如何。用完时你就能算出自己每周大概消耗多少，下次按这个数字买，不浪费也不会半路断掉。长上下文、大仓库、反复修改的任务通常消耗更快。付款后怎么查订单、出问题找谁
+付款成功后，卡密类商品一般会直接显示在订单页。关掉页面也没关系，可以到 订单查询页 用下单时填写的联系方式或订单号查回来。建议马上把订单号、卡密和付款截图存好，后面续费或申请售后都用得到。
+出问题时按这个顺序处理：先别重复操作，把报错页面截图（带上时间）；再到店铺商品页点「联系TA」留言，写清订单号、遇到的问题和截图；店铺不处理的，再走发卡平台的投诉入口。本站不收款，不能直接退款，但可以帮你理清流程，常见报错见 CDK 兑换报错排查，退款和续费问题见 续费与退款常见问题。
+
+## 常见问题
+Q：Codex 额度能用在 API 上吗？
+A：不能，额度包不是 API 额度。
+
+Q：免费账号能用吗？
+A：按商品规则不能。
+
+Q：先买哪个？
+A：用量不确定的先买 250 试。
+
+Q：额度用不完能退吗？
+A：一般不能，以商品页售后规则为准。
+
+# AI 会员代充靠谱吗？怎么避坑：10 条下单前检查清单
+URL: https://ai-huiyuan.vercel.app/guides/daichong-is-it-safe/
+- 代充有真实风险：平台条款限制第三方充值，账号可能被风控，没有人能保证不封号。
+- 最常见的坑：要主邮箱密码、站外私人收款、售后规则不写清楚、价格低得离谱。
+- 靠谱的最低标准：平台内付款、可查订单、规则写在商品页、不要主账号密码。
+- 第一次买，先从低价、短周期的商品开始。
+
+
+## 步骤
+1. 只在店铺收银台付款，不扫私人收款码，不加私人账号转账。
+2. 看商品页是否写清楚：交付方式、时长、质保范围、账号条件。
+3. 确认是充到自己账号（CDK/代充）还是给新账号（成品号）。
+4. 确认是否需要密码；需要主邮箱密码的谨慎。
+5. 看质保保什么：掉订阅还是封号，多少天。
+6. 核对账号条件：有没有正在生效的订阅、是不是 Team、是否需要验证。
+7. 价格明显低于同类时多问一句来源。
+8. 先买短周期或低价商品试一次。
+9. 付款后立刻保存订单号、卡密和截图。
+10. 出问题先在商品页「联系TA」留言，再走平台投诉。
+为什么说"没人能保证不封号"
+OpenAI、Anthropic、Google、xAI 的条款都对账号转让、共享或第三方渠道有不同程度的限制。第三方开通的会员，存在被风控、掉订阅或封号的可能。任何承诺"绝对不封"的说法都不可信。本站和店铺能做的，是把条件和售后范围写清楚，让你自己决定。
+本站怎么做
+本站只做导购说明，不收款；所有商品在第三方店铺收银台付款，订单可查。每个商品页顶部都有「下单前必看」，写明账号条件、质保范围和不售后的情况。完整须知见 购买须知，判断店铺的方法见 代购靠谱吗 和 下单前检查清单。
+第一次买建议怎么试
+如果你只是想先看看流程，可以从 ChatGPT Go ¥49 这类低价商品开始，体验一次付款、取卡、兑换的完整流程，再决定要不要买更贵的。Gemini 目前暂时缺货、补货中。
+⚠ 风险提示第三方充值风险由买家自行判断。卡密/代充完成后不退不换；账号状态不符合条件、超时未使用或平台风控导致的问题，不在售后范围内。付款后怎么查订单、出问题找谁
+付款成功后，卡密类商品一般会直接显示在订单页。关掉页面也没关系，可以到 订单查询页 用下单时填写的联系方式或订单号查回来。建议马上把订单号、卡密和付款截图存好，后面续费或申请售后都用得到。
+出问题时按这个顺序处理：先别重复操作，把报错页面截图（带上时间）；再到店铺商品页点「联系TA」留言，写清订单号、遇到的问题和截图；店铺不处理的，再走发卡平台的投诉入口。本站不收款，不能直接退款，但可以帮你理清流程，常见报错见 CDK 兑换报错排查，退款和续费问题见 续费与退款常见问题。
+
+## 常见问题
+Q：代充会封号吗？
+A：有可能，没有人能保证不封。
+
+Q：被骗了怎么办？
+A：保存订单号和截图，先联系店铺，再走发卡平台投诉入口。
+
+Q：为什么不要站外付款？
+A：站外付款没有订单记录，出问题无法投诉。
+
+Q：本站收款吗？
+A：不收款，付款在第三方店铺完成。
+
+# CDK 卡密、代充和成品号有什么区别？AI 会员三种开通方式怎么选
+URL: https://ai-huiyuan.vercel.app/guides/cdk-vs-daichong-vs-account/
+- CDK 卡密：自己兑换到自己账号，不要密码，记录都在。
+- 代充：开在自己账号上，但需要按商品页提交信息。
+- 成品号：一个已开好会员的新账号，适合没有账号的人；风控/封号风险高于自有账号充值，封号不质保。
+- 有自己账号的，优先 CDK。
+
+
+## 对比
+| 方式 | 要不要密码 | 记录在不在 | 风险 | 本站例子 |
+| --- | --- | --- | --- | --- |
+| CDK 卡密 | 不要 | 在 | 有风控风险 | Plus ¥133.9 起、Pro 5x ¥699、Claude Pro ¥168、Grok Plus ¥84.9 |
+| 代充 | 按商品页提交信息 | 在 | 有风控风险 | Pro 25x ¥3499、学生认证绑卡 ¥99 |
+| 成品号 | 不涉及你的账号 | 新账号 | 更高，封号不质保 | Plus 成品号 ¥106.9、Pro 5x ¥799、Pro 20x ¥1299 |
+怎么选
+如果你已经有账号、里面有记录和设置，选 CDK 或代充，会员直接开在你的号上。如果你完全没有账号，又不想自己注册，可以考虑成品号，但要接受更高的风险：成品号是别人注册的账号，风控和封号概率高于自有账号充值，本站成品号封号不质保。
+学生认证绑卡是什么
+本站的 Plus 学生认证绑卡服务 ¥99，只适合已经通过学生认证的账号，只保绑卡成功。没通过认证的账号请不要下单。
+用成品号要注意
+拿到后先完整登录一次，确认会员状态。不要短时间内频繁换设备和网络。重要资料不要放在成品号里。
+更多见 代充怎么避坑 和 ChatGPT 全部商品。
+⚠ 风险提示三种方式都存在被平台风控的可能；成品账号风险最高，封号不质保。卡密发出、代充完成或账号交付后不退不换。三种方式的流程对比CDK 卡密：付款 → 订单页取卡密 → 自己在账号里兑换 → 确认生效。全程你自己操作，商家接触不到账号。代充：付款 → 按商品页提交必要信息 → 等待开通 → 确认生效。等待时间以商品页说明为准，提交信息时不要给主邮箱密码。成品号：付款 → 拿到账号信息 → 登录确认会员状态 → 按店铺说明使用。账号本身不是你注册的，丢失或被封后通常找不回来。不管哪种方式，都请先读商品页的「下单前必看」，确认自己的账号符合条件。付款后怎么查订单、出问题找谁
+付款成功后，卡密类商品一般会直接显示在订单页。关掉页面也没关系，可以到 订单查询页 用下单时填写的联系方式或订单号查回来。建议马上把订单号、卡密和付款截图存好，后面续费或申请售后都用得到。
+出问题时按这个顺序处理：先别重复操作，把报错页面截图（带上时间）；再到店铺商品页点「联系TA」留言，写清订单号、遇到的问题和截图；店铺不处理的，再走发卡平台的投诉入口。本站不收款，不能直接退款，但可以帮你理清流程，常见报错见 CDK 兑换报错排查，退款和续费问题见 续费与退款常见问题。
+
+## 常见问题
+Q：哪种最安全？
+A：没有绝对安全的方式；有自己账号的优先 CDK，因为不需要交出密码。
+
+Q：成品号可以改密码吗？
+A：按店铺说明操作，随意改安全设置可能触发风控。
+
+Q：代充要提交什么？
+A：以商品页说明为准，不要给主邮箱密码。
+
+Q：学生认证绑卡谁能买？
+A：只有已通过学生认证的账号。
+
+# 最便宜的 AI 会员怎么买？2026 年低价入门方案对比
+URL: https://ai-huiyuan.vercel.app/guides/cheapest-ai-membership/
+- Gemini 低价款（不质保版、质保版）目前暂时缺货、补货中。
+- ChatGPT 入门：Go ¥49 / 1 个月。
+- 只想写代码：Codex 250 额度 ¥95。
+- 低价的代价通常是售后更少，先看清规则再买。
+
+
+## 对比
+| 商品 | 参考价 | 售后 | 适合谁 |
+| --- | --- | --- | --- |
+| Gemini 不质保版 | 暂时缺货 · 补货中 | 只保链接短时可用 | 低成本体验 Gemini（补货后） |
+| ChatGPT Go | ¥49 / 1 个月 | 以商品页为准 | 入门体验 ChatGPT |
+| Codex 250 额度 | ¥95 | 封号不保 | 先试 Codex 写代码 |
+| Plus 学生认证绑卡 | ¥99 | 只保绑卡成功 | 已通过学生认证的账号 |
+低价方案怎么挑
+先想清楚你主要用哪个模型。偏好 Google 生态、想低成本试 Gemini 的，Gemini 目前暂时缺货、补货中，详见 Gemini 18 个月说明。偏好 ChatGPT 的，从 Go ¥49 开始，见 Go 和 Plus 的区别。
+便宜但别踩坑
+低价不等于靠谱。判断一个低价商品，要看它把售后范围写得清不清楚：保什么、保多久、什么情况不保。本站把这些都写在商品页顶部，下单前请读完。还不确定选哪个，用 套餐选择器。
+⚠ 风险提示低价商品售后范围更窄。Gemini 不质保版只保链接短时可用、不保订阅时长；Gemini 目前暂时缺货、补货中。中国 IP 和中国谷歌账号无法使用 Gemini 兑换商品。第三方充值存在风控风险，卡密发出后不退不换。按预算怎么选¥50 以内：ChatGPT Go ¥49（Gemini 低价款暂时缺货、补货中）。¥100 左右：Codex 250 额度 ¥95 写代码；已通过学生认证的可以看 Plus 学生认证绑卡 ¥99。¥150 左右：ChatGPT Plus CDK ¥148；Gemini 暂时缺货、补货中。第一次买建议从当前在售的低价款开始，把付款、取卡、兑换的流程走一遍，确认没问题再买贵的。付款后怎么查订单、出问题找谁
+付款成功后，卡密类商品一般会直接显示在订单页。关掉页面也没关系，可以到 订单查询页 用下单时填写的联系方式或订单号查回来。建议马上把订单号、卡密和付款截图存好，后面续费或申请售后都用得到。
+出问题时按这个顺序处理：先别重复操作，把报错页面截图（带上时间）；再到店铺商品页点「联系TA」留言，写清订单号、遇到的问题和截图；店铺不处理的，再走发卡平台的投诉入口。本站不收款，不能直接退款，但可以帮你理清流程，常见报错见 CDK 兑换报错排查，退款和续费问题见 续费与退款常见问题。
+
+## 常见问题
+Q：最便宜的是哪个？
+A：Gemini 低价款暂时缺货期间，当前在售最低是 ChatGPT Go ¥49。
+
+Q：不质保版 Gemini 多少钱？
+A：暂时缺货、补货中，暂无可购价格；补货后以店铺页为准。
+
+Q：预算 ¥50 以内选什么？
+A：ChatGPT Go ¥49；Gemini 补货后也可考虑。
+
+Q：低价商品能退吗？
+A：卡密发出后不退不换。
+
+# ChatGPT Plus 学生认证后怎么绑卡开通？条件与步骤
+URL: https://ai-huiyuan.vercel.app/guides/chatgpt-plus-student/
+- 本服务参考价 ¥99，只适用于已经通过学生认证的 ChatGPT 账号。
+- 售后只保绑卡成功。
+- 还没通过学生认证的账号，请不要下单；本服务不提供认证。
+- 学生优惠的规则由 OpenAI 决定，以厂商页面为准。
+
+
+## 步骤
+1. 确认你的账号已经通过学生认证，在账号页面能看到对应提示。
+2. 在本站 ChatGPT 页找到「学生认证绑卡服务」，核对规则。
+3. 跳转店铺付款，按商品页说明提交必要信息。
+4. 等待绑卡完成，确认账号状态。
+5. 保存订单号和截图。
+这个服务是做什么的
+部分用户已经通过了学生认证，但卡在付款绑卡这一步。本服务只负责帮已认证的账号完成绑卡，不负责学生认证本身，也不提供任何认证材料。
+不适合谁
+没通过学生认证的账号、不确定自己是否通过认证的账号，都不适合。这类情况可以看 Plus CDK 开通方法，¥148 / 30 天。
+⚠ 风险提示只保绑卡成功；账号未通过学生认证或认证状态变化导致无法使用的，不在售后范围内。第三方服务存在风控风险。请勿使用他人或伪造的认证信息。下单前自查账号页面能看到学生认证已通过的状态。认证用的是你本人的真实信息。账号当前没有其他正在生效的订阅。读完商品页顶部的「下单前必看」。和 Plus CDK 怎么选如果你已经通过学生认证，本服务 ¥99 比 Plus CDK ¥148 便宜；如果没有通过，或者不确定认证状态会不会变，直接用 Plus CDK 更省心。两者都开在你自己的账号上。学生优惠的具体内容、时长和续费规则都由 OpenAI 决定，请以厂商页面的说明为准，本站不复述可能已经变化的细节。付款后怎么查订单、出问题找谁
+付款成功后，卡密类商品一般会直接显示在订单页。关掉页面也没关系，可以到 订单查询页 用下单时填写的联系方式或订单号查回来。建议马上把订单号、卡密和付款截图存好，后面续费或申请售后都用得到。
+出问题时按这个顺序处理：先别重复操作，把报错页面截图（带上时间）；再到店铺商品页点「联系TA」留言，写清订单号、遇到的问题和截图；店铺不处理的，再走发卡平台的投诉入口。本站不收款，不能直接退款，但可以帮你理清流程，常见报错见 CDK 兑换报错排查，退款和续费问题见 续费与退款常见问题。
+
+## 常见问题
+Q：没有学生认证能买吗？
+A：不能。
+
+Q：能帮我做学生认证吗？
+A：不能，本服务只做绑卡。
+
+Q：售后保什么？
+A：只保绑卡成功。
+
+Q：多少钱？
+A：参考价 ¥99，以店铺页为准。
+
+# ChatGPT Plus 和 Claude Pro 选哪个？价格、用途与开通对比（2026）
+URL: https://ai-huiyuan.vercel.app/guides/chatgpt-plus-vs-claude-pro/
+- 两款都是个人付费入门档，厂商标价大致都在每月约 20 美元，但产品侧重不同。
+- ChatGPT Plus 更偏多模态与通用对话；Claude Pro 更偏长文阅读、写作与代码审阅。
+- 额度机制也不一样：Claude 常见按滚动时间窗口限制用量，具体以厂商页面为准。
+- 本站参考价：Plus 月卡卡密 ¥133.9 / 30 天；Claude Pro ¥168 / 1 个月；用量经常撞上限再看 Max 5x ¥799。
+
+
+## 对比
+| 维度 | ChatGPT Plus | Claude Pro |
+| --- | --- | --- |
+| 厂商大致定位 | 通用对话、多模态 | 长文、写作、审代码 |
+| 厂商标价（约） | 每月约 20 美元 | 每月约 20 美元 |
+| 本站参考价 | 月卡卡密 ¥133.9 / 30 天（成品号 ¥106.9） | 月卡 CDK ¥168 / 1 个月 |
+| 交付方式（本站） | session 自助充值或 CDK | CDK 卡密充值（需账号无生效订阅） |
+| 谁更合适 | 要图片、语音、通用助手 | 要长文档与稳定文风 |
+## 步骤
+1. 先想清楚主要场景：多模态与通用对话，还是长文写作与审代码。
+2. 确认账号状态：两边账号均需无正在生效的付费订阅且符合商品页条件。
+3. 在本站对应品类页核对实时价格与「下单前必看」。
+4. 选好商品后跳转店铺付款；Plus 按卡密指引提交 session 或核销 CDK，Claude 按商品页说明用 CDK 卡密充值。
+5. 开通后在账号设置确认档位已生效，保存订单号与截图。
+同价档，不等于同一类产品
+很多人把 ChatGPT Plus 和 Claude Pro 都当成「二十刀的 AI 会员」来比。价格档位确实接近，但侧重点不一样。选错的代价通常不是钱差几十块，而是每天用起来总觉得别扭：该写长稿的工具被用来聊闲天，该出图的工具却硬拿来啃百页 PDF。
+厂商标价都会变，以各自定价页为准。本站当前参考价是：ChatGPT Plus 月卡卡密 ¥133.9（30 天，质保 30 天），以及 Claude Pro ¥168（1 个月）。不想提交 session 的，Plus 也可选 CDK ¥148，见 Plus 怎么开最便宜。
+用途上怎么分
+更偏向 ChatGPT Plus 的场景：日常问答、学习辅导、轻度办公、需要图片生成或语音交互、希望一个助手覆盖多种小任务。OpenAI 这一系产品把多模态做得更「全家桶」，对「什么都能问一点」的人更友好。
+更偏向 Claude Pro 的场景：一次丢很长的文档或代码仓库上下文、要稳定文风的写作与改稿、代码审阅与重构讨论。很多人反馈 Claude 在长上下文里的跟读能力更顺手，但这不是绝对定律，模型会更新，以你自己试一周的手感为准。
+额度机制：别拿「消息条数」硬对标
+两边都不是无限用。Claude 常见做法是按滚动时间窗口限制用量，用满后要等窗口恢复；ChatGPT Plus 也有各模型与功能的限额，具体数字厂商不固定公开，且会调整。网上流传的「每天正好多少条」很容易过时，本站不编造精确消息数。实用判断法只有一个：你现在用免费档或试用时，是不是经常撞上限、要干等？经常撞，再考虑同价档付费或更高档（如 Claude Max 5x）。
+如果已经确定 Claude 侧每天都会顶满 Pro，再看 Pro 和 Max 怎么选；本站 Max 5x 月卡 CDK 参考价 ¥799。
+国内开通路径（本站）
+厂商网页订阅通常要可用的外币卡与账单信息，很多人会卡在付款。第三方店铺提供卡密或代充，是另一条路径，但存在平台风控与掉订阅可能，售后以商品页规则为准。
+
+ChatGPT Plus：优先月卡卡密 ¥133.9，提交自己账号的 session 自助充值，不要密码；或 CDK ¥148 自己核销。步骤见 Plus 怎么开通。
+Claude Pro：本站为月卡 CDK 卡密充值 ¥168（1 个月，质保订阅）。账号需无正在生效的付费订阅，按商品页说明核销；质保范围是掉订阅，封号不在质保内。步骤见 Claude Pro 怎么订阅。
+
+拿不准先用哪边的，可以各买一个月低档试用，或先看 套餐选择器。两边都要用的人也不少：写作与审稿走 Claude，多模态与日常助手走 ChatGPT。
+⚠ 风险提示第三方充值存在被平台风控、掉订阅或封号的可能，没有人能保证不出问题。Claude 封号不质保；ChatGPT 卡密发出后不退不换，账号不符合条件导致无法使用的不在售后范围内。价格以店铺页实时显示为准。付款后怎么查订单、出问题找谁
+付款成功后，卡密类商品一般会直接显示在订单页。关掉页面也没关系，可以到 订单查询页 用下单时填写的联系方式或订单号查回来。建议马上把订单号、卡密和付款截图存好，后面续费或申请售后都用得到。
+出问题时按这个顺序处理：先别重复操作，把报错页面截图（带上时间）；再到店铺商品页点「联系TA」留言，写清订单号、遇到的问题和截图；店铺不处理的，再走发卡平台的投诉入口。本站不收款，不能直接退款，但可以帮你理清流程，常见报错见 CDK 兑换报错排查，退款和续费问题见 续费与退款常见问题。
+
+## 常见问题
+Q：ChatGPT Plus 和 Claude Pro 哪个更好？
+A：没有绝对更好，看场景：多模态与通用助手偏 Plus，长文与审代码偏 Claude。
+
+Q：本站两边大概多少钱？
+A：Plus 月卡卡密 ¥133.9 / 30 天；Claude Pro ¥168 / 1 个月；以店铺页为准。
+
+Q：额度是不是一样多？
+A：不一样，且厂商会调整。不要迷信网上的固定条数，以自己是否经常撞上限为准。
+
+Q：可以两个都开吗？
+A：可以。按各自商品页条件分别开通即可。
+
+Q：Claude 没验证能买吗？
+A：不建议。按商品规则需要先完成验证。
+
+# AI 会员突然掉了怎么办？掉订阅自查步骤与售后边界
+URL: https://ai-huiyuan.vercel.app/guides/membership-dropped-what-to-do/
+- 先确认是不是登错号、缓存未刷新，再看订阅页真实状态。
+- 保存：订阅页截图、订单号、付款时间、商品名称。
+- 质保只按该商品页写明的范围处理，不是「掉了就一定补开」。
+- 封号、账号不符合下单条件、不质保版、已过质保期等，通常不在售后内。
+
+
+## 步骤
+1. 退出后重新登录，确认当前登录的是购买时用的同一个账号。
+2. 打开账号设置或订阅/账单页，截图保存当前状态（含时间）。
+3. 翻出下单时的订单号、商品名、付款截图；到订单查询页核对。
+4. 打开该商品页顶部的「下单前必看」与售后说明，对照自己是否仍在质保范围内。
+5. 在店铺商品页点「联系TA」，一次说清：订单号、掉订阅时间、截图、自己已做过的自查。
+6. 等待店铺按规则回复；不要同时找多家或反复重复下单。
+先分清：掉订阅、登不上、被限制，不是一回事
+「会员突然没了」常见有几种情况：订阅页显示已变回免费档；还能登录但高级模型不可用；账号被限制或提示异常。处理方式不同。本文说的是掉订阅——你还能登录，但付费档位不见了或提前结束。若是完全登不上，优先走厂商账号找回，并保留证据再问店铺。
+五分钟自查，少走弯路
+
+账号对不对：很多人用过多个邮箱注册。打开订阅页，看登录邮箱是否与下单时一致。
+刷新与设备：换浏览器或无痕窗口再看一次，排除旧缓存显示「还有会员」或「已经没了」的错觉。
+是不是到期了：卡密类多是按次开通固定天数，到期不会自动续费。对照订单日期与商品页时长。
+有没有自己取消或换过套餐：在厂商侧改过付款方式、取消订阅、切到 Team/家庭组等，都可能导致状态变化。
+证据齐不齐：订阅页截图、订单号、商品链接、大致掉档时间。没有这些，店铺很难核实。
+
+续费、退款口径与常见误区，可对照 续费与退款常见问题。CDK 核销报错则看 CDK 兑换报错排查。
+售后边界：诚实讲清楚
+第三方充值的质保，写在每一款商品自己的页面上，不是本站口头承诺。常见原则是：
+
+通常可能处理的：在质保期内、账号仍符合商品使用条件、属于商品页写明的「掉订阅」情形，带齐证据联系店铺。
+通常不保的：封号或账号被平台永久限制；下单时账号已有订阅、用过 $0 充值、在 Team 中等不符合条件；标明「不质保」的版本（例如部分低价兑换只保链接短时可用）；已过质保天数；把账号借给他人、频繁异常登录等自身操作引发的问题。
+
+没有人能保证第三方开通「一定不被风控」。本站也不会承诺「掉了一定免费补开到满月」——能不能补、补什么，以店铺当时回复与商品规则为准。
+还想继续用，怎么买更稳妥
+若质保期内按规则处理完毕仍想续用，或已过保需要重新开通：ChatGPT 侧可考虑 Plus 月卡卡密 ¥133.9（提交 session 自助充值，质保 30 天），或 CDK ¥148。下单前务必再读一遍商品页条件，避免同一账号因「已有订阅/不符合条件」再次无法使用。选购清单见 找代购前的检查清单。
+⚠ 风险提示第三方充值存在掉订阅与封号可能。质保范围以商品页为准，封号、不符合使用条件、不质保版、过保等情形通常不在售后内。本站不收款，不能直接退款；请通过店铺「联系TA」与平台规则处理。勿轻信「永不掉单」类说法。付款后怎么查订单、出问题找谁
+付款成功后，卡密类商品一般会直接显示在订单页。关掉页面也没关系，可以到 订单查询页 用下单时填写的联系方式或订单号查回来。建议马上把订单号、卡密和付款截图存好，后面续费或申请售后都用得到。
+出问题时按这个顺序处理：先别重复操作，把报错页面截图（带上时间）；再到店铺商品页点「联系TA」留言，写清订单号、遇到的问题和截图；店铺不处理的，再走发卡平台的投诉入口。本站不收款，不能直接退款，但可以帮你理清流程，常见报错见 CDK 兑换报错排查，退款和续费问题见 续费与退款常见问题。
+
+## 常见问题
+Q：掉订阅找谁？
+A：到对应商品页点「联系TA」，带上订单号和订阅页截图；本站不代收付款，不能直接退款。
+
+Q：一定会补开吗？
+A：不一定。只按该商品写明的质保范围处理，不承诺一律补开。
+
+Q：封号了呢？
+A：多数商品写明封号不质保。
+
+Q：自查最容易漏哪步？
+A：登错小号，以及没有保存掉档当时的订阅页截图。
+
+Q：续费会自动扣款吗？
+A：本站卡密类一般是按次购买，不会自动续费；详见续费与退款常见问题。
+
+# 提交 Session / Cookie 安全吗？AI 会员卡密自助充值说明
+URL: https://ai-huiyuan.vercel.app/guides/session-json-is-it-safe/
+- Session（有时以 JSON/Cookie 形式导出）是浏览器里的登录会话凭证，不是账号密码。
+- 在有效期内，持有者可以在一定程度上代表你的登录状态，因此只应在商品页写明的充值页面提交。
+- 充值完成后，退出并重新登录，通常可让旧会话失效。
+- 绝不要提供密码、短信验证码、邮箱验证码，也不要允许远程控制电脑。
+
+
+## 对比
+| 方式 | 本站参考价 | 你需要提供 | 特点 |
+| --- | --- | --- | --- |
+| Plus 月卡卡密（session 自助） | ¥133.9 / 30 天 | 自己账号的 session（不要密码） | 价格更低，会员开在自己号上 |
+| Plus CDK | ¥148 / 30 天 | 无，自己核销兑换码 | 不提交 session，多花一点钱 |
+## 步骤
+1. 确认商品页写的是 session / 卡密自助，而不是要密码的代登录。
+2. 按商品页图文指引，仅在指定充值页粘贴 session；不要发到聊天窗口或陌生链接。
+3. 提交后等待结果显示成功，再回 ChatGPT 刷新查看 Plus 状态。
+4. 充值完成后，在账号里退出登录并重新登录；按需检查已登录设备。
+5. 保存订单号与成功截图；不要把 session 明文长期存在备忘录或群里。
+Session 是什么
+你登录网站之后，浏览器会保存一串会话凭证，用来证明「这个浏览器已经登录过」。导出或复制后，有人称之为 session、cookie、session JSON，说法不同，本质接近：它不是密码，但在过期或失效前，常被系统当作登录态的一部分。
+所以：把它交给错误的人，风险接近「让别人用你已登录的浏览器」；把它按指引交给正确的充值页，是部分低价卡密自助商品的技术路径。本站 ChatGPT Plus 月卡卡密 ¥133.9 采用的就是「提交自己账号 session、不开口要密码」的方式。
+相对安全的用法
+
+只在商品页写明的页面提交：从店铺订单进入指引链接，认准流程。不要点陌生人私信里的「代充网址」。
+不要给密码和验证码：任何索要登录密码、邮箱密码、短信/邮箱验证码、二次验证备份码的请求，都应按止损处理。
+不要远程桌面：不需要让对方控制你的电脑或手机。
+充完立刻处理会话：退出登录再重新登录；若账号提供「登录设备/会话」列表，可下线不明设备。
+专用号更稳妥：若账号里有极重要的长期资料，可评估是否改用 CDK，或换不存放核心资料的号。
+
+和 CDK 怎么选
+介意提交 session 的人，直接选 Plus CDK ¥148：付款拿兑换码，自己在账号里核销，商家接触不到你的会话。差价大约十几元，买的是「少暴露一种凭证」。价格与条件对比见 Plus 怎么开最便宜；三种交付方式总览见 CDK、代充和成品号。
+仍然要知道的风险
+即使用的是 session 而不是密码：第三方充值整体仍可能被平台风控，出现掉订阅或账号限制；session 若被截获或粘贴到钓鱼页，他人可能在有效期内操作你的账号。商品页会写明账号条件（例如无正在生效的订阅、未用过 $0 充值、不在 Team 中等），不符合条件导致失败的，通常不在售后范围内。充值成功后一般不退款。
+⚠ 风险提示Session 在有效期内可代表登录态，只可在商品页指引页面提交。不要提供密码、验证码或远程控制。第三方充值存在风控与掉订阅可能；成功后不退款；账号不符合条件不在售后范围内。付款后怎么查订单、出问题找谁
+付款成功后，卡密类商品一般会直接显示在订单页。关掉页面也没关系，可以到 订单查询页 用下单时填写的联系方式或订单号查回来。建议马上把订单号、卡密和付款截图存好，后面续费或申请售后都用得到。
+出问题时按这个顺序处理：先别重复操作，把报错页面截图（带上时间）；再到店铺商品页点「联系TA」留言，写清订单号、遇到的问题和截图；店铺不处理的，再走发卡平台的投诉入口。本站不收款，不能直接退款，但可以帮你理清流程，常见报错见 CDK 兑换报错排查，退款和续费问题见 续费与退款常见问题。
+
+## 常见问题
+Q：Session 等于密码吗？
+A：不等于。但它在有效期内能代表登录态，仍需谨慎。
+
+Q：为什么 ¥133.9 比 CDK 便宜？
+A：因为采用 session 自助充值路径，成本结构不同；不想提交就选 ¥148 CDK。
+
+Q：提交后怎么让旧 session 失效？
+A：退出并重新登录，并检查已登录设备（若有该功能）。
+
+Q：有人要我验证码怎么办？
+A：拒绝。本站相关商品流程不需要你把验证码交给别人。
+
+Q：可以发给客服聊天窗口吗？
+A：不要。只按商品页指定充值页提交。
+
+# Gemini 和 ChatGPT Plus 哪个好？低预算怎么选（2026）
+URL: https://ai-huiyuan.vercel.app/guides/gemini-vs-chatgpt-plus/
+- 没有绝对谁更好，看你平时用在哪里：常用谷歌全家桶、要大网盘，偏 Gemini；要一个通用助手、常用 ChatGPT 的生态，偏 Plus。
+- 本站当前：Gemini 暂时缺货、补货中；ChatGPT Plus 月卡卡密 ¥133.9 / 30 天（质保 30 天）。
+- 预算更紧：可先开 ChatGPT Go ¥49；Gemini 补货后再考虑。
+- 两边都有账号条件，不符合条件导致无法使用的，不在售后范围内。
+
+
+## 对比
+| 对比项 | Gemini 会员 | ChatGPT Plus |
+| --- | --- | --- |
+| 本站当前价 | 暂时缺货 · 补货中 | ¥133.9 / 30 天（月卡卡密） |
+| 本站备选 | 补货后恢复（不质保版 / 质保版） | ¥148 / 30 天（CDK）；Go ¥49 |
+| 附带权益 | 含 5TB 云存储（以商品页为准） | 更高额度与高级功能（以厂商页面为准） |
+| 交付方式 | 兑换链接，自己登录谷歌账号兑换 | session 自助充值或 CDK 自己核销 |
+| 更适合 | 常用谷歌服务、需要大网盘 | 每天高频用 ChatGPT、需要通用助手 |
+## 步骤
+1. 先想清楚主要用途：日常问答写作、谷歌文档与网盘，还是已经习惯的 ChatGPT 对话。
+2. 想用 Gemini：目前暂时缺货、补货中，补货后确认谷歌账号符合条件再买。
+3. 如果主要用 ChatGPT，确认账号没有正在生效的订阅、没用过 $0 充值、不在 Team 中，再买 ¥133.9 月卡卡密；预算更紧可选 Go ¥49。
+4. 付款后在订单页取卡密或兑换链接，按商品页指引操作。
+5. 开通后在账号设置里确认会员已生效，保存订单号和截图。
+先说结论
+Gemini 目前暂时缺货、补货中（不质保版和质保版都已下架，补货动态见 Gemini 页）。ChatGPT Plus 月卡卡密 ¥133.9 是本站最便宜的 Plus，按 30 天算。两者不冲突，不少人是两个都用：日常资料和网盘放谷歌，写作和通用问答用 ChatGPT。
+用途上怎么分
+更偏向 Gemini 的人：平时就用谷歌邮箱、文档和网盘，希望 AI 和这些服务放在一起；需要大容量云存储。
+更偏向 ChatGPT Plus 的人：已经习惯 ChatGPT 的对话方式和历史记录，每天都在用，经常撞免费额度上限；想要一个什么都能问一点的通用助手。
+模型能力两边都在频繁更新，网上的跑分和「谁吊打谁」很快就会过时。最靠谱的办法是用自己的真实任务各试几天。
+不质保版和质保版的 Gemini 差在哪
+不质保版只保证兑换链接拿到后短时可用，不保订阅能用满 18 个月，中途掉了不售后。质保版有订阅质保。两款目前都暂时缺货、补货中。详细说明见 Gemini 不质保版怎么开。
+¥133.9 和 ¥148 的 Plus 差在哪
+¥133.9 需要提交你自己账号的 session 自助充值，不需要密码；¥148 是 CDK 兑换码，自己核销，什么都不用提供。时长都是 30 天。介意提交 session 的选 CDK，原理见 提交 Session 安全吗，价格对比见 Plus 怎么开最便宜。
+低预算的推荐顺序
+只是轻度用 ChatGPT：先看 Go 和 Plus 的区别，Go 只要 ¥49。主要用 ChatGPT：开 ¥133.9 的 Plus 月卡，按月买，不合适下个月就停。主要用谷歌生态：Gemini 目前暂时缺货、补货中，补货后再按需选不质保版或质保版。
+⚠ 风险提示Gemini 不质保版只保链接短时可用，不保订阅时长；Gemini 目前暂时缺货、补货中；家庭组账号等不符合条件的无法使用。ChatGPT 卡密充值成功后不退款，账号有正在生效的订阅、用过 $0 充值或在 Team 中的无法使用。第三方充值存在被平台风控的可能，不符合使用条件或平台风控造成的问题不在售后范围内。价格以店铺页实时显示为准。付款后怎么查订单、出问题找谁
+付款成功后，卡密类商品一般会直接显示在订单页。关掉页面也没关系，可以到 订单查询页 用下单时填写的联系方式或订单号查回来。建议马上把订单号、卡密和付款截图存好，后面续费或申请售后都用得到。
+出问题时按这个顺序处理：先别重复操作，把报错页面截图（带上时间）；再到店铺商品页点「联系TA」留言，写清订单号、遇到的问题和截图；店铺不处理的，再走发卡平台的投诉入口。本站不收款，不能直接退款，但可以帮你理清流程，常见报错见 CDK 兑换报错排查，退款和续费问题见 续费与退款常见问题。
+
+## 常见问题
+Q：Gemini 和 ChatGPT Plus 哪个更好？
+A：看用途：常用谷歌服务、要大网盘偏 Gemini；高频用 ChatGPT 偏 Plus。
+
+Q：本站最便宜分别多少钱？
+A：Gemini 暂时缺货、补货中；ChatGPT Plus 月卡卡密 ¥133.9 / 30 天，以店铺页为准。
+
+Q：不质保版现在多少钱？
+A：暂时缺货、补货中，暂无可购价格。
+
+Q：两个都要给密码吗？
+A：都不要。Gemini 自己登录兑换；Plus 提交 session 或用 CDK。
+
+Q：可以两个一起开吗？
+A：可以，分别按各自商品页条件开通。
+
+# ChatGPT Plus 到期了怎么续费？续费时间、方式和省钱办法
+URL: https://ai-huiyuan.vercel.app/guides/chatgpt-plus-renew/
+- 卡密和 CDK 都是按次购买，到期不会自动扣款，想继续用就再买一次。
+- 按商品规则，账号有正在生效的订阅时不能充值，所以要等当前订阅结束后再续。
+- 本站续费最省钱的是 Plus 月卡卡密 ¥133.9 / 30 天；不想提交 session 就选 CDK ¥148。
+- 用量变少可以降到 Go ¥49，用量变大再看 Pro。
+
+
+## 步骤
+1. 打开 ChatGPT 账号设置，查看当前订阅的到期日。
+2. 到期前不要提前下单充值；等订阅结束、账号变回免费版后再操作。
+3. 确认账号仍然符合条件：没有正在生效的订阅、没用过 $0 充值、不在 Team 中。
+4. 在本站 ChatGPT 页选择 ¥133.9 月卡卡密或 ¥148 CDK，跳转店铺付款。
+5. 按商品页指引充值，刷新后确认已显示 Plus，保存订单号和截图。
+为什么不能提前续
+卡密和 CDK 是给账号开通一段固定时长的会员，不是在原订阅上叠加天数。按本站在售商品的规则，账号有正在生效的订阅时不能使用，提前充可能失败，而且失败不在售后范围内。所以最稳的做法是：记下到期日，到期后账号变回免费版，再买下一张。
+如果你原来是在厂商网页上订阅的，它默认会自动续费。想改用卡密，需要先在订阅设置里取消自动续费，等这期结束后再充。
+续费怎么买最划算
+本站目前最便宜的是 ChatGPT Plus 月卡卡密 ¥133.9（30 天，质保 30 天，自动发货），提交自己账号的 session 自助充值，不需要密码。不想提交 session 的，选 Plus CDK ¥148，自己核销兑换码。两种方式的区别见 提交 Session 安全吗。
+续费前想想要不要换档
+这个月很少用：可以先停一个月，或者降到 ChatGPT Go ¥49。经常撞额度上限：看看 Pro 值不值得，本站 Pro 5x 月卡 CDK ¥699。想换个工具试试：Gemini（目前暂时缺货、补货中，补货后可以和 Plus 搭配用），见 Gemini 和 ChatGPT Plus 哪个好。
+续费前自查清单
+当前订阅已经结束，账号设置里显示免费版。原来的网页订阅已取消自动续费（如果有的话）。账号没用过 $0 充值，不在 Team 中。读完商品页顶部的「下单前必看」。
+⚠ 风险提示充值成功后不退款。账号有正在生效的订阅、用过 $0 充值或在 Team 中的无法使用，不在售后范围内。第三方充值存在被平台风控、掉订阅的可能，没有人能保证不出问题。价格以店铺页实时显示为准。付款后怎么查订单、出问题找谁
+付款成功后，卡密类商品一般会直接显示在订单页。关掉页面也没关系，可以到 订单查询页 用下单时填写的联系方式或订单号查回来。建议马上把订单号、卡密和付款截图存好，后面续费或申请售后都用得到。
+出问题时按这个顺序处理：先别重复操作，把报错页面截图（带上时间）；再到店铺商品页点「联系TA」留言，写清订单号、遇到的问题和截图；店铺不处理的，再走发卡平台的投诉入口。本站不收款，不能直接退款，但可以帮你理清流程，常见报错见 CDK 兑换报错排查，退款和续费问题见 续费与退款常见问题。
+
+## 常见问题
+Q：ChatGPT Plus 卡密会自动续费吗？
+A：不会。卡密和 CDK 都是按次购买，到期后需要再买。
+
+Q：可以提前续费吗？
+A：不建议。账号有正在生效的订阅时不能充值，要等到期后再充。
+
+Q：续费多少钱？
+A：本站 Plus 月卡卡密 ¥133.9 / 30 天，CDK ¥148 / 30 天，以店铺页为准。
+
+Q：续费要换账号吗？
+A：不用，符合条件的话继续充在自己原来的账号上。
+
+Q：网页订阅怎么改成卡密？
+A：先在订阅设置里取消自动续费，等这期结束后再用卡密充值。
+
+# Claude 充值后要验证怎么办？验证类型、处理步骤与常见提示
+URL: https://ai-huiyuan.vercel.app/guides/claude-verify-what-to-do/
+- 验证由 Anthropic 按其风控规则发起，规则不公开，以 Claude 帮助中心为准。
+- 第三方店铺和本站都无法替你完成或绕过验证。
+- 能用本人真实信息完成的按页面完成；完成不了不要找人代过。
+- 代充订单遇到验证：先截图，带订单号联系店铺，售后以商品页规则为准。
+
+
+## 对比
+| 情况 | 通常意味着 | 建议做法 |
+| --- | --- | --- |
+| 注册或登录时要求手机验证 | 账号需要额外确认 | 按页面用本人可接收短信的号码完成 |
+| 付费后出现验证提示 | 支付或账号进入复核 | 先别重复付款，截图并按页面说明处理 |
+| 使用中突然要求验证 | 风控触发，原因不公开 | 暂停批量或异常操作，按提示处理 |
+| 验证后无法继续使用 | 可能被限制 | 查看帮助中心说明；代充订单联系店铺 |
+## 步骤
+1. 看清提示要求的具体信息，截图保存（含时间）。
+2. 判断能否用本人真实信息正常完成；能则按页面完成。
+3. 完成不了时，不要使用他人或来路不明的号码、证件。
+4. 如果会员是代充开通的，带订单号和截图联系下单店铺。
+5. 查看 Claude 帮助中心关于账号与验证的最新说明。
+## 常见报错
+| 你看到的提示（大意） | 可能原因 | 处理 |
+| --- | --- | --- |
+| 要求验证手机号 | 新账号或风控复核 | 用本人号码完成 |
+| 验证码收不到 | 号码或运营商问题 | 稍后重试，勿频繁请求 |
+| 账号已被限制/停用 | 违反条款或风控 | 按帮助中心申诉；代充订单联系店铺 |
+
+## 常见问题
+Q：店铺能帮我过验证吗？
+A：不能，也不应该。验证由 Anthropic 发起，任何"代过验证"都有额外的账号与隐私风险。
+
+Q：出现验证是不是要封号了？
+A：不一定。它说明账号需要额外确认，结果取决于 Anthropic 的判断。
+
+Q：验证失败能退款吗？
+A：取决于下单店铺的商品页售后规则。本站不收款，无法直接退款。
+
+# Codex 250 额度能用多久？影响因素与估算方法
+URL: https://ai-huiyuan.vercel.app/guides/codex-250-how-long/
+- 没有固定答案：取决于任务大小、上下文长度、使用频率和 OpenAI 当时的计量规则。
+- 本站不编造"能用 X 天"之类的数字；额度含义与有效期以商品页说明为准。
+- 本站 Codex 250 额度参考价 ¥95。
+- 最可靠的方法：先买一份，记录一周消耗，再决定是否加购。
+
+
+## 对比
+| 使用方式 | 消耗速度（相对） | 说明 |
+| --- | --- | --- |
+| 偶尔问报错、改小函数 | 较慢 | 输入短、任务小 |
+| 日常写功能、读几个文件 | 中等 | 上下文随文件数增加 |
+| 让它读整个仓库、长时间自主执行 | 较快 | 上下文长、步骤多 |
+## 步骤
+1. 下单前在商品页确认：额度怎么到账、有效期从何时起算。
+2. 到账后记录起始额度（如界面可见）。
+3. 正常使用一周，记录每天做了哪些任务。
+4. 用"已用额度 ÷ 天数"估算日均消耗，再推算剩余可用天数。
+5. 按估算结果决定是否加购，避免一次买太多。
+## 常见报错
+| 情况 | 可能原因 | 处理 |
+| --- | --- | --- |
+| 额度掉得比预期快 | 上下文过长、重复上传材料 | 只给相关文件，拆小任务 |
+| 额度未到账 | 交付未完成或核销步骤有误 | 保留订单号与截图联系店铺 |
+| 提示用量达到上限 | 额度用尽或触发限制 | 查看账号方案说明；需要时加购 |
+
+## 常见问题
+Q：250 额度大概能用几天？
+A：无法给出可靠的统一数字，取决于你的用法。请用一周的实际消耗自行估算。
+
+Q：额度有效期多久？
+A：以商品页说明为准，下单前请确认。
+
+Q：Codex 250 多少钱？
+A：本站参考价 ¥95，以店铺页面实时价格为准。
+
+# ChatGPT Go 和 Plus 选哪个？按用途和预算判断
+URL: https://ai-huiyuan.vercel.app/guides/chatgpt-go-vs-plus/
+- Go 是入门付费档，本站 ¥49/月；Plus 是主力个人档，本站 Plus 月卡卡密 ¥133.9/30 天（session 自助充值），CDK ¥148/30 天备选。
+- Go 与 Plus 的具体额度和功能以 OpenAI 当前定价页为准，会调整。
+- 偶尔使用、预算有限 → 先试 Go；每天用于学习工作 → Plus。
+- 按月买，不合适下个月换档即可。
+
+
+## 对比
+| 对比项 | ChatGPT Go | ChatGPT Plus |
+| --- | --- | --- |
+| 本站参考价 | ¥49 / 1 个月 | ¥133.9 / 30 天（月卡卡密）；¥148（CDK） |
+| 定位 | 入门付费档 | 个人主力档 |
+| 适合 | 轻度使用、先体验付费 | 日常写作、学习、办公、轻量编程 |
+| 具体额度与功能 | 以 OpenAI 定价页为准 | 以 OpenAI 定价页为准 |
+| 购买入口 | 店铺 Go 商品页 | 店铺 Plus 商品页 |
+## 步骤
+1. 回想过去一周：每天大约用多少次、做什么任务。
+2. 打开 OpenAI 定价页，对照两档当前权益。
+3. 轻度或不确定 → 先买 Go 一个月。
+4. 经常觉得不够用或需要更完整功能 → 换 Plus。
+5. 下单前看清商品页交付方式与售后规则。
+## 常见报错
+| 常见误区 | 实际情况 | 建议 |
+| --- | --- | --- |
+| 越贵回答越聪明 | 差别主要在额度与可用功能 | 按用量选 |
+| 一次买很多个月更省 | 需求会变，按月更灵活 | 先买一个月 |
+| 只看价格 | 交付方式和售后也很重要 | 下单前读商品页 |
+
+## 常见问题
+Q：Go 够用吗？
+A：轻度使用通常够；如果经常碰到限制，再考虑 Plus。以 OpenAI 当前说明为准。
+
+Q：Go 可以升级到 Plus 吗？
+A：代购商品一般需要重新购买对应商品，是否支持补差价以店铺规则为准。
+
+Q：两者都充到自己的账号吗？
+A：交付方式以各自商品页为准；Plus 为 CDK，按说明核销到自己的账号。
+
+# 卡密兑换失败报错大全：常见提示、原因与处理
+URL: https://ai-huiyuan.vercel.app/guides/cdk-redeem-errors/
+- 兑换失败先停手，不要反复提交同一张卡密。
+- 常见原因：多复制了空格、账号已有订阅、登录错账号、卡密已被使用。
+- 处理顺序：自查 → 截图 → 带订单号联系店铺。
+- 售后范围以商品页规则为准；本站不收款，无法直接退款。
+
+
+## 对比
+| 交付方式 | 需要你做什么 | 需要密码吗 |
+| --- | --- | --- |
+| CDK / 卡密 | 按商品页说明到兑换页核销 | 一般不需要 |
+| 代充 | 按商品页提交必要信息，等待开通 | 以商品页为准，主邮箱密码要警惕 |
+## 步骤
+1. 在订单页复制卡密，粘贴到记事本检查首尾空格。
+2. 确认当前登录的是要开通的那个账号。
+3. 确认该账号当前没有冲突的订阅。
+4. 按商品页步骤提交一次，记录结果。
+5. 仍失败：截图报错页与订单页，带订单号联系店铺。
+## 常见报错
+| 提示（大意） | 可能原因 | 处理 |
+| --- | --- | --- |
+| 卡密无效 / 不存在 | 复制不完整或有空格 | 重新复制核对；仍不行联系店铺 |
+| 卡密已被使用 | 重复提交或已核销 | 检查账号是否已生效；未生效联系店铺 |
+| 账号已有订阅 | 与现有订阅冲突 | 等现有订阅到期或按商品页说明处理 |
+| 登录状态失效 | 会话过期 | 重新登录后再提交 |
+| 页面打不开 / 超时 | 网络或兑换页繁忙 | 稍后重试，勿多次提交 |
+
+## 常见问题
+Q：兑换失败能退吗？
+A：卡密无效、兑换失败一般属于售后范围，具体以商品页规则为准。请保留订单号和截图。
+
+Q：订单页关了怎么找回卡密？
+A：到 https://catfk.com/order 用下单时的联系方式或订单号查询。
+
+Q：可以把卡密发给别人帮我兑吗？
+A：不建议。卡密等同于商品本身，泄露后可能被他人使用。
+
+# 代充靠不靠谱？怎么判断、风险有哪些（坦白版）
+URL: https://ai-huiyuan.vercel.app/guides/is-reseller-reliable/
+- 代充有真实风险：服务商条款限制、账号可能被风控，没有人能保证不封。
+- 判断标准：在平台内付款、不要主邮箱密码、售后规则写清楚、可查订单。
+- 价格明显低于同类时多问一句来源。
+- 本站是第三方导购，不是厂商授权渠道；能做的是把条件写清楚，不能做的是保证账号安全。
+
+
+## 对比
+| 判断项 | 相对可靠的表现 | 需要警惕的表现 |
+| --- | --- | --- |
+| 付款方式 | 在发卡平台收银台付款 | 让你扫私人码或平台外转账 |
+| 账号信息 | CDK 自助核销，不要密码 | 索要主邮箱密码 |
+| 售后规则 | 商品页写明怎么处理失败 | 没有规则或只说"放心" |
+| 承诺 | 坦白说明风险 | "永久""绝不封号"等绝对化说法 |
+| 订单 | 可在平台查询订单 | 没有订单记录 |
+## 步骤
+1. 先读商品页：交付方式、有效期、售后规则。
+2. 确认只在平台收银台付款。
+3. 确认是否需要提供账号信息；涉及密码的谨慎。
+4. 付款后立即保存订单号与发货内容。
+5. 出问题按"留证据 → 联系店铺 → 平台投诉"处理。
+## 常见报错
+| 风险 | 说明 | 降低风险的做法 |
+| --- | --- | --- |
+| 账号被限制 | 服务商风控不公开，任何渠道都可能遇到 | 按月买、重要资料多处备份 |
+| 商品提前失效 | 上游渠道变化 | 看清质保与售后规则 |
+| 店铺不处理 | 售后链较长 | 走发卡平台投诉入口 |
+
+## 常见问题
+Q：代充是不是骗局？
+A：不能一概而论。有真实风险，也有按规则交付的店铺；用上面的判断项逐条核对。
+
+Q：本站能保证不封号吗？
+A：不能。任何人都无法保证。
+
+Q：为什么不直接在厂商网站订阅？
+A：能直接订阅的话，直接订阅通常是最稳妥的方式；代购适合无法直接付款的情况，风险需自行评估。
+
+# ChatGPT Plus 还是 Pro？按使用强度选档位（2026 版）
+URL: https://ai-huiyuan.vercel.app/guides/chatgpt-plus-vs-pro/
+- 大多数个人用户从 Plus 起步即可；本站 Plus 月卡卡密 ¥133.9/30 天（session 自助充值），Plus CDK ¥148/月备选，Go ¥49/月。
+- Pro 适合每天长时间高强度使用、经常撞到额度上限的人；本站 Pro 5x 月卡 CDK ¥699、Pro 20x ¥1249。
+- 先用一个月记录使用强度，再决定是否升级。
+
+
+很多人第一次给 ChatGPT 付费时会纠结：Plus 每月一百多元，Pro 是它的数倍，到底差在哪里，自己需不需要。这篇文章不复述厂商功能表——那些内容变化很快，以 OpenAI 官网当前页面为准——而是从"你的实际使用方式"出发，帮你判断哪个档位更划算。
+一、先算清楚自己每天怎么用
+建议先做一个简单的记录：连续一周，每天大概和 ChatGPT 对话多少轮、每轮输入的内容有多长、有没有上传文件或让它长时间思考。很多人以为自己是"重度用户"，记下来才发现一天也就二三十轮对话，大部分是查资料、润色文字、翻译段落。这种强度，Plus 的额度通常绰绰有余。
+真正需要 Pro 的，往往是下面几类人：一是每天连续几个小时把 ChatGPT 当作主要工作工具，比如做研究综述、写长篇报告；二是经常让模型处理大量文件、长代码库，或运行耗时很长的推理任务；三是在 Plus 档位下频繁看到额度用尽的提示，已经影响到工作进度。如果你不属于这几类，先从 Plus 开始几乎不会错。
+二、三个档位的定位差异
+Plus 是面向个人的主力档位。对学生、文字工作者、普通上班族来说，它覆盖了绝大多数日常场景：写作、总结、翻译、学习辅导、轻量编程。本站首推 Plus 月卡卡密 ¥133.9/30 天（提交自己账号的 session 自助充值），也可选 Plus CDK 每月 148 元；入门档 Go 为 49 元/月。
+Pro（$100 档） 适合"Plus 不够、但也没到极限"的中间状态。它的意义在于给你更宽裕的额度，让你在一天的高强度工作中不必频繁等待。本站 Pro 5x 月卡 CDK 参考价 ¥699。
+Pro（$200 档） 面向最重度的专业用户。它通常提供更高的额度和更完整的高级功能，价格也最高，本站 Pro 20x 月卡 CDK 参考价 ¥1249。对于大多数人来说，这一档是"知道自己需要才买"的选择，而不是"买了以防万一"。
+三、一个实用的升级路线
+比较稳妥的做法是：第一个月先买 Plus，正常使用并留意两件事——是否经常撞到额度上限，以及撞到上限时是否真的影响了你的工作。如果一个月里只碰到一两次，说明 Plus 完全够用；如果几乎每天都要停下来等待，再考虑升级到 Pro 的 $100 档。至于 $200 档，建议在 $100 档也经常不够用之后再考虑。
+这样做的好处是，你每一次加钱都有明确的理由，而不是被"更高级"三个字推着走。对于按月购买的代购商品来说，切换档位的成本并不高，下个月换一个商品即可。
+四、选代购时要额外注意什么
+通过第三方店铺购买时，档位只是其中一个变量，交付方式同样重要。常见的形式有两种：一种是店铺提供一个已经开通好的账号，另一种是在你自己的账号上开通。前者通常更便宜、到手更快，但账号里没有你过去的聊天记录；后者能保留你的历史数据，但开通流程可能需要你配合。
+此外，请务必阅读店铺的售后说明：出现问题时是补时长、换账号还是退款，申请期限是多久，需要提供什么证明。本站只做信息整理，不是合同卖方，售后需要直接联系下单的店铺。
+五、关于风险，坦白说
+OpenAI 的使用条款对账号的转让和共享有限制，第三方代购存在被风控的可能，任何人都无法保证"账号一定不会被限制"。我们建议：不要把唯一一份重要资料只保存在聊天记录里；不要向任何人提供你的主邮箱密码；按自己能承受的金额购买，优先选择短周期商品。理性评估之后，再决定是否通过代购方式使用。
+六、常见误区
+误区一：档位越高回答越好。实际上，不同档位之间更大的差别在于额度和可用功能的多少，日常问题在 Plus 上得到的回答质量已经足够好。误区二：一次买齐最划算。按月购买的意义就在于灵活，需求变化时随时调整，提前锁定高档位反而容易浪费。误区三：只看价格不看交付方式。同样是 Plus，新账号和自有账号开通的体验差别很大，售后范围也不一样，下单前一定要看清楚商品说明。
+总结
+对大多数人来说，Plus 就是最合适的起点；只有在记录了自己的使用强度、确认 Plus 明显不够之后，再逐级升级到 Pro。把钱花在真正需要的额度上，比一次买到最高档更划算。
+
+# Claude Pro、Max 5× 和 Max 20× 怎么选：一份按场景划分的指南
+URL: https://ai-huiyuan.vercel.app/guides/claude-pro-vs-max/
+- 写作、读长文、轻度编程选 Claude Pro；本站参考价 ¥168/月。
+- Max 5×/20× 买的是更多用量而不是更聪明的回答；本站 Max 5x 月卡 CDK ¥799，Max 20x 暂未上架。
+- 每天都撞到用量上限时再考虑升级。
+
+
+Claude 以擅长阅读长文档、写作风格自然、编程能力强而受到很多人的喜爱。它的付费档位目前主要有 Pro、Max 5× 和 Max 20× 三种。很多人看到"5 倍""20 倍"就开始犹豫：我到底需要多少倍？这篇文章按使用场景帮你拆解。
+一、先理解"倍数"是什么意思
+Max 档位的"5×"和"20×"，通常是指相对于 Pro 档位的用量倍数。也就是说，同样的时间窗口里，你可以发送更多消息、处理更多内容。具体额度如何计算、多久恢复一次，Anthropic 会根据情况调整，请以厂商页面的最新说明为准。对选购来说，你只需要记住一点：倍数买的是"用得更多、等得更少"，而不是"回答更聪明"。
+二、按场景对号入座
+写作和日常问答。如果你主要用 Claude 写文章、改稿、回复邮件、整理会议纪要，Pro 档位通常足够。这类任务单次输入不长，节奏也比较松散，很难把额度用满。本站参考价为每月 168 元。
+阅读和分析长文档。经常上传几十页的报告、合同或论文让 Claude 总结比对的人，消耗会明显变大。如果你每周只有几次这样的需求，Pro 仍然可以应付；如果这已经是你每天的主要工作，就要开始关注是否经常碰到上限。
+编程。写代码是最容易消耗额度的场景之一，尤其是把整个项目的多个文件交给模型理解、反复修改调试的时候。轻度编程（偶尔写脚本、查报错）用 Pro 没问题；如果你每天有几个小时都在和 Claude 一起写代码，Max 5× 会让体验顺畅很多，本站 Max 5x 月卡 CDK 参考价 ¥799。
+代理类和自动化工作流。让模型自主执行多步骤任务、长时间运行编程代理，是目前最"吃"额度的用法。这类用户才是 Max 20× 的主要对象（本站暂未上架）。如果你还不清楚"代理类工作流"具体指什么，那么大概率你暂时不需要这一档。
+三、判断要不要升级的三个信号
+第一，你每天都会看到用量达到上限的提示，而且不是偶尔一次；第二，等待额度恢复已经打断了你的工作节奏，导致你不得不切换到其他工具；第三，你愿意为节省的时间支付数倍的价格，并且这部分时间确实能带来收益。三个信号同时出现，再考虑从 Pro 升级到 Max 5×；在 5× 上依然频繁出现同样的情况，再考虑 20×。
+四、代购时的注意事项
+通过第三方店铺购买 Claude 会员时，请先确认交付方式：是提供新账号，还是在你自己的账号上开通。如果你已经在自己的账号里积累了项目和对话记录，后者更合适，但请问清楚开通过程中需要你提供什么信息。任何要求你交出主邮箱密码的做法，都需要格外谨慎。
+另外，请留意商品的有效期从什么时候开始计算、中途出现问题时店铺怎么处理、是否支持补差价升级。这些都由店铺决定，本站无法代为承诺。本站是独立第三方信息站，不是 Anthropic，也不是商品的卖方。
+五、省钱的小建议
+如果你的高强度使用集中在某个项目周期内，比如一个月的冲刺开发，可以只在这个月购买 Max，其余时间回到 Pro。按月购买的灵活性，正是为了让你按需付费。与其一直停留在高档位，不如根据工作节奏动态调整。
+六、一个简单的自测方法
+如果你还是拿不准，可以用一周时间做个简单的自测：每天记下第一次碰到用量上限的时间点。如果一周里从来没有碰到，或者只在少数几天的傍晚才碰到，说明 Pro 完全够用；如果几乎每天上午就已经用完，并且下午还要继续工作，那么升级到 Max 5× 会明显改善体验。这个方法不需要任何专业知识，却比凭感觉判断可靠得多。
+还有一点值得提醒：用量消耗不仅取决于消息条数，也和每次输入的内容长度有关。同样发十条消息，附带一份长文档和只问一句短话，消耗可能相差很多。如果你发现自己额度消耗得特别快，不妨先检查是否每次都重复上传了大量相同的材料，适当精简输入，往往就能在不升级的情况下多用不少。
+总结
+写作和日常使用选 Pro；每天长时间编程、经常撞线选 Max 5×；运行代理类工作流、5× 也不够用时再考虑 Max 20×。先从低档位开始观察，再根据真实的使用数据升级，是最不容易浪费钱的方式。
+
+# 在第三方店铺买 AI 会员之前，先问这 10 个问题
+URL: https://ai-huiyuan.vercel.app/guides/ai-membership-reseller-checklist/
+- 下单前确认：卖家是谁、交付方式、有效期起算、售后规则。
+- 不在平台外付款，不提供主邮箱密码。
+- 警惕夸大承诺，保存订单号与发货内容。
+
+
+AI 会员代购的商品形态五花八门，价格也相差很大。便宜不一定是坑，贵也不一定可靠。与其凭感觉下单，不如在付款之前把下面这 10 个问题逐一确认。它们不能保证你一定买到满意的商品，但能帮你避开大多数常见的纠纷。
+1. 卖家到底是谁？
+先弄清楚谁在收你的钱、谁负责发货和售后。像本站这样的导购信息站只负责整理价格和说明，真正的卖家是你最终下单的那家店铺。付款页面显示的收款方名称、订单查询入口、投诉入口，都应该属于同一个交易平台，最好截图保存。
+2. 交付方式是什么？
+是给你一个新账号，还是在你自己的账号上开通？是自动发货的卡密，还是需要人工处理？不同方式的到账速度、数据归属和售后范围都不一样。商品页如果没写清楚，先问客服再下单。
+3. 有效期从什么时候开始算？
+有的商品从发货时开始计算，有的从首次登录或激活时开始。到期前会不会提醒、到期后账号如何处理，也值得问一句。
+4. 出问题时怎么处理？
+这是最重要的问题。请确认：在多长时间内可以申请售后；处理方式是补时长、换账号还是退款；需要你提供哪些证明，例如订单号、截图或录屏。售后条款写得越具体，后面越不容易扯皮。
+5. 店铺是否要求你提供密码？
+任何要求你交出主邮箱或主账号密码的流程，都需要谨慎对待。你的邮箱往往关联着很多其他服务，一旦泄露，损失可能远超一个月的会员费。如果流程确实需要登录，考虑使用一个不存放重要资料的账号。
+6. 是否要求你在平台外付款？
+正规的发卡平台下单流程是：在店铺页面选商品、填写联系方式、在平台的付款页面完成支付、在订单页查看发货内容。如果有人让你扫描私人收款码、转账到个人账户，或者"加微信再付款"，这类交易一旦出问题，平台通常无法介入。请坚持在平台内完成付款。
+7. 价格是否明显低于市场？
+代购价格受汇率、渠道成本影响，各店之间有差异很正常。但如果某个商品的价格远低于同类，甚至低于厂商订阅价格的一半，就需要多问一句来源。过低的价格往往意味着更高的失效风险。
+8. 有没有夸张的承诺？
+"厂商授权""保证不封""终身有效"这类说法，都值得警惕。AI 服务商的条款和风控策略随时可能变化，没有人能对此做出绝对保证。愿意坦白说明风险的卖家，反而更值得信任。
+9. 你是否了解服务商的条款？
+OpenAI、Anthropic、Google、xAI 等服务商都有各自的使用条款，其中不少对账号转让、共享或通过第三方购买有限制。通过代购使用，意味着你需要自己承担可能被风控的风险。建议在购买前花几分钟读一读相关条款。
+10. 订单信息保存好了吗？
+付款后请立即保存：订单号、付款记录、发货内容、商品页面截图和与客服的聊天记录。发卡平台的订单查询通常有时间限制，自己保存一份最可靠。遇到问题时，先联系店铺客服；店铺不处理，再通过发卡平台的投诉入口申请介入，并在规定时限内提交材料。
+附：一张可以直接复制的提问模板
+如果不知道怎么开口，可以直接把下面这段话发给店铺客服：您好，我想购买这个会员商品，想先确认几件事——交付方式是新账号还是在我自己的账号上开通；有效期从什么时候开始计算；中途失效时的处理方式和申请期限；开通过程中需要我提供哪些信息。确认清楚后我再下单，谢谢。认真回答这些问题的店铺，通常在售后环节也更好沟通。
+写在最后
+这份清单看起来很长，但每一项只需要花一两分钟确认。养成先问清楚再付款的习惯，可以帮你避开大部分不愉快的购买经历。如果你在使用本站信息时有任何疑问，也欢迎通过关于页面的联系方式告诉我们，我们会尽力解释流程，但无法代替店铺做出售后决定。
+
+# AI 会员到期、续费与退款：代购售后常见问题解答
+URL: https://ai-huiyuan.vercel.app/guides/ai-membership-renewal-refund-faq/
+- 售后顺序：留证据 → 查订单 → 联系店铺 → 必要时走平台投诉。
+- 虚拟商品交付后一般不支持无理由退款。
+- 续费需重新下单，先确认是否沿用原账号。
+
+
+买 AI 会员时大家关注的多是价格，真正容易产生麻烦的却往往是售后：会员提前失效了怎么办？到期后能不能接着续？不想用了能不能退？这篇文章把代购场景下最常见的售后问题集中解答，帮助你在遇到情况时知道该找谁、怎么做。
+一、先搞清楚三方关系
+在"导购站 + 发卡平台店铺"的模式里，通常涉及三方：导购信息站负责整理价格和使用说明；发卡平台提供店铺、收款页面和订单查询等技术服务；店铺是真正的卖家，负责商品交付和售后。本站属于第一类，是独立的第三方信息站，不收取货款，也不是买卖合同的一方。因此，涉及退款、补发、换号等决定，都需要由下单的店铺来处理。
+二、会员提前失效怎么办
+第一步，确认问题。截图或录屏记录当前的错误提示、账号状态和时间，确保能说明问题出在商品本身，而不是网络或操作原因。第二步，找到订单。在店铺所属平台的订单查询页，用下单时填写的联系方式或订单号查出订单详情。第三步，联系店铺客服，说明问题并附上证据，按商品页写明的售后规则申请补时长、换号或退款。大多数店铺会按剩余天数给出处理方案。
+三、店铺不回应怎么办
+如果店铺客服长时间不回复，或者拒绝按自己公布的售后规则处理，可以通过发卡平台的投诉入口发起投诉。不同平台的规则不同，但通常有以下共同点：投诉有时限，过了时限可能不再受理；需要留下可以联系到你的方式；平台会要求店铺在规定时间内处理，逾期可能按平台规则处理订单。请在投诉时把证据一次性提交完整。
+四、到期后如何续费
+代购会员一般按周期购买，到期后需要重新下单。续费前建议先确认两点：一是续费后是否沿用原来的账号，尤其是成品账号，重新购买可能会给你一个新账号；二是价格是否有变化，代购价格会随成本调整，以店铺页面实时价格为准。如果你在用自有账号开通的方式，请在到期前几天提前联系店铺，避免中间出现空档。
+五、不想用了能不能退款
+虚拟商品一旦交付，通常不支持无理由退款。尤其是自动发卡的商品，发货内容一经展示就视为已交付。少数店铺可能会对未使用、未激活的商品提供退款，但这完全取决于店铺规则。建议在下单前确认清楚，而不是买了之后再协商。
+六、能不能中途升级档位
+比如从 Plus 升到 Pro，或从 Claude Pro 升到 Max。是否支持补差价升级，取决于店铺的商品形式和上游渠道。有的店铺可以直接补差价，有的需要你重新购买新的商品。最稳妥的方式是先咨询店铺客服，确认处理方式后再操作。
+七、账号被服务商限制了算谁的责任
+这是最容易产生分歧的情况。AI 服务商的风控规则并不公开，账号受限的原因可能来自商品本身，也可能与使用方式有关，比如短时间内在多个地区登录、违反服务商的使用政策等。正因如此，任何人都无法承诺"账号一定不会被限制"。遇到这种情况，请先联系店铺，按照售后条款协商；同时检查自己的使用方式，避免同样的问题再次出现。
+八、保护自己的几个习惯
+保存好订单号、付款记录和发货内容；重要资料不要只存放在一个代购账号里；不向任何人提供主邮箱密码；只在平台内付款，不扫私人收款码；优先购买短周期商品，确认稳定后再考虑长周期。这些习惯不能消除所有风险，但能让你在出现问题时有据可查、损失可控。
+总结
+售后问题的处理顺序可以记成一句话：先留证据，再查订单，找店铺客服，必要时走平台投诉。本站可以帮你理解流程、整理信息，但无法替店铺做出售后决定。理解了三方各自的角色，遇到问题时就能少走弯路。
+
+# GPT Plus 怎么充值？CDK 购买与核销流程说明
+URL: https://ai-huiyuan.vercel.app/guides/chatgpt-plus-how-to-recharge/
+- 本站首推 ChatGPT Plus 月卡卡密 ¥133.9（30 天，session 自助充值，不需要密码）；Plus CDK ¥148（30 天）备选；Go ¥49（1 个月）。
+- 流程：店铺下单 → 平台收银台付款 → 订单页取 CDK → 按商品页说明核销到自己的账号。
+- CDK 类商品一般自动发货，无需提供账号密码。
+- 核销失败先别重复操作，保留截图和订单号联系店铺。
+
+
+"GPT Plus 怎么充值"是很多人第一次给 ChatGPT 付费时最常搜的问题。通过第三方店铺购买时，常见形式是 CDK（兑换码）：你付款后拿到一串卡密，再按商品页给出的步骤核销到自己的账号上。下面按顺序说明每一步要注意什么。
+一、下单前先确认三件事
+第一，确认商品是 CDK 还是代充。CDK 是自己核销，代充需要按页面说明提交信息，两者流程不同。第二，看清有效期，例如 30 天，以及从什么时候开始算。第三，读一遍售后说明：核销失败、提前失效时怎么处理。
+二、下单与付款
+在店铺页选择商品，填写联系方式（用于查单），然后在发卡平台的收银台付款。只在平台页面内付款，不要扫任何私人收款码，也不要在平台外转账。
+三、取卡密
+付款成功后，自动发货的商品一般会立刻在订单页显示卡密。如果页面关掉了，可以去订单查询页用下单时填写的联系方式或订单号找回。拿到卡密后先复制保存一份。
+四、核销
+按商品页的说明操作即可。核销页面和具体步骤以商品说明为准，本站不在这里复述，以免流程更新后信息过时。核销前确认登录的是你想开通的那个账号。
+五、常见失败原因
+常见情况包括：登录的账号已有其他订阅、复制卡密时多了空格、重复提交同一张卡密。遇到失败时先停下，不要反复尝试，截图错误提示，带上订单号联系店铺。
+六、Plus 还是 Go？
+Go 是入门档，价格低，适合先体验；Plus 额度和功能更完整，适合日常工作学习。两档的具体权益以 OpenAI 当前页面为准。
+关于风险
+本站不是 OpenAI，也不是其授权渠道。通过第三方开通存在账号被风控的可能，没有人能保证账号不受限制。请按自己能接受的风险购买。
+
+## 常见问题
+Q：GPT Plus CDK 需要提供账号密码吗？
+A：一般不需要。CDK 由你自己按商品页说明核销，任何要求你提供主邮箱密码的做法都应谨慎。
+
+Q：付款后多久能拿到 CDK？
+A：自动发货商品一般付款成功后立即在订单页显示；以订单状态为准。
+
+Q：卡密核销失败怎么办？
+A：不要重复提交，截图错误提示，保留订单号，联系下单店铺处理。
+
+Q：本站的 Plus 多少钱？
+A：参考价 ¥148（30 天），以店铺页面实时价格为准。
+
+# Codex 额度怎么理解？买额度包前先看这几点
+URL: https://ai-huiyuan.vercel.app/guides/codex-quota-explained/
+- Codex 是 OpenAI 面向编程的工具，用量受账号所属方案和额度规则影响。
+- 本站 Codex 250 额度包参考价 ¥95，额度含义与有效期以商品页说明为准。
+- 任务越大、上下文越长，消耗越快；先小量购买观察消耗速度。
+
+
+用 Codex 写代码的人越来越多，"额度不够用"也成了常见问题。第三方店铺会提供 Codex 额度包，例如本站的"Codex · 250 额度"。买之前，先把额度这件事弄清楚。
+一、额度和订阅是两回事
+Codex 的可用量和你账号所属的 ChatGPT 方案有关，OpenAI 会按方案给出不同的使用限制，规则以 OpenAI 当前文档为准。额度包是在此基础上补充用量的商品，具体如何计入、多久有效，以店铺商品页写明的为准。
+二、额度消耗快慢取决于什么
+一般来说，任务越复杂、让它读的文件越多、对话越长，消耗越快。同样是改一个函数，把整个仓库丢进去和只给相关文件，消耗可能相差很多。
+三、怎么判断买多少
+第一次建议先买一份，记录一周里大概用掉多少、做了哪些任务。有了自己的数据，再决定是否继续加购，比凭感觉一次买很多更不容易浪费。
+四、下单前在商品页确认
+确认三件事：额度怎么到账（卡密核销还是充到账号）、有效期从什么时候开始算、额度用不完或到账异常时怎么处理。不清楚的先问店铺。
+五、省额度的小习惯
+只给模型和任务相关的文件；把大任务拆成小步骤；避免重复上传同样的材料。这些习惯不需要花钱，却能明显延长额度的使用时间。
+
+## 常见问题
+Q：Codex 250 额度包多少钱？
+A：本站参考价 ¥95，以店铺页面实时价格为准。
+
+Q：额度包有效期多久？
+A：以商品页说明为准，下单前请先确认。
+
+Q：额度用得太快怎么办？
+A：精简输入、拆分任务、只提供相关文件，通常能显著降低消耗。
