@@ -60,6 +60,8 @@
         "claude",
         "codex",
         "go",
+        "gemini",
+        "grok",
         "muse",
         "token",
         "outlook",
@@ -74,7 +76,7 @@
         "套餐",
         "规格"
       ],
-      "answer": "参考价（以店铺页为准）：\n• ChatGPT Plus 月卡卡密（session 自助）：¥133.9\n• ChatGPT Plus CDK 30天：¥148\n• ChatGPT Go 月卡：¥49\n• Claude Pro 月卡卡密：¥168（¥165.9款暂时缺货）\n• Codex 250 / 500 / 1000 额度：¥88.9（三店16688特惠，云猫¥95） / ¥179 / ¥339\n• ChatGPT Pro 5x 月卡 CDK / 可覆盖续费卡充：¥699 / ¥816.9\n• ChatGPT Pro 20x 月卡 CDK / 临期续费专用 CDK / 卡密+激活网址：¥1249 / ¥1249 / ¥1619.9\n• ChatGPT Pro 25x 代充（质保30天）：¥3499\n• ChatGPT Plus 学生认证绑卡（仅限已通过学生认证的账号）：¥99\n• ChatGPT Plus 成品号（封号不质保）：¥106.9\n• ChatGPT Pro 5x / 20x 成品号（封号不质保）：¥799 / ¥1299\n• Claude Max 5x 月卡：¥799\n• Gemini Pro 18 个月：暂时缺货 · 补货中\n• Grok Plus 月卡（质保30天）：¥84.9\n• Grok Premium 月卡（卡密自助 / SSO）：¥156.9 / ¥204.9\n• SuperGrok 卡密 / Grok Super 月卡卡密 / Super 15x（SSO）：¥429 / ¥468.9 / ¥528.9\n• Grok Ultra 卡密 / Ultra 50x 月卡（SSO）：¥829 / ¥936.9\n• Muse 10亿 / 50亿 Token 成品号：¥18.9 / ¥28.9（300亿款暂时缺货 · 补货中）\n• 微软 Outlook/Hotmail 邮箱（令牌版单买 / OAuth2 10件起购）：¥15.9\n• Google Gmail 老账号（成品号）：¥27.9\n• X (Twitter) 成品账号（带2FA）：¥21.9\n• Facebook 成品账号：¥33.9\n\n下单通道：\n• 一店云猫（支付宝）：{shopUrl}\n• 二店链动（微信支付+支付宝）：https://wzyp.cn/shop/XIK4BB7S\n• 三店16688（含Codex 250 ¥88.9）：https://www.16688.com.cn/shop/S385728"
+      "answer": "参考价（以店铺页为准）：\n• ChatGPT Plus 月卡卡密（session 自助）：¥133.9\n• ChatGPT Plus CDK 30天：¥148\n• ChatGPT Go 月卡：¥49\n• Claude Pro 月卡卡密：¥168（¥165.9款暂时缺货）\n• Codex 250 / 500 / 1000 额度：¥88.9（三店16688特惠，云猫¥95） / ¥179 / ¥339\n• ChatGPT Pro 5x 月卡 CDK / 可覆盖续费卡充：¥699 / ¥816.9\n• ChatGPT Pro 20x 月卡 CDK / 临期续费专用 CDK / 卡密+激活网址：¥1249 / ¥1249 / ¥1619.9\n• ChatGPT Pro 25x 代充（质保30天）：¥3499\n• ChatGPT Plus 学生认证绑卡（仅限已通过学生认证的账号）：¥99\n• ChatGPT Plus 成品号：暂时缺货 · 补货中（可先选 Plus 专线充值卡 ¥135.9）\n• ChatGPT Pro 5x / 20x 成品号（封号不质保）：¥799 / ¥1299\n• Claude Max 5x 月卡：¥799\n• Gemini Pro 成品账号（时长1-18个月随机，仅质保首登）：¥40.9\n• Gemini Ultra 5x / 20x 月卡（自助充值，可覆盖续费，质保30天）：¥684.9 / ¥1260.9\n• Gemini Pro 18 个月 CDK：暂时缺货 · 补货中\n• Grok Plus 月卡卡密（仅限可参与半价活动的账号）：¥80.9\n• Grok Premium 月卡（SSO）：¥204.9\n• Grok Super 15x 月卡（SSO）：¥528.9（SuperGrok 卡密暂时缺货）\n• Grok Ultra 50x 月卡（SSO）：¥936.9（Grok Ultra 卡密暂时缺货）\n• Muse Token 成品号 10亿 / 50亿 / 300亿：¥18.9 / ¥28.9 / ¥58.9\n• 微软 Outlook/Hotmail 邮箱（令牌版单买 / OAuth2 10件起购）：¥15.9\n• Google Gmail 老账号（成品号）：¥27.9\n• X (Twitter) 成品账号（带2FA）：¥21.9\n• Facebook 成品账号：¥33.9\n\n下单通道：\n• 一店云猫（支付宝）：{shopUrl}\n• 二店链动（微信支付+支付宝）：https://wzyp.cn/shop/XIK4BB7S\n• 三店16688（含Codex 250 ¥88.9）：https://www.16688.com.cn/shop/S385728"
     },
     {
       "id": "delivery",
