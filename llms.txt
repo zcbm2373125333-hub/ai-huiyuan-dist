@@ -1,13 +1,18 @@
 # AI会员充值站
 > 独立第三方 AI 会员导购信息站（https://ai-huiyuan.vercel.app）。整理 ChatGPT Plus / Go / Pro、Codex 额度、Claude Pro / Max、Gemini Pro、SuperGrok 的参考价、交付方式与售后说明。本站不收款，购买跳转第三方发卡平台店铺完成付款与自动发货。本站不是 OpenAI、Anthropic、Google 或 xAI 的授权渠道，不承诺账号不会被限制。
 
-## 当前在售与参考价（人民币，核对日期 2026-10-26）
+## 三大主力在售自动发卡店铺（多店分流 · 支持微信支付与支付宝）
+- 通道一·云猫主店（支付宝专享·45款全量现货）：https://catfk.com/shop/IW58ZQO9 （订单查询：https://catfk.com/order ）
+- 通道二·链动分店（支持微信支付+支付宝·35款现货）：https://wzyp.cn/shop/XIK4BB7S （订单查询：https://wzyp.cn/order ）
+- 通道三·16688分店（备用通道·21款现货·含 Codex 250 额度卡 ¥88.9 与 Claude Max 20x）：https://www.16688.com.cn/shop/S385728 （Codex 250 直达：https://www.16688.com.cn/goods/G76223428 · 订单查询：https://www.16688.com.cn/order ）
+
+## 当前在售与参考价（人民币，核对日期 2026-10-27）
 - ChatGPT Plus · CDK（30 天）：¥148 — 日常写作、学习、办公；付款后发 CDK，按说明核销到自己的号
 - ChatGPT Plus 月卡 卡密自助充值｜质保30天｜自动发货（30 天（质保 30 天））：¥133.9 — 提交自己账号的 session 自助充值，无需密码；自动发货
 - ChatGPT Plus 月卡 · 专线充值卡 CDK 自助开通（质保30天）（1 个月（质保 30 天））：¥135.9 — 自动发放专线充值卡密，按页面说明自助提交 Session 开通，无需提供账号密码
 - ChatGPT Plus 月卡 · 站内卡付 CDK 自助充值（质保30天）（1 个月（质保 30 天））：¥137.9 — 自动发卡密，在充值站内填写账号 Session 自助完成卡付充值，无需提供账号密码
 - ChatGPT Go（1 个月）：¥49 — 入门档体验；交付方式以上架后商品页为准
-- Codex · 250 额度 CDK（非 API）（额度包）：¥95 — 需要 Codex 额度时选；具体额度规则见商品页
+- Codex · 250 额度 CDK（非 API）（额度包（三店16688特惠 ¥88.9 / 一店云猫 ¥95））：¥88.9 — 需要 Codex 额度时选；三店 16688 现货 ¥88.9（一店云猫 ¥95），自动发卡，具体额度规则见商品页
 - ChatGPT Pro 5x · 月卡 CDK（1 个月（质保 30 天））：¥699 — 高频使用、长任务，Plus 额度经常不够；CDK 按说明核销到自己的号
 - ChatGPT Pro 5x 月卡 · 专线通道A CDK 自助充值（质保30天）（1 个月（质保 30 天））：¥731.9 — 专线通道 A 卡密，24小时自动发货，按说明填写 Session 自助兑换，无需密码
 - ChatGPT Pro 5x 月卡 · 专线通道B CDK 自助充值（质保30天）（1 个月（质保 30 天））：¥749.9 — 专线通道 B 卡密，24小时自动发货，按说明填写 Session 自助兑换，无需密码
@@ -32,7 +37,7 @@
 - Claude Pro 月卡 · 卡密自助充值（质保订阅）（1 个月（质保订阅））：暂时缺货 · 补货中 — 暂时缺货，补货后恢复购买；补货前可先选下方 Claude Pro 月卡 CDK ¥168
 - Claude Pro · 月卡 CDK（1 个月（质保订阅））：¥168 — 长文阅读、写作、编程入门；CDK 卡密充值到自己账号
 - Claude Max 5x · 月卡 CDK（1 个月（质保订阅））：¥799 — 每天长时间使用、经常撞到 Pro 限额
-- Claude Max 20×（1 个月）：首批暂不上架 — 重度编程与代理类工作流
+- Claude Max 20×（1 个月）：可进三店16688查看 — 重度编程与代理类工作流；可前往三店 16688 分店查看实时库存
 - Gemini Pro · 18 个月 CDK（不质保）（只保兑换链接短时可用（不保订阅时长））：暂时缺货 · 补货中 — 暂时缺货，补货后恢复购买；补货前可先看 ChatGPT Go 等其他入门款
 - Gemini Pro · 18 个月 CDK（含 5TB 存储）（18 个月（质保订阅））：暂时缺货 · 补货中 — 暂时缺货，补货后恢复购买；想长期用 Gemini 并需要大容量云存储时留意补货
 - Grok Plus 月卡 · 自助兑换（质保30天）（1 个月（质保 30 天））：¥84.9 — 本站最便宜的 Grok 会员；卡密充值订阅，开在自己账号上，订阅掉了 30 天内按剩余天数退款
@@ -62,10 +67,12 @@
 - [Muse / 账号](https://ai-huiyuan.vercel.app/muse/)
 
 ## 指南
-- [Claude 显示 Free 怎么过 KYC 认证？免护照免手机号升级 Claude Pro 方法（2026 实测）](https://ai-huiyuan.vercel.app/guides/claude-free-kyc-verify-bypass/)：Claude 账号显示 Free 却找不到 KYC 认证入口怎么办？详解为什么免费号没有单独实名按钮、网页绑卡为什么会触发 Persona 护照人脸拦截，以及通过 CDK 卡密免密码免护照升级 Claude Pro（¥168）与 Max 5x（¥799）的实测流程。
-- [ChatGPT Pro 5x / 10x / 20x / 25x 额度区别与价格对比：哪档最划算？（2026 现货一览）](https://ai-huiyuan.vercel.app/guides/chatgpt-pro-5x-10x-20x-25x-pricing/)：ChatGPT Pro 5x（¥699起）、10x（¥1235.9）、20x（¥1249起）、25x（¥3499起）有什么区别？全面梳理各倍数档位的额度定位、全自动 CDK 通道价格、老客续费与补差升级选型指南。
-- [Grok Ultra (200刀档) 与 SuperGrok 有什么区别？DeepSearch 与 Heavy 满血算力评测（2026）](https://ai-huiyuan.vercel.app/guides/grok-ultra-vs-supergrok/)：Grok Ultra 200美元档（50x额度，¥829起）与 SuperGrok 100美元档（15x额度，¥429起）、Grok Premium（¥156.9起）全面对比：算力池差距、Heavy 推理与视频生成能力，以及免密码卡密兑换指南。
-- [2026 AI 编程最佳组合：Claude Code (Max) vs ChatGPT Codex (Pro) 怎么选？](https://ai-huiyuan.vercel.app/guides/cursor-claude-code-codex-combo/)：程序员写代码选 Claude Code（Claude Pro ¥168 / Max 5x ¥799）还是 OpenAI Codex（ChatGPT Pro 5x ¥699 / Pro 20x ¥1249 / Codex 额度包 ¥95起）？深度对比代码重构、全仓库理解与算力性价比。
+- [Claude 免费版和 Pro 有什么区别？额度、Opus、Claude Code 对比，值不值得升级（附 Pro 月卡 CDK ¥168）](https://ai-huiyuan.vercel.app/guides/claude-free-vs-pro/)：按 Anthropic 定价页对比 Claude Free 与 Pro：Pro 每 5 小时用量至少为免费版的 5 倍，并增加 Claude Code、Opus 模型、Research、不限数量的 Projects 等；免费版够不够用、什么时候值得升级，以及 Claude Pro 月卡 CDK ¥168 与 ChatGPT Plus 卡密 ¥133.9 的选法。
+- [Grok 额度用完了怎么办？等每周重置、加购额外额度还是升级（Premium ¥156.9 / SuperGrok ¥429 起）](https://ai-huiyuan.vercel.app/guides/grok-limit-reached/)：Grok 提示额度用完：按 x.ai 帮助文档，付费功能暂停到每周重置，免费档聊天和语音仍可用；可在网页端加购额外额度（最低 5 美元）、开启自动充值或升级更高档。本文说明怎么查额度、哪种办法更划算，以及本站 Grok Plus ¥84.9、Premium ¥156.9、SuperGrok ¥429 起的选法。
+- [Claude 显示 Free 怎么办？付了钱还是 Free、被要求验证身份时的处理办法（2026）](https://ai-huiyuan.vercel.app/guides/claude-shows-free-what-to-do/)：Claude 左下角显示 Free：先查登录邮箱、付款状态和购买渠道；被要求做身份验证时该准备什么、失败了怎么办；以及想从 Free 升级 Pro 的几种正常方式（自己订阅 20 美元/月，或 Claude Pro 月卡 CDK ¥168）。
+- [ChatGPT Pro 5x / 10x / 20x / 25x 怎么选？各规格现货价格对比与厂商 Pro 100 / 200 / 500 说明（2026）](https://ai-huiyuan.vercel.app/guides/chatgpt-pro-5x-10x-20x-25x-pricing/)：本站 ChatGPT Pro 各规格现货价：5x ¥699 起、10x ¥1235.9（支持 Plus/5x 升级）、20x ¥1249 起、25x ¥3499 起；对照 OpenAI 帮助中心的 Pro 100 / 200 / 500 三档说明，按账号状态和用量选规格。
+- [Grok Ultra 和 SuperGrok（Super）有什么区别？200 美元 50 倍与 100 美元 15 倍额度怎么选（2026）](https://ai-huiyuan.vercel.app/guides/grok-ultra-vs-supergrok/)：按 x.ai 定价页：Super 100 美元/月、额度为 Plus 的 15 倍、高峰期优先使用；Ultra 200 美元/月、50 倍额度。对比两档差别、每周额度池怎么扣，以及本站 SuperGrok 卡密 ¥429、Grok Ultra 卡密 ¥829 起、Premium ¥156.9 的选法。
+- [AI 编程选 Claude Code 还是 Codex？Claude Pro / Max 与 ChatGPT Plus / Pro 按预算的组合方案（2026）](https://ai-huiyuan.vercel.app/guides/cursor-claude-code-codex-combo/)：写代码用 Claude Code 还是 OpenAI Codex：按厂商页面对比两边哪些套餐包含、额度怎么算、用完怎么办，并给出按预算的组合（ChatGPT Plus ¥133.9 + Codex 250 ¥95、Claude Pro ¥168、Claude Max 5x ¥799、ChatGPT Pro 5x ¥699 / 20x ¥1249）。
 - [Claude Pro 年付还是月付划算？$200/年 vs $20/月 怎么选（附按月 CDK ¥168）](https://ai-huiyuan.vercel.app/guides/claude-pro-annual-vs-monthly/)：Claude Pro 年付每年 200 美元（折合每月 17 美元）、月付每月 20 美元：年付能省多少、取消和退款规则、什么人适合年付，以及不想绑卡时 Claude Pro 月卡 CDK ¥168 按月开通的选法。
 - [Grok 免费版和付费版有什么区别？免费额度够不够用、Plus / Premium / Super 怎么选（¥84.9 起）](https://ai-huiyuan.vercel.app/guides/grok-free-vs-paid/)：Grok 免费版与 Plus、Premium、Super、Ultra 付费档的区别：免费版能做什么、视频生成和 Grok Bot 要哪一档、每周共享额度怎么算，以及本站 Grok Plus 月卡 ¥84.9、Premium 卡密 ¥156.9 的选法。
 - [ChatGPT / Claude 会员拼车靠谱吗？共享号常见的 5 个坑与独享替代方案](https://ai-huiyuan.vercel.app/guides/ai-membership-carpool-risks/)：拼车、共享号为什么容易被封、被超卖、车主失联？下单前怎么自查，以及想独享会员时卡密充值（ChatGPT Plus ¥133.9、Claude Pro ¥168、Claude Max 5x ¥799）怎么选。
@@ -119,18 +126,20 @@
 
 ## 购买须知
 - 完整页面：https://ai-huiyuan.vercel.app/xuzhi/
+- 多店分流与微信支付：本站接入三家自动发卡店铺：通道一「云猫主店」（catfk.com/shop/IW58ZQO9，支付宝专享·45款全系）、通道二「链动分店」（wzyp.cn/shop/XIK4BB7S，支持微信支付+支付宝·35款现货）、通道三「16688分店」（16688.com.cn/shop/S385728，含 Codex 250 ¥88.9 与备用自动发卡）。习惯用微信付款的客户请直接进通道二链动分店下单。
 - 可能被限制：通过第三方开通会员，存在被平台风控、限制功能或封禁账号的可能，任何卖家都无法保证。请按自己能承受的风险购买，重要资料不要只放在一个账号里。
 - 交付后不退：卡密、额度等属于虚拟商品，发货或兑换后一般不支持退款；下单前请确认规格、时长和账号条件。
 - 时长从激活算：有效期从兑换或开通成功时开始计算，不是从付款时开始。
 - 不要给主账号密码：卡密类商品只需在自己账号内兑换，不需要密码；确需提交信息的代充，请用不存放重要资料的账号，完成后立即修改密码。
 - 保留凭证：请保存订单号、付款记录和兑换成功截图，售后时需要提供。
-- 售后以商品页为准：质保范围和处理方式以店铺对应商品页写明的规则为准，可在订单查询页联系卖家。
-- 只在店铺收银台付款：只通过店铺页面的收银台付款，不要向任何私聊发来的账号或二维码转账。
+- 售后以商品页为准：质保范围和处理方式以店铺对应商品页写明的规则为准，可在对应店铺订单查询页联系卖家。
+- 只在店铺收银台付款：只通过上述三家店铺页面的收银台付款，不要向任何私聊发来的账号或二维码转账。
 - CDK 类（Plus、Pro、Codex、Claude Pro、Claude Max）核销到你自己的账号，不需要账号密码；ChatGPT Pro 25x、Plus 学生认证绑卡为代充，按商品页提交信息；Plus / Pro 5x / 20x 成品号为第三方注册的新账号，风控/封号风险高于自有账号充值，封号不质保，收到后请立即登录并修改密码。
-- 失败处理与退换以各商品页售后规则为准；订单查询 https://catfk.com/order
+- 失败处理与退换以各商品页售后规则为准；订单查询：云猫 https://catfk.com/order ｜ 链动 https://wzyp.cn/order ｜ 16688 https://www.16688.com.cn/order
 
 ## 其他
 - [关于本站](https://ai-huiyuan.vercel.app/about/)
-- 购买店铺：https://catfk.com/shop/IW58ZQO9
-- 订单查询：https://catfk.com/order
+- 一店云猫主店（支付宝）：https://catfk.com/shop/IW58ZQO9
+- 二店链动分店（微信支付+支付宝）：https://wzyp.cn/shop/XIK4BB7S
+- 三店16688分店（含Codex 250 ¥88.9）：https://www.16688.com.cn/shop/S385728
 - 完整内容：https://ai-huiyuan.vercel.app/llms-full.txt

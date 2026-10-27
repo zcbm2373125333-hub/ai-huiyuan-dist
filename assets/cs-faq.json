@@ -2,12 +2,35 @@
   "meta": {
     "brand": "AI会员充值站",
     "shopUrl": "https://catfk.com/shop/IW58ZQO9",
+    "shop2Url": "https://wzyp.cn/shop/XIK4BB7S",
+    "shop3Url": "https://www.16688.com.cn/shop/S385728",
     "orderUrl": "https://catfk.com/order",
+    "order2Url": "https://wzyp.cn/order",
+    "order3Url": "https://www.16688.com.cn/order",
     "wechatPlaceholder": "【待填微信号】",
     "wechat": "店铺商品页「联系TA」站内留言",
     "hours": "留言后尽快回复"
   },
   "intents": [
+    {
+      "id": "wxpay",
+      "keywords": [
+        "微信支付",
+        "微信付款",
+        "微信",
+        "没有支付宝",
+        "没支付宝",
+        "链动",
+        "链动小铺",
+        "16688",
+        "分店",
+        "二店",
+        "三店",
+        "通道",
+        "多店"
+      ],
+      "answer": "本站现已开通三大自动发卡店铺通道（习惯用微信付款请直接进通道二）：\n• 通道一：云猫主店（支付宝·45款全系）：https://catfk.com/shop/IW58ZQO9\n• 通道二：链动分店（支持微信支付+支付宝·35款）：https://wzyp.cn/shop/XIK4BB7S\n• 通道三：16688分店（含Codex 250 ¥88.9/备用自动发卡·21款）：https://www.16688.com.cn/shop/S385728\n• Codex 250 额度卡 ¥88.9 直达：https://www.16688.com.cn/goods/G76223428"
+    },
     {
       "id": "buy",
       "keywords": [
@@ -23,7 +46,7 @@
         "收银台",
         "店铺"
       ],
-      "answer": "本站是导购站，不收款。请到第三方店铺下单付款：\n{shopUrl}\n\n步骤：选商品 → 填联系方式 → 付款 → 在订单页看发货内容（卡密或开通说明）。"
+      "answer": "本站是导购站，不收款。请按你的支付习惯选择第三方店铺下单：\n• 通道一（云猫主店·支付宝·45款全系）：{shopUrl}\n• 通道二（链动分店·支持微信支付+支付宝·35款）：https://wzyp.cn/shop/XIK4BB7S\n• 通道三（16688分店·含Codex 250 ¥88.9/备用自动发卡）：https://www.16688.com.cn/shop/S385728\n\n步骤：选商品 → 填联系方式 → 付款 → 在订单页看发货内容（卡密或开通说明）。"
     },
     {
       "id": "price",
@@ -51,7 +74,7 @@
         "套餐",
         "规格"
       ],
-      "answer": "参考价（以店铺页为准）：\n• ChatGPT Plus 月卡卡密（session 自助）：¥133.9\n• ChatGPT Plus CDK 30天：¥148\n• ChatGPT Go 月卡：¥49\n• Claude Pro 月卡卡密：¥165.9 / ¥168\n• Codex 250 / 500 / 1000 额度：¥95 / ¥179 / ¥339\n• ChatGPT Pro 5x 月卡 CDK / 可覆盖续费卡充：¥699 / ¥816.9\n• ChatGPT Pro 20x 月卡 CDK / 临期续费专用 CDK / 卡密+激活网址：¥1249 / ¥1249 / ¥1619.9\n• ChatGPT Pro 25x 代充（质保30天）：¥3499\n• ChatGPT Plus 学生认证绑卡（仅限已通过学生认证的账号）：¥99\n• ChatGPT Plus 成品号（封号不质保）：¥106.9\n• ChatGPT Pro 5x / 20x 成品号（封号不质保）：¥799 / ¥1299\n• Claude Max 5x 月卡：¥799\n• Gemini Pro 18 个月：暂时缺货 · 补货中\n• Grok Plus 月卡（质保30天）：¥84.9\n• Grok Premium 月卡（卡密自助 / SSO）：¥156.9 / ¥204.9\n• SuperGrok 卡密 / Grok Super 月卡卡密 / Super 15x（SSO）：¥429 / ¥468.9 / ¥528.9\n• Grok Ultra 卡密 / Ultra 50x 月卡（SSO）：¥829 / ¥936.9\n• Muse 10亿 / 50亿 / 300亿 Token 成品号：¥18.9 / ¥28.9 / ¥58.9\n• 微软 Outlook/Hotmail 邮箱（令牌版单买 / OAuth2 10件起购）：¥15.9\n• Google Gmail 老账号（成品号）：¥27.9\n• X (Twitter) 成品账号（带2FA）：¥21.9\n• Facebook 成品账号：¥33.9\n\n去店铺查看并购买：\n{shopUrl}"
+      "answer": "参考价（以店铺页为准）：\n• ChatGPT Plus 月卡卡密（session 自助）：¥133.9\n• ChatGPT Plus CDK 30天：¥148\n• ChatGPT Go 月卡：¥49\n• Claude Pro 月卡卡密：¥168（¥165.9款暂时缺货）\n• Codex 250 / 500 / 1000 额度：¥88.9（三店16688特惠，云猫¥95） / ¥179 / ¥339\n• ChatGPT Pro 5x 月卡 CDK / 可覆盖续费卡充：¥699 / ¥816.9\n• ChatGPT Pro 20x 月卡 CDK / 临期续费专用 CDK / 卡密+激活网址：¥1249 / ¥1249 / ¥1619.9\n• ChatGPT Pro 25x 代充（质保30天）：¥3499\n• ChatGPT Plus 学生认证绑卡（仅限已通过学生认证的账号）：¥99\n• ChatGPT Plus 成品号（封号不质保）：¥106.9\n• ChatGPT Pro 5x / 20x 成品号（封号不质保）：¥799 / ¥1299\n• Claude Max 5x 月卡：¥799\n• Gemini Pro 18 个月：暂时缺货 · 补货中\n• Grok Plus 月卡（质保30天）：¥84.9\n• Grok Premium 月卡（卡密自助 / SSO）：¥156.9 / ¥204.9\n• SuperGrok 卡密 / Grok Super 月卡卡密 / Super 15x（SSO）：¥429 / ¥468.9 / ¥528.9\n• Grok Ultra 卡密 / Ultra 50x 月卡（SSO）：¥829 / ¥936.9\n• Muse 10亿 / 50亿 Token 成品号：¥18.9 / ¥28.9（300亿款暂时缺货 · 补货中）\n• 微软 Outlook/Hotmail 邮箱（令牌版单买 / OAuth2 10件起购）：¥15.9\n• Google Gmail 老账号（成品号）：¥27.9\n• X (Twitter) 成品账号（带2FA）：¥21.9\n• Facebook 成品账号：¥33.9\n\n下单通道：\n• 一店云猫（支付宝）：{shopUrl}\n• 二店链动（微信支付+支付宝）：https://wzyp.cn/shop/XIK4BB7S\n• 三店16688（含Codex 250 ¥88.9）：https://www.16688.com.cn/shop/S385728"
     },
     {
       "id": "delivery",
@@ -67,7 +90,7 @@
         "自动发货",
         "什么时候"
       ],
-      "answer": "卡密/CDK：付款成功后一般在订单页立即显示，按商品说明去兑换页核销。\n代充：按商品页提交信息后等待开通，时间以商品页为准。\n请以订单状态为准。查单：{orderUrl}"
+      "answer": "卡密/CDK：付款成功后一般在订单页立即显示，按商品说明去兑换页核销。\n代充：按商品页提交信息后等待开通，时间以商品页为准。\n请以订单状态为准。\n查单入口：\n• 一店云猫：{orderUrl}\n• 二店链动：https://wzyp.cn/order\n• 三店16688：https://www.16688.com.cn/order"
     },
     {
       "id": "order",
@@ -80,7 +103,7 @@
         "没收到",
         "查询订单"
       ],
-      "answer": "请到订单查询页，用下单时预留的联系方式或订单号查询：\n{orderUrl}\n\n若遗忘联系方式，可按该页提示联系平台客服协助找回。"
+      "answer": "请到你下单所选店铺对应的订单查询页，用下单时预留的联系方式或订单号查询：\n• 一店云猫查单：{orderUrl}\n• 二店链动查单（微信支付店）：https://wzyp.cn/order\n• 三店16688查单：https://www.16688.com.cn/order\n\n若遗忘联系方式，可按该页提示联系平台客服协助找回。"
     },
     {
       "id": "warranty",
@@ -94,7 +117,7 @@
         "风险",
         "会不会封"
       ],
-      "answer": "质保一般针对「订阅/到账」天数（如 Plus CDK 上家写明约 30 天订阅），掉订阅按店铺商品页与上家规则处理。\n封号通常不在质保内——任何第三方开通都不能保证账号不被平台限制，请按能接受的风险购买。\n我们不承诺「账号一定不会被限制」，也不把本店说成厂商授权渠道。"
+      "answer": "质保一般针对「订阅/到账」天数（如 Plus CDK 写明约 30 天订阅），掉订阅按店铺商品页规则处理。\n封号通常不在质保内——任何第三方开通都不能保证账号不被平台限制，请按能接受的风险购买。\n我们不承诺「账号一定不会被限制」，也不把本店说成厂商授权渠道。"
     },
     {
       "id": "refund",
@@ -105,7 +128,7 @@
         "退货",
         "投诉"
       ],
-      "answer": "虚拟商品退款以第三方店铺商品页和平台规则为准。\n• 未发货或卡密无效：保留订单号与截图，先联系店铺/走平台订单投诉。\n• 已开通或卡密已使用：一般不支持无理由退款。\n• 平台支付手续费通常不退。\n查单入口：{orderUrl}"
+      "answer": "虚拟商品退款以第三方店铺商品页和平台规则为准。\n• 未发货或卡密无效：保留订单号与截图，先联系店铺/走平台订单投诉。\n• 已开通或卡密已使用：一般不支持无理由退款。\n• 平台支付手续费通常不退。\n查单入口：云猫 {orderUrl} ｜ 链动 https://wzyp.cn/order ｜ 16688 https://www.16688.com.cn/order"
     },
     {
       "id": "who",
@@ -143,10 +166,14 @@
         "hello",
         "嗨"
       ],
-      "answer": "你好，我是{brand}自动接待。可以问：怎么买、价格、到账、查订单、质保、退款。答不上来会转人工客服。"
+      "answer": "你好，我是{brand}自动接待。可以问：微信支付、怎么买、价格、到账、查订单、质保、退款。答不上来会转人工客服。"
     }
   ],
   "quick": [
+    {
+      "label": "微信支付/分店",
+      "intent": "wxpay"
+    },
     {
       "label": "怎么买",
       "intent": "buy"
@@ -176,5 +203,5 @@
       "intent": "human"
     }
   ],
-  "fallback": "这个问题我还不能准确回答。请换个问法，或联系人工客服：{wechat}\n（{hours}）\n店铺：{shopUrl}\n查单：{orderUrl}"
+  "fallback": "这个问题我还不能准确回答。请换个问法，或联系人工客服：{wechat}\n（{hours}）\n• 一店云猫（支付宝）：{shopUrl}\n• 二店链动（微信支付+支付宝）：https://wzyp.cn/shop/XIK4BB7S\n• 三店16688（含Codex 250 ¥88.9）：https://www.16688.com.cn/shop/S385728"
 }
