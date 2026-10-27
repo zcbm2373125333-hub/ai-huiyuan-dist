@@ -36,6 +36,7 @@
 - ChatGPT Pro 20x · 成品号（成品账号）：¥1299 — 没有自己的账号、需要 Pro 20x 额度时选；交付规则以商品页为准
 - Claude Pro 月卡 · 卡密自助充值（质保订阅）（1 个月（质保订阅））：暂时缺货 · 补货中 — 暂时缺货，补货后恢复购买；补货前可先选下方 Claude Pro 月卡 CDK ¥168
 - Claude Pro · 月卡 CDK（1 个月（质保订阅））：¥168 — 长文阅读、写作、编程入门；CDK 卡密充值到自己账号
+- Claude Pro 独享成品账号 · 月度会员 · 即买即用（1 个月（成品账号·质保 30 天订阅））：¥189.9 — 没有自己的 Claude 账号或不想折腾注册验证时选；一店云猫（支付宝）与二店链动（微信支付 lp9rl9）双店现货，24小时自动发货，即买即用
 - Claude Max 5x · 月卡 CDK（1 个月（质保订阅））：¥799 — 每天长时间使用、经常撞到 Pro 限额
 - Claude Max 20×（1 个月）：可进三店16688查看 — 重度编程与代理类工作流；可前往三店 16688 分店查看实时库存
 - Gemini Ultra 20x 月卡 · 自助充值｜可覆盖续费（质保订阅30天）（1 个月（质保 30 天））：¥1260.9 — 最高档 Gemini Ultra 额度；自动发货、按发货内容自助充值，可覆盖当前订阅、支持正常续费，无需账号密码
@@ -70,6 +71,7 @@
 - [Muse / 账号](https://ai-huiyuan.vercel.app/muse/)
 
 ## 指南
+- [2026 苹果礼品卡（App Store 充值卡）怎么买？支付宝正规直购与 iOS 订阅 AI 会员避坑指南](https://ai-huiyuan.vercel.app/guides/apple-gift-card-app-store-recharge-guide/)：2026 美区苹果礼品卡（App Store Gift Card）正规购买与 iOS 订阅 AI 会员完整指南：为什么不要买低价黑卡、如何用支付宝「出境/PockytShop」或 Apple 官网正规直购礼品卡，以及免绑卡免礼品卡直接开通 Claude Pro / ChatGPT Plus / SuperGrok / Gemini 的三店自助通道。
 - [Claude 免费版和 Pro 有什么区别？额度、Opus、Claude Code 对比，值不值得升级（附 Pro 月卡 CDK ¥168）](https://ai-huiyuan.vercel.app/guides/claude-free-vs-pro/)：按 Anthropic 定价页对比 Claude Free 与 Pro：Pro 每 5 小时用量至少为免费版的 5 倍，并增加 Claude Code、Opus 模型、Research、不限数量的 Projects 等；免费版够不够用、什么时候值得升级，以及 Claude Pro 月卡 CDK ¥168 与 ChatGPT Plus 卡密 ¥133.9 的选法。
 - [Grok 额度用完了怎么办？等每周重置、加购额外额度还是升级（Premium ¥204.9 / Super 15x ¥528.9）](https://ai-huiyuan.vercel.app/guides/grok-limit-reached/)：Grok 提示额度用完：按 x.ai 帮助文档，付费功能暂停到每周重置，免费档聊天和语音仍可用；可在网页端加购额外额度（最低 5 美元）、开启自动充值或升级更高档。本文说明怎么查额度、哪种办法更划算，以及本站 Grok Premium ¥204.9、Super 15x ¥528.9、Ultra 50x ¥936.9 的选法。
 - [Claude 显示 Free 怎么办？付了钱还是 Free、被要求验证身份时的处理办法（2026）](https://ai-huiyuan.vercel.app/guides/claude-shows-free-what-to-do/)：Claude 左下角显示 Free：先查登录邮箱、付款状态和购买渠道；被要求做身份验证时该准备什么、失败了怎么办；以及想从 Free 升级 Pro 的几种正常方式（自己订阅 20 美元/月，或 Claude Pro 月卡 CDK ¥168）。
