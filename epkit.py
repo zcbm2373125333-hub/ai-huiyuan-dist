@@ -44,7 +44,7 @@ def setup(CARDS, CHAPTERS, cfg, scenes=None):
 
     def year_line(cv, t, year, start):
         yr = int(round(year_at(t))) if t >= bt(16) else year
-        im = text_img('公元' + cn_year(yr) + '年', SERIF, 40, ZHE, 'Bold', bleed=False, spacing=6)
+        im = text_img(('公元' + cn_year(yr) if yr > 0 else '公元前' + cn_num(-yr)) + '年', SERIF, 40, ZHE, 'Bold', bleed=False, spacing=6)
         ink_in(cv, im, W / 2, 300, t, start, dur=0.3, settle=1.0)
         w = 200 * ease_out((t - start) / 0.4)
         ImageDraw.Draw(cv).line((W / 2 - w, 335, W / 2 + w, 335), fill=col + (220,), width=3)
@@ -105,8 +105,9 @@ def setup(CARDS, CHAPTERS, cfg, scenes=None):
     G.SCENES.update(title=scene_title, question=scene_question, end=scene_end, **(scenes or {}))
 
     def draw_hud(canvas, t):
-        paste(canvas, seal('千古', 34), 330, 170, 1, 1)
-        paste(canvas, text_img(f'人物志 · 第{cfg["ep"]}集', SERIF, 40, INK, 'Bold', bleed=False, spacing=6), 570, 170, 1, 1)
+        ti = text_img(f'人物志 · 第{cfg["ep"]}集', SERIF, 40, INK, 'Bold', bleed=False, spacing=6)
+        paste(canvas, seal('千古', 34), min(330, 570 - ti.width / 2 - 45), 170, 1, 1)
+        paste(canvas, ti, 570, 170, 1, 1)
         if t < bt(8):
             q = text_img(cfg['hook_q'], SERIF, 36, INK, 'Black', bleed=False, spacing=2)
             paste(canvas, q, W / 2, 290, 1, 1)
