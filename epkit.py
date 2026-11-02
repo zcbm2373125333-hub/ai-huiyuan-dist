@@ -131,7 +131,7 @@ def setup(CARDS, CHAPTERS, cfg, scenes=None):
             lb0 = cfg.get('born_lab', f'{BORN}年'); lb1 = cfg.get('died_lab', f'{DIED}年')
             d.text((x0, 102), lb0, font=f, fill=INK + (170,))
             d.text((x1 - f.getlength(lb1), 102), lb1, font=f, fill=INK + (170,))
-            lab = cn_num(max(1, int(round(yr - AGE0)))) + '岁' if yr <= DIED + 0.5 else '身后'
+            lab = ('' if cfg.get('no_age') else cn_num(max(1, int(round(yr - AGE0)))) + '岁') if yr <= DIED + 0.5 else '身后'
             fb = font(SERIF, 38, 'Bold')
             d.text((xp - fb.getlength(lab) / 2, 12), lab, font=fb, fill=col + (255,))
             if a < 1: ov.putalpha(ov.getchannel('A').point(lambda v: int(v * a)))
