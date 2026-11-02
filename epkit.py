@@ -21,7 +21,7 @@ _PREV = ('render_long', 'render_wudi', 'render_taizong', 'render_wuzetian', 'ren
 def setup(CARDS, CHAPTERS, cfg, scenes=None):
     """cfg keys: ep (拾玖), col, acc, born, died, age0, hook_q, name_line, name, seal, title_art,
     q1, q2, end_art, end_big, end_l1, end_l2, end_brush, end_ask, end_seal, next."""
-    mods = [sys.modules[m] for m in _PREV if m in sys.modules]
+    mods = [m for n, m in list(sys.modules.items()) if n.startswith('render_') and m is not None]
     L.CARDS = CARDS; G.CARDS = CARDS
     for mod in mods:
         mod.CHAPTERS = CHAPTERS
