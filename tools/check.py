@@ -24,10 +24,13 @@ errs = collections.defaultdict(list)
 for fi in fis:
     try: mod.render(fi)
     except Exception as e: errs[repr(e)[:140]].append(fi)
+ys = [(c[0], c[4]['year']) for c in sorted(mod.CARDS) if 'year' in c[4]]
+back = [(b, y0, y1) for (b, y0), (_, y1) in zip(ys, ys[1:]) if y1 < y0]
+print('years going backwards:', back)
 print('missing brush glyphs:', miss)
 print('dot in brush titles:', dots)
 print('duplicate arts:', len(dup))
 print('frames checked:', len(fis), 'errors:', {k: v[:6] for k, v in errs.items()})
-ok = not miss and not dots and not dup and not errs
+ok = not miss and not dots and not dup and not errs and not back
 print('CHECK', 'PASS' if ok else 'FAIL')
 sys.exit(0 if ok else 1)
