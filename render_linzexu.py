@@ -537,7 +537,7 @@ def art_l_death(A, cv, t, u):
     lamp(A, 860, GROUND, 60, t, glow=clamp(1 - (u - P) / 1))
     ground(A, GROUND)
     A.flush(cv)
-    stamp(cv, seal('普宁', 54), 300, 880, t, t - u + P, rot=-5)
+    stamp(cv, seal('普宁', 54), 260, 1020, t, t - u + P, rot=-5)
     paste(cv, text_img('奉命镇压起义 · 途中病逝', SERIF, 44, HAIFANG, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp((u - P) / 0.3))
 
 def art_l_wenzhong(A, cv, t, u):
