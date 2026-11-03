@@ -201,7 +201,7 @@ def art_l_birth(A, cv, t, u):
     person(A, 420, GROUND, 230, dir=1, robe=True, hat='none', arm=40, layer='ink')
     person(A, 560, GROUND, 120, dir=1, robe=True, hat='knot', arm=60, layer='ink')
     A.flush(cv)
-    stamp(cv, seal('福州侯官', 46), 860, 880, t, t - u + P, rot=6)
+    stamp(cv, seal('福州侯官', 46), 860, 1020, t, t - u + P, rot=6)
     paste(cv, text_img('父亲林宾日 · 塾师清贫', SERIF, 46, HAIFANG, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp(u / 0.4))
 
 def art_l_juren(A, cv, t, u):
@@ -212,7 +212,7 @@ def art_l_juren(A, cv, t, u):
             A.d['ink'].rectangle((x - 50, y, x + 50, y + 90), outline=255, width=4)
     ground(A, GROUND)
     A.flush(cv)
-    stamp(cv, seal('中举', 56), 860, 880, t, t - u + P, rot=6)
+    stamp(cv, seal('中举', 56), 860, 1020, t, t - u + P, rot=6)
     paste(cv, text_img('二十岁 乡试中举', SERIF, 46, HAIFANG, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp(u / 0.4))
 
 def art_l_jinshi(A, cv, t, u):
@@ -230,7 +230,7 @@ def art_l_hanlin(A, cv, t, u):
     for k in range(int(clamp(u / (2 * P)) * 8)):
         bundle(A, 440 + (k % 4) * 50, GROUND - 74 - (k // 4) * 30, 40, layer='yantu')
     A.flush(cv)
-    stamp(cv, seal('翰林院', 50), 860, 880, t, t - u + P, rot=6)
+    stamp(cv, seal('翰林院', 50), 860, 1020, t, t - u + P, rot=6)
     paste(cv, text_img('七年 · 博览经世之书', SERIF, 46, HAIFANG, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp(u / 0.4))
 
 def art_l_motto(A, cv, t, u):
@@ -254,7 +254,7 @@ def art_l_jiangsu(A, cv, t, u):
         person(A, x, lvl - 20, 80, dir=1, robe=False, hat='knot', load=True, ph=t * 6 + k, arm=160, layer='ink')
     lin(A, 860, lvl - 25, 170, dir=-1, arm=60)
     A.flush(cv)
-    stamp(cv, seal('江苏巡抚', 44), 260, 880, t, t - u + 0.4, rot=-5)
+    stamp(cv, seal('江苏巡抚', 44), 260, 1020, t, t - u + 0.4, rot=-5)
     paste(cv, text_img('兴修水利 · 赈济灾民', SERIF, 46, HAIFANG, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp(u / 0.4))
 
 def art_l_huguang(A, cv, t, u):
@@ -264,7 +264,7 @@ def art_l_huguang(A, cv, t, u):
         A.d['yantu'].ellipse((160 + k * 100 - 20, GROUND - 40, 160 + k * 100 + 20, GROUND), fill=255)
     lin(A, 540, GROUND, 210, dir=1, arm=60)
     A.flush(cv)
-    stamp(cv, seal('湖广总督', 44), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('湖广总督', 44), 860, 1020, t, t - u + 0.4, rot=6)
     paste(cv, text_img('在湖广试行禁烟', SERIF, 46, HAIFANG, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp((u - P) / 0.3))
 
 # ================================================================ 第二回 钦差禁烟
@@ -294,7 +294,7 @@ def art_l_qinchai(A, cv, t, u):
     person(A, 720, GROUND - 30, 220, dir=-1, robe=True, hat='crown', arm=lerp(20, 100, ease_out(u / 0.6)), layer='ink')
     lin(A, 360, GROUND, 220, dir=1, kneel=True, bow=30, arm=100)
     A.flush(cv)
-    stamp(cv, seal('钦差大臣', 46), 260, 880, t, t - u + P, rot=-5)
+    stamp(cv, seal('钦差大臣', 46), 260, 1020, t, t - u + P, rot=-5)
     paste(cv, text_img('道光帝八次召见', SERIF, 46, HAIFANG, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp(u / 0.4))
 
 def art_l_south(A, cv, t, u):
@@ -322,7 +322,7 @@ def art_l_collect(A, cv, t, u):
     for i in range(n):
         A.d['yantu'].rectangle((240 + (i % 10) * 60, GROUND - 40 - (i // 10) * 36, 290 + (i % 10) * 60, GROUND - 8 - (i // 10) * 36), fill=255)
     A.flush(cv)
-    stamp(cv, seal('十三行', 50), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('十三行', 50), 860, 1020, t, t - u + 0.4, rot=6)
     paste(cv, text_img(f'收缴烟箱 {n * 1000}' if n < 20 else '收缴鸦片二万余箱', SERIF, 46, YANTU, 'Black', bleed=False, spacing=4), W / 2, 830, 1, 1)
 
 def art_l_tablet(A, cv, t, u):
@@ -370,7 +370,7 @@ def art_l_forts(A, cv, t, u):
     fort(A, 540, 1220, 600, int(clamp(u / (2 * P)) * 6), t)
     A.d['ink'].line((60, 1250, W - 60, 1270), fill=255, width=4)
     A.flush(cv)
-    stamp(cv, seal('整饬海防', 44), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('整饬海防', 44), 860, 1020, t, t - u + 0.4, rot=6)
     paste(cv, text_img('购炮 拦江铁链 · 组织团练', SERIF, 44, HAIFANG, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp(u / 0.4))
 
 def art_l_translate(A, cv, t, u):
@@ -381,7 +381,7 @@ def art_l_translate(A, cv, t, u):
     for k in range(int(clamp(u / (2 * P)) * 8)):
         A.d['wash'].rectangle((420 + (k % 4) * 60, GROUND - 90 - (k // 4) * 16, 470 + (k % 4) * 60, GROUND - 76 - (k // 4) * 16), fill=255)
     A.flush(cv)
-    stamp(cv, seal('四洲志', 50), 860, 880, t, t - u + P, rot=6)
+    stamp(cv, seal('四洲志', 50), 860, 1020, t, t - u + P, rot=6)
     paste(cv, text_img('组织翻译西书 · 了解世界', SERIF, 46, HAIFANG, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp(u / 0.4))
 
 def art_l_eye(A, cv, t, u):
@@ -401,7 +401,7 @@ def art_l_kowloon(A, cv, t, u):
     for k in range(3):
         boat(A, 240 + k * 120, 1240, 60, t + k, sail=True)
     A.flush(cv)
-    stamp(cv, seal('九龙海战', 44), 260, 880, t, t - u + 0.4, rot=-5)
+    stamp(cv, seal('九龙海战', 44), 260, 1020, t, t - u + 0.4, rot=-5)
     paste(cv, text_img('英舰挑衅 · 清军还击', SERIF, 46, ZHU, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp((u - P) / 0.3))
 
 # ================================================================ 第四回 鸦片战争
@@ -438,7 +438,7 @@ def art_l_dismissed(A, cv, t, u):
     person(A, 720, GROUND - 30, 220, dir=-1, robe=True, hat='crown', arm=lerp(20, 150, ease_out(u / 0.6)), layer='ink')
     lin(A, 360, GROUND, 220, dir=1, kneel=True, bow=40, arm=100)
     A.flush(cv)
-    stamp(cv, seal('革职', 60, INK), 860, 880, t, t - u + P, rot=6)
+    stamp(cv, seal('革职', 60, INK), 860, 1020, t, t - u + P, rot=6)
     paste(cv, text_img('替罪羊 · 琦善接任', SERIF, 46, YANTU, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp((u - P) / 0.3))
 
 def art_l_humen_falls(A, cv, t, u):
@@ -448,7 +448,7 @@ def art_l_humen_falls(A, cv, t, u):
     flames(A, 340, 1100, 300, 200 * ease_out((u - P) / 0.8), t, n=5, seed=11, smoke=True)
     warship(A, 800, 1250, 100, t, fire=0.5 + 0.5 * math.sin(t * 6))
     A.flush(cv)
-    stamp(cv, seal('关天培', 50, INK), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('关天培', 50, INK), 860, 1020, t, t - u + 0.4, rot=6)
     paste(cv, text_img('虎门陷落 · 关天培战死', SERIF, 46, ZHU, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp((u - 1.5 * P) / 0.3))
 
 def art_l_zhenhai(A, cv, t, u):
@@ -456,7 +456,7 @@ def art_l_zhenhai(A, cv, t, u):
     ground(A, GROUND)
     lin(A, 540, GROUND, 210, dir=1, arm=60, old=0.3)
     A.flush(cv)
-    stamp(cv, seal('协防浙江', 44), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('协防浙江', 44), 860, 1020, t, t - u + 0.4, rot=6)
     paste(cv, text_img('戴罪立功 · 又被追究', SERIF, 46, HAIFANG, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp(u / 0.4))
 
 def art_l_treaty(A, cv, t, u):
@@ -465,7 +465,7 @@ def art_l_treaty(A, cv, t, u):
     A.d['haifang'].rectangle((60, 1240, W - 60, GROUND), fill=150)
     waves(A, 1250, t, rows=2, amp=3)
     A.flush(cv)
-    stamp(cv, seal('南京条约', 50, INK), 860, 880, t, t - u + P, rot=6)
+    stamp(cv, seal('南京条约', 50, INK), 860, 1020, t, t - u + P, rot=6)
     paste(cv, text_img('割香港 · 赔银二千一百万元', SERIF, 44, ZHU, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp(u / 0.4))
 
 def art_l_xi(A, cv, t, u):
@@ -498,7 +498,7 @@ def art_l_ili(A, cv, t, u):
     ground(A, GROUND)
     lin(A, 400, GROUND, 200, dir=1, arm=60, old=0.7)
     A.flush(cv)
-    stamp(cv, seal('伊犁', 54), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('伊犁', 54), 860, 1020, t, t - u + 0.4, rot=6)
 
 def art_l_irrigate(A, cv, t, u):
     A.d['dune'].rectangle((60, 1200, W - 60, GROUND), fill=150)
@@ -527,7 +527,7 @@ def art_l_recall(A, cv, t, u):
     ground(A, GROUND)
     lin(A, lerp(-80, 540, ease_out(u / (2.5 * P))), GROUND, 200, dir=1, ph=t * 3, arm=-8, old=0.7)
     A.flush(cv)
-    stamp(cv, seal('赐还', 54), 860, 880, t, t - u + P, rot=6)
+    stamp(cv, seal('赐还', 54), 860, 1020, t, t - u + P, rot=6)
     paste(cv, text_img('历任陕甘 陕西 云贵', SERIF, 46, HAIFANG, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp(u / 0.4))
 
 def art_l_death(A, cv, t, u):

@@ -165,14 +165,14 @@ def art_s_birth(A, cv, t, u):
     person(A, 420, GROUND, 240, dir=1, robe=True, hat='crown', arm=40, layer='ink')
     person(A, 640, GROUND, 220, dir=-1, robe=True, hat='crown', female=True, baby=True, layer='ink')
     A.flush(cv)
-    stamp(cv, seal('杨坚 独孤后', 36), 860, 880, t, t - u + P, rot=6)
+    stamp(cv, seal('杨坚 独孤后', 36), 860, 1020, t, t - u + P, rot=6)
 
 def art_s_jinwang(A, cv, t, u):
     palace(A, 540, 1160, 540, layer='mid')
     ground(A, GROUND)
     guang(A, 540, GROUND, 160, dir=1, crown=False, arm=40)
     A.flush(cv)
-    stamp(cv, seal('晋王', 60), 860, 880, t, t - u + P, rot=6)
+    stamp(cv, seal('晋王', 60), 860, 1020, t, t - u + P, rot=6)
     paste(cv, text_img('十三岁 封晋王 镇并州', SERIF, 46, CANAL, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp(u / 0.4))
 
 def art_s_frugal(A, cv, t, u):
@@ -207,7 +207,7 @@ def art_s_yangzhou(A, cv, t, u):
     city_wall(A, 240, 840, 1080, gate_x=540, label='扬州', layer='mid', open_=1.0)
     guang(A, 540, 1080, 160, dir=1, crown=False, arm=60)
     A.flush(cv)
-    stamp(cv, seal('扬州总管', 44), 860, 880, t, t - u + P, rot=6)
+    stamp(cv, seal('扬州总管', 44), 860, 1020, t, t - u + P, rot=6)
     paste(cv, text_img('镇守江南十年', SERIF, 46, CANAL, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp(u / 0.4))
 
 def art_s_taizi(A, cv, t, u):
@@ -216,7 +216,7 @@ def art_s_taizi(A, cv, t, u):
     person(A, 760, GROUND, 220, dir=-1, robe=True, hat='crown', arm=-8, ph=t * 2, layer='mid')
     guang(A, 340, GROUND, 230, dir=1, crown=False, arm=lerp(40, 120, ease_out(u / P)))
     A.flush(cv)
-    stamp(cv, seal('废太子杨勇', 40, INK), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('废太子杨勇', 40, INK), 860, 1020, t, t - u + 0.4, rot=6)
     paste(cv, text_img('夺嫡成功 · 立为太子', SERIF, 46, DRAGON, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp((u - P) / 0.3))
 
 def art_s_renshou(A, cv, t, u):
@@ -227,7 +227,7 @@ def art_s_renshou(A, cv, t, u):
     person(A, 540, 1240, 180, dir=1, robe=True, hat='crown', fall=-88, arm=-8, layer='ink')
     ground(A, GROUND)
     A.flush(cv)
-    stamp(cv, seal('仁寿宫', 50, INK), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('仁寿宫', 50, INK), 860, 1020, t, t - u + 0.4, rot=6)
     paste(cv, text_img('文帝驾崩 · 死因成谜', SERIF, 46, ZHU, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp((u - P) / 0.3))
     stamp(cv, seal('一说弑父', 38, INK), 260, 1040, t, t - u + 1.5 * P, rot=-5)
 
@@ -239,7 +239,7 @@ def art_s_crown(A, cv, t, u):
     for k in range(6):
         person(A, 120 + k * 60 if k < 3 else 800 + (k - 3) * 60, GROUND, 130, dir=1 if k < 3 else -1, robe=True, hat='none', kneel=True, bow=50, arm=100, layer='mid')
     A.flush(cv)
-    stamp(cv, seal('大业', 60), 860, 880, t, t - u + P, rot=6)
+    stamp(cv, seal('大业', 60), 860, 1020, t, t - u + P, rot=6)
 
 def art_s_luoyang(A, cv, t, u):
     ground(A, GROUND)
@@ -252,7 +252,7 @@ def art_s_luoyang(A, cv, t, u):
     for k in range(6):
         person(A, (t * 80 + k * 170) % (W + 200) - 100, GROUND, 80, dir=1, robe=False, hat='knot', load=True, ph=t * 6 + k, arm=160, layer='ink')
     A.flush(cv)
-    stamp(cv, seal('营建东都', 46), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('营建东都', 46), 860, 1020, t, t - u + 0.4, rot=6)
     paste(cv, text_img('每月役丁二百万', SERIF, 46, ZHU, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp((u - P) / 0.3))
 
 YH = [(0, '通济渠', '洛阳至淮河'), (2, '邗沟', '淮河至长江'), (4, '永济渠', '北至涿郡'), (6, '江南河', '南至余杭')]
@@ -295,9 +295,9 @@ def art_s_keju(A, cv, t, u):
             A.d['ink'].rectangle((x - 50, y, x + 50, y + 90), outline=255, width=4)
             sitter(A, x, y + 86, 50, dir=1, bow=20)
     A.flush(cv)
-    stamp(cv, seal('进士科', 50), 860, 880, t, t - u + P, rot=6)
+    stamp(cv, seal('进士科', 50), 860, 1020, t, t - u + P, rot=6)
     paste(cv, text_img('科举制度的开端', SERIF, 46, CANAL, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp(u / 0.4))
-    stamp(cv, seal('一说', 40, INK), 260, 880, t, t - u + 0.4, rot=-5)
+    stamp(cv, seal('一说', 40, INK), 260, 1020, t, t - u + 0.4, rot=-5)
 
 def art_s_longzhou(A, cv, t, u):
     """6-beat set piece: 龙舟下扬州 — the four-storey dragon boat, a fleet behind it two hundred li long; trackers pull
@@ -327,7 +327,7 @@ def art_s_west(A, cv, t, u):
     for k in range(8):
         rider(A, lerp(-200, 700, ease_out((u - k * 0.1) / (2.5 * P))) - k * 80, GROUND, 100, 1, t * 10 + k, layer='ink', spear=True)
     A.flush(cv)
-    stamp(cv, seal('西巡张掖', 44), 860, 880, t, t - u + P, rot=6)
+    stamp(cv, seal('西巡张掖', 44), 860, 1020, t, t - u + P, rot=6)
     paste(cv, text_img('万国博览会 · 二十七国来朝', SERIF, 44, CANAL, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp(u / 0.4))
 
 def art_s_great_wall(A, cv, t, u):
@@ -367,7 +367,7 @@ def art_s_yangxuangan(A, cv, t, u):
     for k in range(8):
         person(A, lerp(-100, 400, ease_out(u / (2 * P))) - k * 50, GROUND, 120, dir=1, robe=False, hat='helmet', spear=True, ph=t * 6 + k, arm=40, layer='ink')
     A.flush(cv)
-    stamp(cv, seal('杨玄感', 50, INK), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('杨玄感', 50, INK), 860, 1020, t, t - u + 0.4, rot=6)
 
 def art_s_rebels(A, cv, t, u):
     ground(A, GROUND)
@@ -387,7 +387,7 @@ def art_s_yanmen(A, cv, t, u):
         rider(A, 540 + 460 * math.cos(a), GROUND + 20 * math.sin(a) - 10, 80, 1 if math.cos(a) < 0 else -1, t * 4 + k, layer='ink', spear=True, moving=False)
     guang(A, 540, 1100, 120, dir=1, bow=30, arm=150)
     A.flush(cv)
-    stamp(cv, seal('雁门被围', 46, INK), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('雁门被围', 46, INK), 860, 1020, t, t - u + 0.4, rot=6)
     paste(cv, text_img('突厥围城 · 抱幼子痛哭', SERIF, 46, ZHU, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp((u - P) / 0.3))
 
 def art_s_jiangdu(A, cv, t, u):
@@ -397,7 +397,7 @@ def art_s_jiangdu(A, cv, t, u):
     for k in range(4):
         person(A, 300 + k * 160, 1240, 100, dir=1, robe=True, hat='knot', female=True, arm=lerp(40, 160, 0.5 + 0.5 * math.sin(t * 4 + k)), layer='mid')
     A.flush(cv)
-    stamp(cv, seal('三下江都', 44), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('三下江都', 44), 860, 1020, t, t - u + 0.4, rot=6)
     paste(cv, text_img('不再回北方', SERIF, 48, CANAL, 'Black', bleed=False, spacing=6), W / 2, 830, 1, clamp((u - P) / 0.3))
 
 def art_s_mirror(A, cv, t, u):
@@ -422,7 +422,7 @@ def art_s_coup(A, cv, t, u):
     if ph >= 3:
         guang(A, 640, GROUND, 200, dir=-1, fall=-85 * ease_out((ph - 3.5) / 0.8), arm=60)
     A.flush(cv)
-    stamp(cv, seal('宇文化及', 44, INK), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('宇文化及', 44, INK), 860, 1020, t, t - u + 0.4, rot=6)
     if ph >= 3.5:
         paste(cv, text_img('以练巾缢杀 · 年五十', SERIF, 46, ZHU, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp((ph - 3.5) / 0.3))
 
@@ -439,7 +439,7 @@ def art_s_tang(A, cv, t, u):
     ground(A, GROUND)
     person(A, 540, GROUND - 30, 230, dir=1, robe=True, hat='crown', arm=lerp(20, 150, ease_out(u / P)), layer='ink')
     A.flush(cv)
-    stamp(cv, seal('李渊称帝', 46), 860, 880, t, t - u + P, rot=6)
+    stamp(cv, seal('李渊称帝', 46), 860, 1020, t, t - u + P, rot=6)
     paste(cv, text_img('隋亡 唐兴', SERIF, 52, ZHU, 'Black', bleed=False, spacing=8), W / 2, 830, 1, clamp(u / 0.4))
 
 def art_s_yang(A, cv, t, u):
@@ -469,7 +469,7 @@ def art_s_pipi(A, cv, t, u):
 def art_s_today(A, cv, t, u):
     canal_map(A, 1.0, t)
     A.flush(cv)
-    stamp(cv, seal('世界遗产', 46), 860, 880, t, t - u + P, rot=6)
+    stamp(cv, seal('世界遗产', 46), 860, 1020, t, t - u + P, rot=6)
     paste(cv, text_img('二〇一四年 · 大运河申遗成功', SERIF, 44, CANAL, 'Black', bleed=False, spacing=4), W / 2, 760, 1, clamp(u / 0.4))
 
 def art_s_legacy(A, cv, t, u):

@@ -177,7 +177,7 @@ def art_t_birth(A, cv, t, u):
     ground(A, GROUND)
     person(A, 760, GROUND, 230, dir=-1, robe=True, hat='crown', female=True, arm=40, layer='ink')
     A.flush(cv)
-    stamp(cv, seal('洛阳', 54), 260, 880, t, t - u + P, rot=-5)
+    stamp(cv, seal('洛阳', 54), 260, 1020, t, t - u + P, rot=-5)
     paste(cv, text_img('武则天之孙 · 睿宗第三子', SERIF, 44, YAN, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp(u / 0.4))
 
 def art_t_wuyi(A, cv, t, u):
@@ -205,7 +205,7 @@ def art_t_luzhou(A, cv, t, u):
     for k in range(4):
         person(A, 160 + k * 60 if k < 2 else 820 + (k - 2) * 60, GROUND, 140, dir=1 if k < 2 else -1, robe=False, hat='knot', arm=60, layer='mid')
     A.flush(cv)
-    stamp(cv, seal('潞州别驾', 44), 860, 880, t, t - u + P, rot=6)
+    stamp(cv, seal('潞州别驾', 44), 860, 1020, t, t - u + P, rot=6)
 
 def art_t_tanglong(A, cv, t, u):
     """6-beat: 唐隆政变 — night; the palace; his men burst in; the 韦后 faction falls."""
@@ -221,7 +221,7 @@ def art_t_tanglong(A, cv, t, u):
     if ph >= 3.5:
         person(A, 760, GROUND, 190, dir=-1, robe=True, hat='crown', female=True, fall=-85 * ease_out((ph - 3.5) / 0.6), arm=60, layer='mid')
     A.flush(cv)
-    stamp(cv, seal('唐隆政变', 46), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('唐隆政变', 46), 860, 1020, t, t - u + 0.4, rot=6)
     paste(cv, text_img('诛韦后 · 拥父即位', SERIF, 46, YAN, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp((ph - 3.5) / 0.3))
 
 def art_t_crown(A, cv, t, u):
@@ -231,7 +231,7 @@ def art_t_crown(A, cv, t, u):
     for k in range(6):
         person(A, 120 + k * 60 if k < 3 else 800 + (k - 3) * 60, GROUND, 130, dir=1 if k < 3 else -1, robe=True, hat='none', kneel=True, bow=50, arm=100, layer='mid')
     A.flush(cv)
-    stamp(cv, seal('即位', 60), 860, 880, t, t - u + P, rot=6)
+    stamp(cv, seal('即位', 60), 860, 1020, t, t - u + P, rot=6)
 
 def art_t_taiping(A, cv, t, u):
     palace(A, 540, 1140, 560, layer='yan')
@@ -239,7 +239,7 @@ def art_t_taiping(A, cv, t, u):
     person(A, 720, GROUND, 220, dir=-1, robe=True, hat='crown', female=True, fall=-85 * ease_out((u - 1.5 * P) / 0.6), arm=60, layer='ink')
     ming(A, 340, GROUND, 230, dir=1, arm=lerp(40, 150, ease_out((u - P) / 0.4)))
     A.flush(cv)
-    stamp(cv, seal('太平公主', 44, INK), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('太平公主', 44, INK), 860, 1020, t, t - u + 0.4, rot=6)
     paste(cv, text_img('先天政变 · 独掌大权', SERIF, 46, YAN, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp((u - 1.5 * P) / 0.3))
 
 # ================================================================ 第二回 开元盛世
@@ -294,7 +294,7 @@ def art_t_music(A, cv, t, u):
         sitter(A, 160 + k * 150, GROUND, 120, dir=1, bow=10, layer='mid')
     ming(A, 540, GROUND - 30, 220, dir=1, arm=lerp(60, 150, 0.5 + 0.5 * math.sin(t * 6)))
     A.flush(cv)
-    stamp(cv, seal('梨园', 54), 860, 880, t, t - u + P, rot=6)
+    stamp(cv, seal('梨园', 54), 860, 1020, t, t - u + P, rot=6)
     paste(cv, text_img('亲教乐工 · 梨园弟子', SERIF, 46, YAN, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp(u / 0.4))
 
 def art_t_fengshan(A, cv, t, u):
@@ -305,7 +305,7 @@ def art_t_fengshan(A, cv, t, u):
     A.d['sheng'].rectangle((500, 840, 580, 870), fill=255)
     ground(A, GROUND)
     A.flush(cv)
-    stamp(cv, seal('泰山封禅', 46), 860, 880, t, t - u + P, rot=6)
+    stamp(cv, seal('泰山封禅', 46), 860, 1020, t, t - u + P, rot=6)
 
 def art_t_zhangjiuling(A, cv, t, u):
     palace(A, 540, 1140, 560, layer='mid')
@@ -314,7 +314,7 @@ def art_t_zhangjiuling(A, cv, t, u):
     person(A, lerp(340, 80, ease_out((u - 1.8 * P) / P)), GROUND, 210, dir=-1 if u > 1.8 * P else 1, robe=True, hat='none', ph=t * 3 if u > 1.8 * P else None, arm=-8, layer='ink')
     person(A, 520, GROUND, 200, dir=1, robe=True, hat='none', bow=30, arm=100, layer='mid')
     A.flush(cv)
-    stamp(cv, seal('张九龄罢相', 40, INK), 260, 880, t, t - u + 0.4, rot=-5)
+    stamp(cv, seal('张九龄罢相', 40, INK), 260, 1020, t, t - u + 0.4, rot=-5)
     stamp(cv, seal('李林甫', 44), 520, 960, t, t - u + P, rot=5)
 
 def art_t_tired(A, cv, t, u):
@@ -336,7 +336,7 @@ def art_t_yang_meet(A, cv, t, u):
     ming(A, 360, GROUND, 230, dir=1, arm=lerp(20, 80, ease_out(u / P)), old=0.4)
     yang(A, 700, GROUND, 210, dir=-1, arm=30)
     A.flush(cv)
-    stamp(cv, seal('华清宫', 50), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('华清宫', 50), 860, 1020, t, t - u + 0.4, rot=6)
     paste(cv, text_img('杨玉环 · 本是寿王妃', SERIF, 46, YAN, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp((u - P) / 0.3))
 
 def art_t_guifei(A, cv, t, u):
@@ -345,7 +345,7 @@ def art_t_guifei(A, cv, t, u):
     ming(A, 720, GROUND - 30, 230, dir=-1, arm=lerp(20, 100, ease_out(u / 0.6)), old=0.4)
     yang(A, 360, GROUND, 210, dir=1, kneel=True, bow=30, arm=100)
     A.flush(cv)
-    stamp(cv, seal('贵妃', 60), 860, 880, t, t - u + P, rot=6)
+    stamp(cv, seal('贵妃', 60), 860, 1020, t, t - u + P, rot=6)
 
 def art_t_nichang(A, cv, t, u):
     """6-beat: 霓裳羽衣舞 — on a terrace she dances; he plays the 羯鼓; ribbons of colour fill the frame."""
@@ -390,7 +390,7 @@ def art_t_yangguozhong(A, cv, t, u):
     for k in range(6):
         person(A, 120 + k * 60 if k < 3 else 800 + (k - 3) * 60, GROUND, 130, dir=1 if k < 3 else -1, robe=True, hat='none', bow=40, arm=100, layer='mid')
     A.flush(cv)
-    stamp(cv, seal('杨国忠', 50, INK), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('杨国忠', 50, INK), 860, 1020, t, t - u + 0.4, rot=6)
     paste(cv, text_img('外戚专权 · 一身领四十余使', SERIF, 42, YAN, 'Black', bleed=False, spacing=2), W / 2, 830, 1, clamp((u - P) / 0.3))
 
 def art_t_anlushan(A, cv, t, u):
@@ -404,7 +404,7 @@ def art_t_anlushan(A, cv, t, u):
     for sx in (-1, 1):
         d.line((x + sx * 40, GROUND - 60, x + sx * 50, GROUND), fill=255, width=20)
     A.flush(cv)
-    stamp(cv, seal('安禄山', 50, INK), 260, 880, t, t - u + 0.4, rot=-5)
+    stamp(cv, seal('安禄山', 50, INK), 260, 1020, t, t - u + 0.4, rot=-5)
     paste(cv, text_img('身兼三镇节度使', SERIF, 46, YAN, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp((u - P) / 0.3))
 
 # ================================================================ 第四回 渔阳鼙鼓
@@ -475,7 +475,7 @@ def art_t_shu(A, cv, t, u):
     i = min(len(pts) - 1, int(clamp(u / (3 * P)) * (len(pts) - 1)))
     horse(A, pts[i][0], pts[i][1], 80, dir=1, ph=t * 4, layer='ink')
     A.flush(cv)
-    stamp(cv, seal('入蜀', 54), 860, 880, t, t - u + P, rot=6)
+    stamp(cv, seal('入蜀', 54), 860, 1020, t, t - u + P, rot=6)
     paste(cv, text_img('夜雨闻铃肠断声', SERIF, 48, YAN, 'Black', bleed=False, spacing=6), W / 2, 830, 1, clamp(u / 0.4))
 
 def art_t_suzong(A, cv, t, u):
@@ -483,7 +483,7 @@ def art_t_suzong(A, cv, t, u):
     ground(A, GROUND)
     person(A, 540, GROUND - 30, 220, dir=1, robe=True, hat='crown', arm=lerp(-8, 150, ease_out(u / P)), layer='ink')
     A.flush(cv)
-    stamp(cv, seal('灵武', 54), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('灵武', 54), 860, 1020, t, t - u + 0.4, rot=6)
     paste(cv, text_img('太子即位 · 他成了太上皇', SERIF, 46, YAN, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp((u - P) / 0.3))
 
 # ================================================================ 第五回 此恨绵绵
@@ -492,7 +492,7 @@ def art_t_return(A, cv, t, u):
     ground(A, GROUND)
     carriage(A, lerp(-200, 540, ease_out(u / (2.5 * P))), GROUND, 120, dir=1, wheel=t * 4, ph=t * 6, moving=u < 2.5 * P, layer='ink')
     A.flush(cv)
-    stamp(cv, seal('还京', 54), 860, 880, t, t - u + P, rot=6)
+    stamp(cv, seal('还京', 54), 860, 1020, t, t - u + P, rot=6)
     paste(cv, text_img('归来池苑皆依旧', SERIF, 48, YAN, 'Black', bleed=False, spacing=6), W / 2, 830, 1, clamp(u / 0.4))
 
 def art_t_nannei(A, cv, t, u):
@@ -516,7 +516,7 @@ def art_t_ximei(A, cv, t, u):
     for k in range(2):
         person(A, lerp(700, 360, ease_out(u / (3 * P))) + k * 70, GROUND, 190, dir=-1, robe=False, hat='helmet', spear=True, ph=t * 2 + k, arm=40, layer='ink')
     A.flush(cv)
-    stamp(cv, seal('李辅国', 46, INK), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('李辅国', 46, INK), 860, 1020, t, t - u + 0.4, rot=6)
     paste(cv, text_img('被迫迁居西内', SERIF, 48, YAN, 'Black', bleed=False, spacing=6), W / 2, 830, 1, clamp(u / 0.4))
 
 def art_t_death(A, cv, t, u):
@@ -535,14 +535,14 @@ def art_t_changhen(A, cv, t, u):
     desk(A, 540, GROUND, 360, layer='yan')
     sitter(A, 300, GROUND, 200, dir=1, bow=15)
     A.flush(cv)
-    stamp(cv, seal('白居易', 46, INK), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('白居易', 46, INK), 860, 1020, t, t - u + 0.4, rot=6)
     type_in(cv, text_img('天长地久有时尽', SERIF, 48, INK, 'Black', bleed=False, spacing=6), W / 2, 760, t, t - u + 0.5, 0.5)
     type_in(cv, text_img('此恨绵绵无绝期', SERIF, 52, YAN, 'Black', bleed=False, spacing=6), W / 2, 835, t, t - u + 1.6 * P, 0.5)
 
 def art_t_turning(A, cv, t, u):
     ground(A, GROUND)
     p = ease_out(u / (2.5 * P))
-    pts = [(lerp(140, 940, f), 1260 - 360 * math.sin(math.pi * min(f / 0.55, 1) * 0.5) + (f > 0.55) * 500 * (f - 0.55) ** 1.2) for f in np.linspace(0, p, 40)]
+    pts = [(lerp(140, 940, f), 1260 - 360 * math.sin(math.pi * min(f / 0.55, 1) * 0.5) + (f > 0.55) * 500 * max(f - 0.55, 0) ** 1.2) for f in np.linspace(0, p, 40)]
     if len(pts) > 1:
         A.d['yan'].line(pts, fill=255, width=10)
     A.flush(cv)
