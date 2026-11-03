@@ -198,7 +198,7 @@ def art_s_chen(A, cv, t, u):
         person(A, 910, 1170 - 60 * ease_out((ph - 4.5) / 1), 80, dir=1, robe=True, hat='crown', arm=150, layer='ink')
     guang(A, 160, 1200, 160, dir=1, armour=True, arm=lerp(60, 160, ease_out(ph / 1.5)))
     A.flush(cv)
-    stamp(cv, seal('平陈', 56), 540, 880, t, t - u + 0.4)
+    stamp(cv, seal('平陈', 56), 860, 1020, t, t - u + 0.4)
     paste(cv, text_img('二十岁 统帅五十万大军', SERIF, 44, CANAL, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp(ph / 0.4))
 
 def art_s_yangzhou(A, cv, t, u):
