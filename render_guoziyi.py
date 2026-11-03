@@ -195,7 +195,7 @@ def art_g_slow(A, cv, t, u):
         A.d['tong'].rectangle((x - 14, GROUND - 30 - i * 6, x + 14, GROUND), fill=255)
     guo(A, 900, GROUND, 210, dir=-1, arm=-8)
     A.flush(cv)
-    paste(cv, text_img(f'默默无闻 {n} 余年', SERIF, 48, ZI, 'Black', bleed=False, spacing=6), W / 2, 830, 1, 1)
+    paste(cv, text_img('默默无闻二十余年', SERIF, 48, ZI, 'Black', bleed=False, spacing=6), W / 2, 830, 1, clamp(u / 0.4))
 
 def art_g_shuofang(A, cv, t, u):
     tent(A, 760, GROUND, 400, 300, layer='mid')
