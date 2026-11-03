@@ -181,7 +181,7 @@ def art_m_birth(A, cv, t, u):
     ground(A, GROUND)
     person(A, 540, GROUND, 150, dir=1, robe=False, hat='knot', arm=lerp(20, 100, 0.5 + 0.5 * math.sin(t * 3)), layer='ink')
     A.flush(cv)
-    stamp(cv, seal('巨鹿下曲阳', 40), 860, 880, t, t - u + P, rot=6)
+    stamp(cv, seal('巨鹿下曲阳', 40), 860, 1020, t, t - u + P, rot=6)
     paste(cv, text_img('少孤贫 · 落魄有大志', SERIF, 46, JIAN, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp(u / 0.4))
 
 def art_m_daoshi(A, cv, t, u):
@@ -192,7 +192,7 @@ def art_m_daoshi(A, cv, t, u):
         q = (t * 0.3 + k / 12) % 1
         A.d['wash'].ellipse((540 + 60 * math.sin(k + t) - 14, lerp(1260, 900, q) - 10, 540 + 60 * math.sin(k + t) + 14, lerp(1260, 900, q) + 10), fill=int(160 * (1 - q)))
     A.flush(cv)
-    stamp(cv, seal('出家为道士', 40), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('出家为道士', 40), 860, 1020, t, t - u + 0.4, rot=6)
 
 def art_m_wagang(A, cv, t, u):
     """6-beat: 瓦岗 — the rebel stronghold on the hill; banners; he presents ten strategies; nobody listens."""
@@ -207,7 +207,7 @@ def art_m_wagang(A, cv, t, u):
     A.flush(cv)
     for i in range(n):
         stamp(cv, seal(cn_num(i + 1), 28, JIAN), 560 + (i % 5) * 70, 1180 + (i // 5) * 70, t, t - u + i * 0.3 * P)
-    stamp(cv, seal('瓦岗李密', 44, INK), 260, 880, t, t - u + 0.4, rot=-5)
+    stamp(cv, seal('瓦岗李密', 44, INK), 260, 1020, t, t - u + 0.4, rot=-5)
     if ph >= 3.5:
         paste(cv, text_img('献十策 · 不被采纳', SERIF, 46, ZHU, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp((ph - 3.5) / 0.3))
 
@@ -216,7 +216,7 @@ def art_m_tang(A, cv, t, u):
     ground(A, GROUND)
     wei(A, lerp(-80, 540, ease_out(u / (2 * P))), GROUND, 210, dir=1, ph=t * 4 if u < 2 * P else None, arm=40)
     A.flush(cv)
-    stamp(cv, seal('归唐', 54), 860, 880, t, t - u + P, rot=6)
+    stamp(cv, seal('归唐', 54), 860, 1020, t, t - u + P, rot=6)
 
 def art_m_shandong(A, cv, t, u):
     city_wall(A, 520, 1000, 1100, gate_x=760, label='黎阳', layer='mid', open_=ease_out((u - P) / P))
@@ -224,7 +224,7 @@ def art_m_shandong(A, cv, t, u):
     wei(A, 300, GROUND, 220, dir=1, arm=lerp(40, 120, 0.5 + 0.5 * math.sin(t * 2)))
     scroll(A, 520, 1000, 160, 60, u / 0.5)
     A.flush(cv)
-    stamp(cv, seal('李勣', 50), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('黎阳', 50), 860, 1020, t, t - u + 0.4, rot=6)
     paste(cv, text_img('一封信 劝降山东', SERIF, 46, JIAN, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp((u - P) / 0.3))
 
 def art_m_dou(A, cv, t, u):
@@ -233,7 +233,7 @@ def art_m_dou(A, cv, t, u):
         rider(A, lerp(1200, 600 + (k % 3) * 100, ease_out(u / (2 * P))), GROUND - (k // 3) * 40, 110, -1, t * 10 + k, layer='ink', spear=True)
     wei(A, 260, GROUND, 200, dir=1, kneel=u > 2 * P, bow=20, arm=-8)
     A.flush(cv)
-    stamp(cv, seal('窦建德', 50, INK), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('窦建德', 50, INK), 860, 1020, t, t - u + 0.4, rot=6)
     paste(cv, text_img('被俘 · 辗转多主', SERIF, 46, JIAN, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp((u - P) / 0.3))
 
 def art_m_jiancheng(A, cv, t, u):
@@ -242,7 +242,7 @@ def art_m_jiancheng(A, cv, t, u):
     person(A, 720, GROUND - 30, 220, dir=-1, robe=True, hat='crown', arm=40, layer='ink')
     wei(A, 340, GROUND, 220, dir=1, arm=lerp(40, 140, 0.5 + 0.5 * math.sin(t * 3)))
     A.flush(cv)
-    stamp(cv, seal('太子李建成', 40), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('太子李建成', 40), 860, 1020, t, t - u + 0.4, rot=6)
     paste(cv, text_img('劝太子早除秦王', SERIF, 46, ZHU, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp((u - P) / 0.3))
 
 # ================================================================ 第二回 玄武门后
@@ -278,7 +278,7 @@ def art_m_zhanshi(A, cv, t, u):
     taizong(A, 720, GROUND - 30, 230, dir=-1, arm=lerp(20, 100, ease_out(u / 0.6)))
     wei(A, 360, GROUND, 220, dir=1, kneel=True, bow=30, arm=100)
     A.flush(cv)
-    stamp(cv, seal('詹事主簿', 44), 260, 880, t, t - u + P, rot=-5)
+    stamp(cv, seal('詹事主簿', 44), 260, 1020, t, t - u + P, rot=-5)
 
 def art_m_hebei(A, cv, t, u):
     ground(A, GROUND)
@@ -287,7 +287,7 @@ def art_m_hebei(A, cv, t, u):
         person(A, 760 + k * 90, GROUND, 160, dir=-1, robe=False, hat='knot', arm=40, layer='mid')
         A.d['ink'].rectangle((730 + k * 90, GROUND - 120, 790 + k * 90, GROUND - 100), fill=255)
     A.flush(cv)
-    stamp(cv, seal('安抚河北', 44), 260, 880, t, t - u + 0.4, rot=-5)
+    stamp(cv, seal('安抚河北', 44), 260, 1020, t, t - u + 0.4, rot=-5)
     paste(cv, text_img('私放囚车 · 安定人心', SERIF, 46, JIAN, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp((u - P) / 0.3))
 
 def art_m_liangchen(A, cv, t, u):
@@ -343,7 +343,7 @@ def art_m_hawk(A, cv, t, u):
         hawk(A, x - 80, GROUND - 200, 70, t)
     wei(A, lerp(-80, 360, ease_out(ph / 1.5)), GROUND, 220, dir=1, ph=t * 4 if ph < 1.5 else None, arm=lerp(40, 140, 0.5 + 0.5 * math.sin(t * 4)))
     A.flush(cv)
-    stamp(cv, seal('传说', 44, INK), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('传说', 44, INK), 860, 1020, t, t - u + 0.4, rot=6)
     if ph >= 2:
         paste(cv, text_img('奏事良久 · 鹞竟死怀中', SERIF, 46, JIAN, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp((ph - 2) / 0.3))
 
@@ -363,7 +363,7 @@ def art_m_luoyang(A, cv, t, u):
     for k in range(5):
         person(A, 160 + k * 180, GROUND, 110, dir=1, robe=False, hat='knot', load=True, ph=t * 5 + k, arm=160, layer='mid')
     A.flush(cv)
-    stamp(cv, seal('罢修宫殿', 46), 860, 880, t, t - u + P, rot=6)
+    stamp(cv, seal('罢修宫殿', 46), 860, 1020, t, t - u + P, rot=6)
     paste(cv, text_img('劝止大兴土木', SERIF, 46, JIAN, 'Black', bleed=False, spacing=4), W / 2, 830, 1, clamp(u / 0.4))
 
 def art_m_boat(A, cv, t, u):
@@ -400,7 +400,7 @@ def art_m_house(A, cv, t, u):
     for k in range(int(clamp(u / (2 * P)) * 8)):
         person(A, lerp(-100, 200 + k * 30, ease_out((u - k * 0.1) / P)), GROUND, 110, dir=1, robe=False, hat='knot', load=True, ph=t * 5 + k, arm=160, layer='mid')
     A.flush(cv)
-    stamp(cv, seal('家无正堂', 44), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('家无正堂', 44), 860, 1020, t, t - u + 0.4, rot=6)
     paste(cv, text_img('太宗停建小殿 · 为他造正堂', SERIF, 42, JIAN, 'Black', bleed=False, spacing=2), W / 2, 830, 1, clamp((u - P) / 0.3))
 
 def art_m_ill(A, cv, t, u):
@@ -453,7 +453,7 @@ def art_m_stele_up(A, cv, t, u):
     ground(A, GROUND)
     taizong(A, 860, GROUND, 220, dir=-1, arm=lerp(40, 150, 0.5 + 0.5 * math.sin(t * 2)))
     A.flush(cv)
-    stamp(cv, seal('亲撰碑文', 44), 260, 880, t, t - u + P, rot=-5)
+    stamp(cv, seal('亲撰碑文', 44), 260, 1020, t, t - u + P, rot=-5)
 
 # ================================================================ 第五回 碑仆碑立
 def art_m_stele_fall(A, cv, t, u):
@@ -469,7 +469,7 @@ def art_m_stele_fall(A, cv, t, u):
         person(A, 200 + k * 60, GROUND, 160, dir=1, robe=False, hat='helmet', arm=lerp(60, 150, 0.5 + 0.5 * math.sin(t * 5 + k)), layer='ink')
     ground(A, GROUND)
     A.flush(cv)
-    stamp(cv, seal('侯君集', 44, INK), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('侯君集', 44, INK), 860, 1020, t, t - u + 0.4, rot=6)
     paste(cv, text_img('所荐之人谋反 · 太宗推倒碑' if ph >= 2 else '杜正伦 侯君集 皆其所荐', SERIF, 44, ZHU if ph >= 2 else JIAN, 'Black', bleed=False, spacing=2), W / 2, 830, 1, 1)
 
 def art_m_liaodong(A, cv, t, u):
@@ -480,7 +480,7 @@ def art_m_liaodong(A, cv, t, u):
     for k in range(8):
         rider(A, lerp(900, -200, ease_out(u / (3 * P))) + (k % 4) * 90, GROUND - (k // 4) * 40, 100, -1, t * 6 + k, layer='mid', spear=True)
     A.flush(cv)
-    stamp(cv, seal('征高句丽', 44, INK), 860, 880, t, t - u + 0.4, rot=6)
+    stamp(cv, seal('征高句丽', 44, INK), 860, 1020, t, t - u + 0.4, rot=6)
     paste(cv, text_img('无功而返', SERIF, 50, JIAN, 'Black', bleed=False, spacing=8), W / 2, 830, 1, clamp((u - P) / 0.3))
 
 def art_m_regret(A, cv, t, u):
@@ -499,7 +499,7 @@ def art_m_restored(A, cv, t, u):
     for k in range(4):
         person(A, 160 + k * 60 if k < 2 else 860 + (k - 2) * 60, GROUND, 140, dir=1 if k < 2 else -1, robe=False, hat='knot', arm=lerp(60, 160, 0.5 + 0.5 * math.sin(t * 4 + k)), layer='mid')
     A.flush(cv)
-    stamp(cv, seal('复立其碑', 46), 860, 880, t, t - u + P, rot=6)
+    stamp(cv, seal('复立其碑', 46), 860, 1020, t, t - u + P, rot=6)
 
 def art_m_zhenguan(A, cv, t, u):
     ground(A, GROUND)
@@ -535,7 +535,7 @@ CARDS = [
     C(22, 26, 'fate', 'card', year=600, main='出家为道', sub='好读书 · 通纵横之术', art=art_m_daoshi),
     C(26, 32, 'war', 'card', year=617, main='投奔瓦岗', sub='隋末天下大乱', art=art_m_wagang),
     C(32, 36, 'court', 'card', year=618, main='随李密降唐', sub='自请安抚山东', art=art_m_tang),
-    C(36, 40, 'works', 'card', year=619, main='劝降李勣', sub='黎阳归唐', art=art_m_shandong),
+    C(36, 40, 'works', 'card', year=619, main='黎阳招降', sub='劝徐世绩归唐', art=art_m_shandong),
     C(40, 44, 'night', 'card', year=619, main='辗转被俘', sub='窦建德攻陷黎阳', art=art_m_dou),
     C(44, 48, 'court', 'card', year=621, main='太子洗马', sub='辅佐李建成', art=art_m_jiancheng),
     # ---- 第二回 玄武门后
