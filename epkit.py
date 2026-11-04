@@ -44,7 +44,7 @@ def setup(CARDS, CHAPTERS, cfg, scenes=None):
 
     def year_line(cv, t, year, start):
         yr = int(round(year_at(t))) if t >= bt(16) else year
-        im = text_img(('公元' + cn_year(yr) if yr > 0 else '公元前' + cn_num(-yr)) + '年', SERIF, 40, ZHE, 'Bold', bleed=False, spacing=6)
+        im = text_img(('公元' + (cn_num(yr) if yr < 100 else cn_year(yr)) if yr > 0 else '公元前' + cn_num(-yr)) + '年', SERIF, 40, ZHE, 'Bold', bleed=False, spacing=6)
         ink_in(cv, im, W / 2, 300, t, start, dur=0.3, settle=1.0)
         w = 200 * ease_out((t - start) / 0.4)
         ImageDraw.Draw(cv).line((W / 2 - w, 335, W / 2 + w, 335), fill=col + (220,), width=3)
