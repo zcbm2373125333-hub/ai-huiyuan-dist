@@ -58,7 +58,7 @@ def setup(CARDS, CHAPTERS, cfg, scenes=None):
         chars_in(cv, fx, cfg['name'], BRUSH, 210 if len(cfg['name']) <= 3 else 180, INK, W / 2, 450, t, s0, stagger=0.1, seed=77)
         fx.flush(cv)
         stamp(cv, seal(cfg['seal'], 66), 900, 640, t, bt(c[0] + 2), rot=-5)
-        type_in(cv, text_img(f'公元{BORN} — {DIED}' if BORN > 0 else cfg['years_txt'], SERIF, 38, DIM, 'SemiBold', bleed=False, spacing=4),
+        type_in(cv, text_img(cfg.get('years_txt') or f'公元{BORN} — {DIED}', SERIF, 38, DIM, 'SemiBold', bleed=False, spacing=4),
                 W / 2, 590, t, bt(c[0] + 2), 0.4)
 
     def scene_question(cv, t, c, k):
